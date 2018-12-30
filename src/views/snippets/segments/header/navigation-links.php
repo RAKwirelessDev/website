@@ -117,8 +117,8 @@
         <!-- Button -->
         <li class="nav-item u-header__nav-last-item">
             <a class="btn btn-sm btn-primary transition-3d-hover" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
-    Buy Now
-</a>
+                Buy Now
+            </a>
         </li>
         <!-- End Button -->
     </ul>
