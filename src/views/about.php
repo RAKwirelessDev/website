@@ -18,7 +18,7 @@ $data->title = "About | RAK - The Middleware from RAK Enable IoT";
 
             <div>
                 <?php Core\ViewsHandler::yield('segments/about/about-us.php'); ?>
-                <?php Core\ViewsHandler::yield('segments/about/certificates-gallery.php'); ?>
+                <?php Core\ViewsHandler::yield('segments/about/patents-overview.php'); ?>
                 <?php Core\ViewsHandler::yield('segments/about/our-partners.php'); ?>
                 <?php Core\ViewsHandler::yield('segments/about/main-business.php'); ?>
                 <?php Core\ViewsHandler::yield('segments/about/company-philosophy.php'); ?>
