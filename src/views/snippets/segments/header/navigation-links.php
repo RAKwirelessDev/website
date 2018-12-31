@@ -86,7 +86,7 @@
             <ul id="communitySubMenu" class="hs-sub-menu u-header__sub-menu" aria-labelledby="communityMegaMenu" style="min-width: 230px;">
                 <!-- Support Center -->
                 <li class="hs-has-sub-menu">
-                    <a id="navLinkCommunitySupportCenter" class="nav-link u-header__sub-menu-nav-link" href="javascript:;">Support Center</a>
+                    <a id="navLinkCommunitySupportCenter" class="nav-link u-header__sub-menu-nav-link" href="https://forum.rakwirelessdev.com/">Support Center</a>
                 </li>
                 <!-- End Support Center -->
                 <!-- Download Center -->
