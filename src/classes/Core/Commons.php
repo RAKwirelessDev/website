@@ -17,8 +17,9 @@ class Commons
     }
 
     public static function force_slugify(string $new_url_path, string $old_url_path) {
-        if ($new_url_path !== $old_url_path) {
-            header('Location: '.$new_url_path);
+        $get_query_string = self::get_query_string($old_url_path);
+        if ($new_url_path.$get_query_string !== $old_url_path) {
+            header('Location: '.$new_url_path.$get_query_string);
             exit;
         }
     }
@@ -29,6 +30,11 @@ class Commons
         $new_url_path = preg_replace('/[^\/]$/', '$0/', $new_url_path);
         $new_url_path = ($new_url_path[0] !== '/' ? $url_path : $new_url_path);
         return $new_url_path;
+    }
+
+    public static function get_query_string(string $url_path) {
+        $get_query = preg_replace('/^[^\?]+/', '', $url_path);
+        return $get_query;
     }
 
     public static function routes_slugify(array $routes) {
