@@ -3,7 +3,6 @@
 const _ROUTES_ = [
     '/' => 'index.php',
     '/about' => 'about.php',
-    '/products/wifi-video-module' => 'products-wifi-video-module.php',
 
     '{PAGE_NOT_FOUND}' => 'error-404.php'
 ];
