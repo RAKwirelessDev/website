@@ -28,6 +28,7 @@ class Commons
         $new_url_path = preg_replace('/\?.*/', '', $url_path);
         $new_url_path = preg_replace('/[\/]{2,}/', '/', $new_url_path);
         $new_url_path = preg_replace('/[^\/]$/', '$0/', $new_url_path);
+        $new_url_path = preg_replace('/(?:%20|_|-|\+)+/', '-', $new_url_path);
         $new_url_path = ($new_url_path[0] !== '/' ? $url_path : $new_url_path);
         return $new_url_path;
     }
