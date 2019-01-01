@@ -7,7 +7,7 @@
         </a>
 
         <div id="jumpToDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="jumpToDropdownInvoker">
-            <a class="dropdown-item" href="/html/pages/contacts-agency.html">FAQ</a>
+            <a class="dropdown-item" href="/faq/">FAQ</a>
             <a class="dropdown-item" href="/html/pages/contacts-agency.html">Contact us</a>
         </div>
     </div>
@@ -17,7 +17,7 @@
     <div class="d-none d-sm-inline-block ml-sm-auto">
         <ul class="list-inline mb-0">
             <li class="list-inline-item mr-0">
-                <a class="u-header__navbar-link" href="../pages/contacts-agency.html">FAQ</a>
+                <a class="u-header__navbar-link" href="/faq/">FAQ</a>
                 <a class="u-header__navbar-link" href="../pages/contacts-agency.html">Contact us</a>
             </li>
         </ul>

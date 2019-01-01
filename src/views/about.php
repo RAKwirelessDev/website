@@ -1,8 +1,3 @@
-<?php
-
-$data->title = "About | RAK - The Middleware from RAK Enable IoT";
-
-?>
 <!DOCTYPE html>
 <html>
 

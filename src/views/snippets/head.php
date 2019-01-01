@@ -1,6 +1,6 @@
 <!-- Title -->
 <title>
-    <?=$data->title?>
+    <?=_PAGE_TITLE_?>
 </title>
 
 <!-- Required Meta Tags -->

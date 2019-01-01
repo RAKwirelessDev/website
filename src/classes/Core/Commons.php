@@ -25,6 +25,13 @@ class Commons
         }
     }
 
+    public static function str_to_cc(string $str) {
+        $new_str = preg_replace('/[^A-Za-z0-9]+/', ' ', $str); // replace non alpha-numeric chars to space
+        $new_str = ucwords($new_str);
+        $new_str = preg_replace('/\s+/', '', $new_str);
+        return $new_str;
+    }
+
     public static function slugify(string $url_path) {
         $new_url_path = preg_replace('/\?.*/', '', $url_path); // strip out get queries
         $new_url_path = preg_replace('/[\/]{2,}/', '/', $new_url_path); // unify multiple slashes

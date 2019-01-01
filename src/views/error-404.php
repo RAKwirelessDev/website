@@ -1,10 +1,3 @@
-<?php
-
-$data->title = "Error 404 | RAK - The Middleware from RAK Enable IoT";
-
-http_response_code(404);
-
-?>
 <!DOCTYPE html>
 <html>
 

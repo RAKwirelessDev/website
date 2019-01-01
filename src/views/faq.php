@@ -9,8 +9,6 @@
     <?php Core\ViewsHandler::yield('snippets/header.php'); ?>
 
         <main id="content" role="main">
-            <?php Core\ViewsHandler::yield('segments/home/images-carousel.php'); ?>
-            <?php Core\ViewsHandler::yield('segments/home/call-to-action.php'); ?>
             <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
         </main>
 
