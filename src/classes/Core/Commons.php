@@ -25,10 +25,11 @@ class Commons
     }
 
     public static function slugify(string $url_path) {
-        $new_url_path = preg_replace('/\?.*/', '', $url_path);
-        $new_url_path = preg_replace('/[\/]{2,}/', '/', $new_url_path);
-        $new_url_path = preg_replace('/[^\/]$/', '$0/', $new_url_path);
-        $new_url_path = preg_replace('/(?:%..|[^A-Za-z0-9\/])+/', '-', $new_url_path);
+        $new_url_path = preg_replace('/\?.*/', '', $url_path); // strip out get queries
+        $new_url_path = preg_replace('/[\/]{2,}/', '/', $new_url_path); // unify multiple slashes
+        $new_url_path = preg_replace('/[^\/]$/', '$0/', $new_url_path); // disable strict mode and force trailing slash
+        $new_url_path = preg_replace('/(?:\.html?|\.php|\.aspx?)(\/?)$/', '$1', $new_url_path); // remove common page extensions
+        $new_url_path = preg_replace('/(?:%..|[^A-Za-z0-9\/])+/', '-', $new_url_path); // replace non alpha-numeric chars to dash
         $new_url_path = ($new_url_path[0] !== '/' ? $url_path : $new_url_path);
         return $new_url_path;
     }
