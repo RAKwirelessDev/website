@@ -2,7 +2,7 @@
 
 const _ROUTES_ = [
     '/' => 'index.php',
-    '/about' => 'about.php',
+    '/about/' => 'about.php',
 
     '{PAGE_NOT_FOUND}' => 'error-404.php'
 ];
