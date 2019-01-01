@@ -23,3 +23,7 @@ const _NAVS_ = [
         'GitHub' => 'https://www.github.com/RAKWireless/'
     ]
 ];
+
+const _BUTTONS_ = [
+    'Store' => 'https://store.rakwirelessdev.com/'
+];

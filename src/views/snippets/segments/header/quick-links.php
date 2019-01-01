@@ -6,20 +6,37 @@
             More
         </a>
 
-        <div id="jumpToDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="jumpToDropdownInvoker">
-            <a class="dropdown-item" href="/faq/">FAQ</a>
-            <a class="dropdown-item" href="/html/pages/contacts-agency.html">Contact us</a>
-        </div>
+<?php
+
+echo '<div id="jumpToDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="jumpToDropdownInvoker">';
+foreach (_QUICK_LINKS_ as $label => $link) {
+    $label = trim($label);
+    $link = Core\Commons::slugify($link);    
+    echo '<a class="dropdown-item" href="'.$link.'">'.$label.'</a>';
+}
+echo '</div>';
+
+?>
+
     </div>
     <!-- End Jump To -->
 
     <!-- Links -->
     <div class="d-none d-sm-inline-block ml-sm-auto">
         <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-0">
-                <a class="u-header__navbar-link" href="/faq/">FAQ</a>
-                <a class="u-header__navbar-link" href="../pages/contacts-agency.html">Contact us</a>
-            </li>
+
+<?php
+
+echo '<li class="list-inline-item mr-0">';
+foreach (_QUICK_LINKS_ as $label => $link) {
+    $label = trim($label);
+    $link = Core\Commons::slugify($link);    
+    echo '<a class="u-header__navbar-link" href="'.$link.'">'.$label.'</a>';
+}
+echo '</li>';
+
+?>
+
         </ul>
     </div>
     <!-- End Links -->

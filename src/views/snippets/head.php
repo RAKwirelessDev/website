@@ -1,7 +1,5 @@
 <!-- Title -->
-<title>
-    <?=_PAGE_TITLE_?>
-</title>
+<title><?=_PAGE_TITLE_?></title>
 
 <!-- Required Meta Tags -->
 <meta charset="utf-8">
@@ -18,8 +16,8 @@
 <link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css">
 <link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css">
 <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
-<link rel="stylesheet" href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css">
-<link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="/assets/vendor/dzsparallaxer/dzsparallaxer.css">
+<link rel="stylesheet" href="/assets/vendor/fancybox/jquery.fancybox.css">
 
 <!-- CSS -->
 <link rel="stylesheet" href="/assets/css/theme.css">
