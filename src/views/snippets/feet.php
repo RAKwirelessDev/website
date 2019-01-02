@@ -30,7 +30,7 @@
 <script src="../../assets/js/components/hs.datatables.js"></script>
 <script src="../../assets/js/components/hs.go-to.js"></script>
 <script src="../../assets/js/components/hs.sticky-block.js"></script>
-<script src="../../assets/js/components/components/hs.malihu-scrollbar.js"></script>
+<script src="../../assets/js/components/hs.malihu-scrollbar.js"></script>
 <script src="../../assets/js/components/hs.show-animation.js"></script>
 <script src="../../assets/js/components/hs.scroll-nav.js"></script>
 

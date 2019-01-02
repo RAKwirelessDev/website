@@ -11,6 +11,7 @@
         <main id="content" role="main">
             <?php Core\ViewsHandler::yield('segments/faq/ask-question-hero.php'); ?>
             <?php Core\ViewsHandler::yield('segments/faq/faq-contents.php'); ?>
+            <?php Core\ViewsHandler::yield('segments/faq/contact-us.php'); ?>
             <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
         </main>
 
