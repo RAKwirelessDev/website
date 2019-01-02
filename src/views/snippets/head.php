@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="shortcut icon" href="/assets/img/rakwireless/logo.png">
 
 <!-- Google Fonts -->
 <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
 <link rel="stylesheet" href="/assets/vendor/dzsparallaxer/dzsparallaxer.css">
 <link rel="stylesheet" href="/assets/vendor/fancybox/jquery.fancybox.css">
-<link rel="stylesheet" href="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
 
 <!-- CSS Front -->
 <link rel="stylesheet" href="/assets/css/theme.css">

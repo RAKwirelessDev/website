@@ -80,7 +80,7 @@
             <div class="media-body">
               <h3 class="h5">Technical questions</h3>
               <p class="mb-1">Have some technical questions? Hit us on community page or just say hello.</p>
-              <a class="font-size-1" href="#">Ask in the community <span class="fas fa-angle-right align-middle ml-2"></span></a>
+              <a class="font-size-1" href="#">Ask in the forum <span class="fas fa-angle-right align-middle ml-2"></span></a>
             </div>
           </div>
           <!-- End Contacts Info -->
