@@ -18,7 +18,8 @@
 <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
 <link rel="stylesheet" href="/assets/vendor/dzsparallaxer/dzsparallaxer.css">
 <link rel="stylesheet" href="/assets/vendor/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
 
-<!-- CSS -->
+<!-- CSS Front -->
 <link rel="stylesheet" href="/assets/css/theme.css">
 <link rel="stylesheet" href="/assets/css/theme-custom.css">

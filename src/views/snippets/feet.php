@@ -17,6 +17,8 @@
 <script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
 <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 <script src="../../assets/vendor/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../../assets/vendor/appear.js"></script>
 
 <!-- JS Front -->
 <script src="../../assets/js/hs.core.js"></script>
@@ -27,6 +29,10 @@
 <script src="../../assets/js/components/hs.fancybox.js"></script>
 <script src="../../assets/js/components/hs.datatables.js"></script>
 <script src="../../assets/js/components/hs.go-to.js"></script>
+<script src="../../assets/js/components/hs.sticky-block.js"></script>
+<script src="../../assets/js/components/components/hs.malihu-scrollbar.js"></script>
+<script src="../../assets/js/components/hs.show-animation.js"></script>
+<script src="../../assets/js/components/hs.scroll-nav.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>
@@ -61,5 +67,16 @@
 
     // initialization of go to
     $.HSCore.components.HSGoTo.init('.js-go-to');
+
+    // initialization of sticky blocks
+    $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+
+    // initialization of show animations
+    $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+
+    // initialization of HSScrollNav component
+    $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
+      duration: 700
+    });
   });
 </script>
