@@ -6,9 +6,9 @@
 <?php
 
 $url_path = Core\Commons::url_path();
-$activate_proceed = ((_ERROR_ === true) ? false : true);
+$activate_proceed = (($data->not_a_page === true) ? false : true);
 
-foreach (_NAVS_ as $label => $link) {
+foreach ($data->navigation_links as $label => $link) {
     $label = trim($label);
     $label_cc = Core\Commons::str_to_cc($label);
     if (is_string($link)) {
@@ -35,7 +35,7 @@ foreach (_NAVS_ as $label => $link) {
     }
 }
 
-foreach (_BUTTONS_ as $label => $link) {
+foreach ($data->navigation_buttons as $label => $link) {
     $label = trim($label);
     $link = Core\Commons::slugify($link);
     echo '<li class="nav-item u-header__nav-last-item">';

@@ -9,7 +9,7 @@
 <?php
 
 echo '<div id="jumpToDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="jumpToDropdownInvoker">';
-foreach (_QUICK_LINKS_ as $label => $link) {
+foreach ($data->quick_links as $label => $link) {
     $label = trim($label);
     $link = Core\Commons::slugify($link);    
     echo '<a class="dropdown-item" href="'.$link.'">'.$label.'</a>';
@@ -28,7 +28,7 @@ echo '</div>';
 <?php
 
 echo '<li class="list-inline-item mr-0">';
-foreach (_QUICK_LINKS_ as $label => $link) {
+foreach ($data->quick_links as $label => $link) {
     $label = trim($label);
     $link = Core\Commons::slugify($link);    
     echo '<a class="u-header__navbar-link" href="'.$link.'">'.$label.'</a>';

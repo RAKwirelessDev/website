@@ -2,5 +2,5 @@
 
 http_response_code(404);
 
-const _ERROR_ = true;
-const _PAGE_TITLE_ = "Page Not Found | RAK - The Middleware from RAK Enable IoT";
+$data->not_a_page = true;
+$data->page_title = "Page Not Found | RAK - The Middleware from RAK Enable IoT";

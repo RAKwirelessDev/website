@@ -1,6 +1,6 @@
 <?php
 
-const _NAVS_ = [
+$data->navigation_links = [
     'Home' => '/',
     'About' => '/about/',
     'Blog' => 'https://blog.rakwirelessdev.com/',
@@ -24,6 +24,6 @@ const _NAVS_ = [
     ]
 ];
 
-const _BUTTONS_ = [
+$data->navigation_buttons = [
     'Store' => 'https://store.rakwirelessdev.com/'
 ];

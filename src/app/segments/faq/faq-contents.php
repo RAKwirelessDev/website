@@ -1,6 +1,6 @@
 <?php
 
-const _FAQ_CONTENTS_ = [
+$data->faq_contents = [
     'General' => [
         'What are the differences between the AT command module and the transparent-transmission module?' => 'LOL',
         'How do RAK413 and RAK 473 inquire the Mac, IP address of WiFi module?' => 'Ohh okay Yes We do!',

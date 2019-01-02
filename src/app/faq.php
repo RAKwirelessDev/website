@@ -1,3 +1,3 @@
 <?php
 
-const _PAGE_TITLE_ = "FAQ | RAK - The Middleware from RAK Enable IoT";
+$data->page_title = "FAQ | RAK - The Middleware from RAK Enable IoT";

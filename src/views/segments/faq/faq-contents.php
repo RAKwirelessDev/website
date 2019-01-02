@@ -14,7 +14,7 @@
 
 <?php
 
-foreach (_FAQ_CONTENTS_ as $category => $questions) {
+foreach ($data->faq_contents as $category => $questions) {
   $category = trim($category);
   $category_cc = Core\Commons::str_to_cc($category);
   echo '<li>';
@@ -34,8 +34,8 @@ foreach (_FAQ_CONTENTS_ as $category => $questions) {
 <?php
 
 $c_num = 0;
-$c_num_count = count(_FAQ_CONTENTS_);
-foreach (_FAQ_CONTENTS_ as $category => $questions) {
+$c_num_count = count($data->faq_contents);
+foreach ($data->faq_contents as $category => $questions) {
   $category = trim($category);
   $c_num += 1;
   $category_cc = Core\Commons::str_to_cc($category);

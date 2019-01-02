@@ -1,6 +1,6 @@
 <?php
 
-const _QUICK_LINKS_ = [
+$data->quick_links = [
     'FAQ' => '/faq/',
     'Contact us' => '/contact-us/',
 ];

@@ -1,5 +1,5 @@
 <!-- Title -->
-<title><?=_PAGE_TITLE_?></title>
+<title><?=$data->page_title?></title>
 
 <!-- Required Meta Tags -->
 <meta charset="utf-8">
