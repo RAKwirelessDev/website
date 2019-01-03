@@ -21,6 +21,7 @@
 <script src="/assets/vendor/appear.js"></script>
 
 <!-- JS Front -->
+<script src="/assets/js/theme-custom.js"></script>
 <script src="/assets/js/hs.core.js"></script>
 <script src="/assets/js/components/hs.header.js"></script>
 <script src="/assets/js/components/hs.unfold.js"></script>
