@@ -784,11 +784,11 @@
 
     this.$element.addClass(this.activeItemClass.slice(1));
 
-    if (this.options.direction == 'horizontal') this.smartPosition(this.menu, this.options);
-
     this._updateMenuBounds();
 
     this.menu.show();
+
+    if (this.options.direction == 'horizontal') this.smartPosition(this.menu, this.options);
 
     if (this.options.animationOut) {
       this.menu.removeClass(this.options.animationOut);

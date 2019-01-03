@@ -38,6 +38,11 @@
 	  	color: $white;
 	  }
 
+	  &--active {
+	  	opacity: 1;
+			transform: scale(1);
+	  }
+
 		&-inner {
   		@include content-centered;
   	}

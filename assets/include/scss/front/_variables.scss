@@ -285,7 +285,7 @@ $box-shadow-soft:                                           0 3px 6px 0 rgba($gr
 // =========================================================
 
 // Color
-$link-icon-color:                                           $white !default;
+$link-icon-color:                                           $primary !default;
 $link-light-color:                                          $white-color-70 !default;
 $link-light-border-color:                                   $white-color-70 !default;
 $link-light-hover-color:                                    $white !default;
@@ -297,7 +297,7 @@ $link-muted-color:                                          $gray-600 !default;
 $link-muted-border-color:                                   $gray-500 !default;
 
 // Background Color
-$link-icon-bg-color:                                        $primary !default;
+$link-icon-bg-color:                                        rgba($primary, .1) !default;
 
 // Text
 $link-icon-font-size:                                       1rem !default;
@@ -1104,6 +1104,39 @@ $chechbox-switch-input-checked-pseudo-translate:            translate(4px, -50%)
 
 // Borders
 $chechbox-switch-border-radius:                             $border-radius-pill !default;
+
+
+
+// Bookmark Checkbox
+// =========================================================
+
+// Color
+$bookmark-checkbox-color:                                   $secondary !default;
+$bookmark-checkbox-checked-color:                           $white !default;
+
+// Background Color
+$bookmark-checkbox-checked-bg-color:                        $primary !default;
+
+// Width & Heights
+$bookmark-checkbox-width:                                   2rem !default;
+$bookmark-checkbox-height:                                  $bookmark-checkbox-width !default;
+
+// Text
+$bookmark-checkbox-font-size:                               .8175rem !default;
+$bookmark-checkbox-icon-pseudo-font-family:                 $font-family-font-awesome-icon !default;
+
+// Borders
+$bookmark-checkbox-border-radius:                           $border-radius-rounded !default;
+
+// Box Shadow
+$bookmark-checkbox-checked-box-shadow:                      0 3px 6px 0 rgba($primary, .25) !default;
+
+// Pseudo
+$bookmark-checkbox-icon-pseudo:                             "\f02e" !default;
+
+// Transition
+$bookmark-checkbox-transition:                              $transition-timing !default;
+$bookmark-checkbox-checked-transition:                      scale(1.1) !default;
 
 
 

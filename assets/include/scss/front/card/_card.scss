@@ -88,3 +88,9 @@
     }
   }
 }
+
+/* IE image rendering fix */
+.card-img-top,
+.card-img-bottom {
+  min-height: 1px;
+}

@@ -26,9 +26,29 @@
 
   &:hover {
     .link__icon {
-      background-color: $link-hover-color;
       transform: rotate(90deg);
     }
+  }
+}
+
+/* Collapse */
+.link-collapse[aria-expanded="false"] {
+  .link-collapse__default {
+    display: inline-block;
+  }
+
+  .link-collapse__active {
+    display: none;
+  }
+}
+
+.link-collapse[aria-expanded="true"] {
+  .link-collapse__default {
+    display: none;
+  }
+
+  .link-collapse__active {
+    display: inline-block;
   }
 }
 
