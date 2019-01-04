@@ -9,7 +9,7 @@ const _ROUTES_ = [
 ];
 
 // ================================================================= //
-
+error_reporting(0);
 require_once('./src/classes/autoload.php');
 
 $url_path = Core\Commons::url_path();
