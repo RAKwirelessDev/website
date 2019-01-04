@@ -16,7 +16,7 @@ $data->navigation_links = [
         'Amazon Alexa' => '/integrations/amazon-alexa/'
     ],
     'Community' => [
-        'Support Center' => '/community/support-center/',
+        'Support Center' => 'https://forum.rakwirelessdev.com/',
         'Download Center' => '/community/download-center/',
         'Documentation' => '/community/documentation/',
         'Selection Recommendation' => '/community/selection-recommendation/',
