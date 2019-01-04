@@ -6,7 +6,10 @@
 <?php
 
 foreach ($data->carousel as $product_name => $product_info) {
-    echo '<div class="min-height-100vh js-slide bg-img-hero-center gradient-half-warning-v3">';
+    if (!empty($product_info['slide_class'])) {
+        $class = ' '.$product_info['slide_class'];
+    }
+    echo '<div class="min-height-100vh js-slide bg-img-hero-center'.$class.'">';
     echo '<div class="container space-top-md-3 space-2 mt-5">';
     echo '<div class="row justify-content-md-between">';
     echo '<div class="col-md-6 mb-7 mb-md-0">';

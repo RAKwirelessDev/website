@@ -9,10 +9,7 @@ $data->carousel = [
             '/assets/img/rakwireless/01_small.png'
         ],
         'store_link' => 'https://www.aliexpress.com/store/product/Pilot-Gate-way-connect-to-the-TTN-Network-Server-and-IoT-in-a-Box-application-cloud/2805180_32951841630.html?spm=a2g1y.12024536.productList_11474674.pic_5',
-
-        'background-style' => [
-            'image' => '/assets/img/rakwireless/01_small.png'
-        ]
+        'slide_class' => 'gradient-half-info-v1'
     ],
     'LoRa/LoRaWAN Gateway Entry 2' => [
         'tag_line' => 'Revolutionary IoT Access Technology - LoRa Gateway Module',
@@ -22,9 +19,6 @@ $data->carousel = [
             '/assets/img/rakwireless/01_small.png'
         ],
         'store_link' => 'https://www.aliexpress.com/store/product/Pilot-Gate-way-connect-to-the-TTN-Network-Server-and-IoT-in-a-Box-application-cloud/2805180_32951841630.html?spm=a2g1y.12024536.productList_11474674.pic_5',
-
-        'background-style' => [
-            'image' => '/assets/img/rakwireless/01_small.png'
-        ]
+        'slide_class' => 'gradient-half-info-v1'
     ]
 ];
