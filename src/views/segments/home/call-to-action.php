@@ -19,8 +19,12 @@
                         </div>
                     </div>
 
-                    <h3 class="h5">Professional Design</h3>
-                    <p class="text-white mb-md-0">Achieve virtually any design and layout from within the one template.</p>
+                    <h3 class="h5">Enhanced Hardware</h3>
+                    <p class="text-white mb-md-0">
+                        Multiple dimension and size<br>
+                        Flexible Power Mode<br>
+                        Longer Range coverage
+                    </p>
                 </div>
                 <!-- End Process -->
             </div>
@@ -36,8 +40,13 @@
                         </div>
                     </div>
 
-                    <h3 class="h5">Front Strategy</h3>
-                    <p class="text-white mb-md-0">We strive to figure out ways to help your business grow through all platforms.</p>
+                    <h3 class="h5">Complete Software Solution</h3>
+                    <p class="text-white mb-md-0">
+                        Embedded firmware<br>
+                        Network stack<br>
+                        Apps<br>
+                        Cloud
+                    </p>
                     <!-- End Process -->
                 </div>
             </div>
@@ -51,8 +60,12 @@
 
                     </div>
 
-                    <h3 class="h5">Unlimited Power</h3>
-                    <p class="text-white mb-md-0">Find what you need in one template and combine features at will.</p>
+                    <h3 class="h5">Universal Scenario</h3>
+                    <p class="text-white mb-md-0">
+                        Multiple interface<br>
+                        Multiple AT Commands<br>
+                        Multiple IoT Protocols
+                    </p>
                     <!-- End Process -->
                 </div>
             </div>
@@ -70,13 +83,17 @@
                     <div class="position-relative">
                         <div class="u-indicator-dots min-height-155 mb-2">
 
-                            <img src="/assets/img/rakwireless/why_choose_rak_1.png">
+                            <img src="/assets/img/rakwireless/why_choose_rak_4.png">
 
                         </div>
                     </div>
 
-                    <h3 class="h5">Professional Design</h3>
-                    <p class="text-white mb-md-0">Achieve virtually any design and layout from within the one template.</p>
+                    <h3 class="h5">System Software</h3>
+                    <p class="text-white mb-md-0">
+                        WIFi System Design<br>
+                        Network Stack<br>
+                        Embedded Hardware
+                    </p>
                 </div>
                 <!-- End Process -->
             </div>
@@ -87,13 +104,17 @@
                     <div class="position-relative">
                         <div class="min-height-155 mb-2">
 
-                            <img src="/assets/img/rakwireless/why_choose_rak_2.png">
+                            <img src="/assets/img/rakwireless/why_choose_rak_5.png">
 
                         </div>
                     </div>
 
-                    <h3 class="h5">Front Strategy</h3>
-                    <p class="text-white mb-md-0">We strive to figure out ways to help your business grow through all platforms.</p>
+                    <h3 class="h5">Cloud Consultancy</h3>
+                    <p class="text-white mb-md-0">
+                        IoT Protocol<br>
+                        Build product to "work with"<br>
+                        Cloud Deployment
+                    </p>
                     <!-- End Process -->
                 </div>
             </div>
@@ -112,13 +133,13 @@
                     <div class="position-relative">
                         <div class="u-indicator-dots min-height-155 mb-2">
 
-                            <img src="/assets/img/rakwireless/why_choose_rak_1.png">
+                            <img src="/assets/img/rakwireless/why_choose_rak_6.png">
 
                         </div>
                     </div>
 
-                    <h3 class="h5">Professional Design</h3>
-                    <p class="text-white mb-md-0">Achieve virtually any design and layout from within the one template.</p>
+                    <h3 class="h5">High Standard Manufacture</h3>
+                    <!-- <p class="text-white mb-md-0"></p> -->
                 </div>
                 <!-- End Process -->
             </div>
@@ -129,13 +150,13 @@
                     <div class="position-relative">
                         <div class="u-indicator-dots min-height-155 mb-2">
 
-                            <img src="/assets/img/rakwireless/why_choose_rak_2.png">
+                            <img src="/assets/img/rakwireless/why_choose_rak_7.png">
 
                         </div>
                     </div>
 
-                    <h3 class="h5">Front Strategy</h3>
-                    <p class="text-white mb-md-0">We strive to figure out ways to help your business grow through all platforms.</p>
+                    <h3 class="h5">ERP Management</h3>
+                    <!-- <p class="text-white mb-md-0"></p> -->
                     <!-- End Process -->
                 </div>
             </div>
@@ -145,12 +166,12 @@
                 <div class="text-center">
                     <div class="min-height-155 mb-2">
 
-                        <img src="/assets/img/rakwireless/why_choose_rak_3.png">
+                        <img src="/assets/img/rakwireless/why_choose_rak_8.png">
 
                     </div>
 
-                    <h3 class="h5">Unlimited Power</h3>
-                    <p class="text-white mb-md-0">Find what you need in one template and combine features at will.</p>
+                    <h3 class="h5">Quick Support</h3>
+                    <!-- <p class="text-white mb-md-0"></p> -->
                     <!-- End Process -->
                 </div>
             </div>
