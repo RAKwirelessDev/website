@@ -5,7 +5,7 @@
         <!-- Left Content -->
         <div class="col-lg-6 mb-5 mb-md-0">
             <h2 class="h5 mx-auto mw-mc"><strong class="font-weight-semi-bold">Shenzhen HQ</strong></h2>
-            <span>Room 506, Bldg B, New Compark, Pingshan First Road, Taoyuan Street,XiLi town Nanshan District, Shenzhen, Chispana</span>
+            <span>Room 506, Bldg B, New Compark, Pingshan First Road, Taoyuan Street, XiLi town Nanshan District, Shenzhen, Chispana</span>
             <br><span>Email: ken.yu@rakwireless.com</span>
             <br><span>Contact number: 0755-86108311, 0755-26506594</span>
             <br><span>Fax: 0755-86152201</span>
