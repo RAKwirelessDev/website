@@ -3,11 +3,11 @@
 
     <!-- Address -->
     <address class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+        <a class="list-group-item list-group-item-action" href="mailto:shenzhen@rakwirelessdev.com">shenzhen@rakwirelessdev.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
             TEL: 0755-86108311, 0755-26506594<br>
             Fax: 0755-86152201
         </span>
-        <a class="list-group-item list-group-item-action" href="mailto:shenzhen@rakwirelessdev.com">shenzhen@rakwirelessdev.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
             Room 506, Bldg B, New Compark, Pingshan First Road, Taoyuan Street,XiLi town Nanshan District, Shenzhen, China (518000)
         </span>
@@ -20,11 +20,11 @@
 
     <!-- Address -->
     <address class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+        <a class="list-group-item list-group-item-action" href="mailto:shanghai@rakwirelessdev.com">shanghai@rakwirelessdev.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
             TEL: 021-61553990<br>
             Fax: 021-54721038
         </span>
-        <a class="list-group-item list-group-item-action" href="mailto:shanghai@rakwirelessdev.com">shanghai@rakwirelessdev.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
             East room 12304, Greenland Territorial Sea Building, Jinye Road, High-Tech Zone, Xi’an, Shangxi Province, China (710000)
         </span>

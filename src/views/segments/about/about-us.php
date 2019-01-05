@@ -10,13 +10,11 @@
 
             <?php Core\ViewsHandler::yield('segments/about/company-gallery.php'); ?>
 
-            <div class="col-lg-7 position-relative">
+            <div class="col-lg-6 position-relative">
                 <div class="pr-md-4">
                     <!-- Title -->
-                    <div class="mb-3">
                         <p>At present, RAK has been worked with over 200 customers and has capability of developing its own core competence on IoT field. Thanks to all customers, RAK international service network covers a lot of countries include China main land, Hong Kong, Korea, Denmark, India, Russia, USA, Japan, Singapore, Germany and Sweden.</p>
                         <p>RAK believes a new era of internet will come soon with the rapid development of the internet industry under the support of Chinese “Internet + ” policy. A new IoT world will be realized globally soon. RAK is ready to push the establishment of new IoT industry based on our strong technical competence, diligence, entrepreneurship, and mind of dedication. </p>
-                    </div>
                 </div>
             </div>
 
