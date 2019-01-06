@@ -4,12 +4,15 @@
 
 <?php
 
+$segment_total = count($data->call_to_action);
+$segment_count = 0;
 foreach ($data->call_to_action as $segment) {
+    $segment_count += 1;
     if (!empty($segment['title'])) {
-        echo '<h3 class="h2 text-info font-weight-semi-bold mb-3">'.$segment['title'].'</h3>';
+        echo '<h1 class="h1 text-info font-weight-semi-bold mb-3'.($segment_count > 1 ? ' mt-8' : '').'">'.$segment['title'].'</h1>';
     }
     if (!empty($segment['tagline'])) {
-        echo '<p class="lead text-white mb-5 mt-10">';
+        echo '<p class="lead text-white mb-5'.(!empty($segment['title']) ? ' mt-4' : ' mt-8').'">';
         echo $segment['tagline'];
         echo '</p>';
     }

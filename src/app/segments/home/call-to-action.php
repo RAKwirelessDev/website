@@ -41,7 +41,7 @@ $data->call_to_action = [
     ],
 
     [
-        'tagline' => 'Qualified Service',
+        'tagline' => '<span class="font-weight-semi-bold">Qualified Service</span>',
         'item_set' => [
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_6.png',
