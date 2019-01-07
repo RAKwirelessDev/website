@@ -11,9 +11,6 @@
             </div>
             <!-- End Content -->
 
-            <!-- Clients Section -->
-
-            <!-- End Clients Section -->
         </div>
     </div>
 </div>
