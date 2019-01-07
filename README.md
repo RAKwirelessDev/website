@@ -1,14 +1,20 @@
 # Structure
 
-`./src/views` - page html templates
+* `./public/` - website root directory
 
-`./src/app` - page properties and content management
+  * `./public/assets/` - static files, css, javascript, images
 
-`./src/classes` - core operation fundamentals
+  * `./public/index.php` - website handler
 
-`./assets` - static files, css, javascript, images
+* `./src/` - source files
 
-`./index.php` - uri routing management
+  * `./src/app/` - page properties and content management
+
+  * `./src/classes/` - core operation fundamentals
+
+  * `./src/views/` - page html templates
+
+* `./routes.php` - uri routing management
 
 ---
 
