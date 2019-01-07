@@ -12,9 +12,6 @@
 #jumpToDropdown {
 	left: -72.3438px;
 }
-/* .u-header > .u-header__section{
-	background-color: #fffffff2;
-} */
 .height-100vh {
 	min-height: 100vh !important;
 }
@@ -33,4 +30,7 @@
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.img-max-carousel-prod {
+	max-height: 350px;
 }

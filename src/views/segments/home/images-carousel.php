@@ -16,8 +16,8 @@ foreach ($data->carousel as $product_name => $product_info) {
     echo '<div class="js-slick-carousel u-slick" data-infinite="true" data-arrows-classes="u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left" data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right" data-pagi-classes="text-center u-slick__pagination u-slick__pagination--white mt-3 mb-0">';
     foreach ($product_info['images'] as $image_path) {
         echo '<div class="js-slide px-7 my-4">';
-        echo '<img class="img-fluid" src="'.$image_path.'" alt="'.$product_name.'">';
-        echo '</div>';  
+        echo '<img class="img-fluid img-max-carousel-prod" src="'.$image_path.'" alt="'.$product_name.'">';
+        echo '</div>';
     }  
     echo '</div>';
     echo '</div>';
