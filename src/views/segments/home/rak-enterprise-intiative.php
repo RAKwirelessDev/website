@@ -8,7 +8,7 @@
           By helping you build your business in scale, customizability through hardware and software integration you're helping us attain our vision.
           </p>
           <p class="lead text-white-70">
-          We are integrating Application block modules to our core business. This initiative will open options as to how to improve our core business. This initiative will open options as to how to improve our business and we will help you take advantage of our IoT business solutions.
+          We are integrating Application block modules to our core business. This initiative will open options as to how to improve our business and we will help you take advantage of our IoT business solutions.
           </p>
         </div>
         <!-- End Title -->
