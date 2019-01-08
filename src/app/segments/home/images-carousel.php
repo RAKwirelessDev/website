@@ -14,7 +14,7 @@ $data->carousel = [
     ],
     'LoRa/LoRaWAN Gateway' => [
         'tag_line' => 'Revolutionary IoT Access Technology - LoRa Gateway Module',
-        'description' => '- Based on Semtech\'s SX1301<br>- Frequency: 443MHz/868MHz/915MHz<br>- open 8 channels uplink and 1 channel downlink for Makers<br>- Cool product!!!',
+        'description' => '- Based on Semtech\'s SX1301<br>- Frequency: 443MHz/868MHz/915MHz<br>- open 8 channels uplink and 1 channel downlink for Makers',
         'images' => [
             '/assets/img/rakwireless/01_small.png',
             '/assets/img/rakwireless/04.png',
