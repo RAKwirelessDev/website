@@ -10,7 +10,7 @@ foreach ($data->carousel as $product_name => $product_info) {
         $class = ' '.$product_info['slide_class'];
     }
     echo '<div class="min-height-100vh js-slide bg-img-hero-center'.$class.'">';
-    echo '<div class="container space-top-md-3 space-2 mt-5">';
+    echo '<div class="container space-top-md-3 mt-5">';
     echo '<div class="row justify-content-md-between">';
     echo '<div class="col-md-6 mb-7 mb-md-0">';
     echo '<div class="js-slick-carousel u-slick" data-infinite="true" data-arrows-classes="u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left" data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right" data-pagi-classes="text-center u-slick__pagination u-slick__pagination--white mt-3 mb-0">';
