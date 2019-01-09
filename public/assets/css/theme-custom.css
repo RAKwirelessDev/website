@@ -34,3 +34,12 @@
 .img-max-carousel-prod {
 	max-height: 350px;
 }
+.disp-block {
+	display: block!important;
+}
+.center-child .slick-track {
+	-ms-flex-align: center !important;
+	align-items: center !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
