@@ -7,7 +7,7 @@
             <!-- Content -->
             <div class="w-lg-80 text-center mx-auto">
                 <h1 class="display-4 font-size-md-down-5 text-white font-weight-semi-bold mb-0">Go Hand in Hand in RAK,<br>Leap to Better Future</h1>
-                <p class="lead text-white">The Middleware from RAK Enable IoT</p>
+                <p class="lead text-white mb-0">The Middleware from RAK Enable IoT</p>
             </div>
             <!-- End Content -->
 
