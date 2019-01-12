@@ -1,0 +1,724 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Homekit - Work With - RAK | The Middleware from RAK Enable IoT</title>
+    <meta name="google-site-verification" content="QyzTvVKOJMmr8q9wYDrm08HvhmF3m51fgNZRIqPOO1I"/>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=1280">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <link rel="stylesheet" type="text/css" href="/style/en_main.css">
+    <style type="text/css">
+        .main_menu {
+          padding-left: 185px;
+          padding-right: 130px;
+        }
+        .main_menu > li {
+          margin: 0px 4px!important;
+        }
+
+        .main_menu > li > a > span{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript" src="/script/jquery-1.12.3.min.js"></script>
+    <script src="/script/jquery.cycle2.js"></script>
+    <script src="/script/createjs-2015.11.26.min.js"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+          },
+          i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-82634991-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+      $(function () {
+        var windowH = window.innerHeight;
+        var windowW = window.innerWidth;
+
+        $(window).resize(function () {
+          windowH = window.innerHeight;
+          windowW = window.innerWidth;
+        });
+
+        var scrollShow = function () {
+          var top = $(this).scrollTop();
+
+          if ($.fadeUpElements) {
+            for (var i = 0; i < $.fadeUpElements.length; i++) {
+              var el = $.fadeUpElements[i];
+              if (top > el.offset().top - windowH + 50) {
+                el.css({opacity: 1, transform: 'translate3d(0, 0, 0)'});
+              } else {
+                el.css({opacity: 0, transform: 'translate3d(0, 50px, 0)'});
+              }
+            }
+          }
+
+          if ($.fadeLeftElements) {
+            for (var i = 0; i < $.fadeLeftElements.length; i++) {
+              var el = $.fadeLeftElements[i];
+              if (top > el.offset().top - windowH + 50) {
+                el.css({opacity: 1, transform: 'translate3d(0, 0, 0)'});
+              } else {
+                el.css({opacity: '0', transform: 'translate3d(-50px, 0, 0)'});
+              }
+            }
+          }
+
+          if ($.fadeRightElements) {
+            for (var i = 0; i < $.fadeRightElements.length; i++) {
+              var el = $.fadeRightElements[i];
+              if (top > el.offset().top - windowH + 50) {
+                el.css({opacity: 1, transform: 'translate3d(0, 0, 0)'});
+              } else {
+                el.css({opacity: '0', transform: 'translate3d(50px, 0, 0)'});
+              }
+            }
+          }
+
+        };
+
+        $(window).scroll(function (e) {
+          scrollShow();
+        });
+
+        $('.slide_banner .slideshow').cycle({slides: '> div', fx: 'fade', pager: '.cycle-pager', timeout: 5000});
+
+        $('.slide_banner .down').click(function () {
+          var scrollToEl = $(this).closest('.slide_banner').next();
+          $('body').animate({
+            scrollTop: scrollToEl.offset().top
+          }, 600);
+        });
+        var rep = true, tmp;
+        $();
+        $('.main_header').css({background: "rgba(255,255,255,0)", border: "none"});
+        document.styleSheets[0].insertRule('.main_header>.submenu{height:0;opacity:0;background:#fff;overflow:hidden;transition:all 500ms ease;box-shadow:0 8px 12px rgba(0,0,0,.2);}', 0);
+        document.styleSheets[0].insertRule('.main_header>.submenu>dl{padding:40px 0 48px 0;text-align:center;white-space:nowrap;}', 0);
+        document.styleSheets[0].insertRule('.main_header>.submenu>dl>dd{display:inline-block;width:160px;}', 0);
+        document.styleSheets[0].insertRule('.main_header>.submenu>dl>dd>a{color:#7f7f7f;}', 0);
+        document.styleSheets[0].insertRule('.main_header>.submenu>dl>dd>a>div{margin:0 auto 8px auto;background:#b7b7b7 no-repeat center;width:96px;height:96px;border-radius:48px;}', 0);
+        $('.main_header .main_menu li').mouseover(function () {
+          $('.main_header .main_menu li').not($(this)).addClass('hover').find('i').css({
+            opacity: 0
+          });
+          if (rep) {
+            rep = false;
+            if ($('.submenu', this)[0]) {
+              if ($('.main_header>.submenu')[0].offsetHeight > 0) tmp = {
+                height: $('.main_header>.submenu')[0].clientHeight + 'px',
+                opacity: $('.main_header>.submenu')[0].style.opacity
+              }
+              else tmp = false;
+              $('.main_header')[0].replaceChild($('.submenu', this)[0].cloneNode(true), $('.main_header>.submenu')[0]);
+              if (tmp !== false) $('.main_header>.submenu').css(tmp);
+              setTimeout(function () {
+                $('.main_header>.submenu').css({
+                  height: $('.main_header>.submenu>dl')[0].offsetHeight + "px",
+                  opacity: 1
+                })
+              }, 0);
+            } else $('.main_header>.submenu').css({height: 0, opacity: 0});
+          }
+        }).mouseleave(function () {
+          $('.main_header .main_menu li').removeClass('hover');
+          $('.main_header .main_menu li i').css({
+            opacity: 1
+          });
+          rep = true;
+        });
+        $('.main_header').mouseleave(function () {
+          $('.main_header>.submenu').css({height: 0, opacity: 0});
+        });
+
+        setTimeout(function () {
+          if ($.fadeLeftElements) {
+            for (var i = 0; i < $.fadeLeftElements.length; i++) {
+              var el = $.fadeLeftElements[i];
+              el.css({
+                opacity: 0,
+                transform: 'translate3d(-50px, 0, 0)',
+                transition: 'transform 1s ease, opacity 0.5s ease'
+              });
+            }
+          }
+
+          if ($.fadeRightElements) {
+            for (var i = 0; i < $.fadeRightElements.length; i++) {
+              var el = $.fadeRightElements[i];
+              el.css({
+                opacity: 0,
+                transform: 'translate3d(50px, 0, 0)',
+                transition: 'transform 1s ease, opacity 0.5s ease'
+              });
+            }
+          }
+
+          scrollShow();
+        }, 10);
+        $('.header_func .lang .cn').attr('href', window.location.href.replace(':3001', ':3000').replace('/en/', '/cn/').replace(/download+.*/, 'download'));
+
+        $.ajax({
+          type: "POST",
+          url: "//passport.rakwireless.com/en/verify",
+          dataType: "JSON",
+          data: {},
+          xhrFields: {
+            withCredentials: true
+          },
+          success: function (data) {
+            //successCallback.apply(scope || this, arguments);
+
+            if (data.code == 0) {
+              //alert("show");
+              $("#header_login").css("display", "none");
+              $("#header_user").css("display", "");
+              $("#header_user_email").text(data.data.email);
+            } else {
+              $("#header_login").css("display", "");
+              $("#header_user").css("display", "none");
+              $("#header_user_email").text("");
+            }
+          },
+          failureCallback: function () {
+            //failureCallback.apply(scope || this, arguments);
+          }
+        });
+
+      });
+    </script>
+
+    <script type="text/javascript">
+      window.zhuge = window.zhuge || [];
+      window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+      window.zhuge.factory = function (b) {
+        return function () {
+          var a = Array.prototype.slice.call(arguments);
+          a.unshift(b);
+          window.zhuge.push(a);
+          return window.zhuge;
+        }
+      };
+      for (var i = 0; i < window.zhuge.methods.length; i++) {
+        var key = window.zhuge.methods[i];
+        window.zhuge[key] = window.zhuge.factory(key);
+      }
+      window.zhuge.load = function (b, x) {
+        if (!document.getElementById("zhuge-js")) {
+          var a = document.createElement("script");
+          var verDate = new Date();
+          var verStr = verDate.getFullYear().toString()
+            + verDate.getMonth().toString() + verDate.getDate().toString();
+
+          a.type = "text/javascript";
+          a.id = "zhuge-js";
+          a.async = !0;
+          a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+          a.onerror = function () {
+            window.zhuge.identify = window.zhuge.track = function (ename, props, callback) {
+              if (callback && Object.prototype.toString.call(callback) === '[object Function]') callback();
+            };
+          };
+          var c = document.getElementsByTagName("script")[0];
+          c.parentNode.insertBefore(a, c);
+          window.zhuge._init(b, x)
+        }
+      };
+      window.zhuge.load('919142a7bb8641278b6a2c4256db4996');
+
+      zhuge.track('英文');
+    </script>
+</head>
+
+<body>
+<div class="main_header">
+    <div class="content">
+        <a href="/en/" class="logo"><img src="/img/en/logo.png" width="255"></a>
+        <div class="header_func">
+            <div class="lang">
+                        <span id="header_login" style="display: none">
+                            <a href="//passport.rakwireless.com/en/register">Register</a>
+                            <a href="//passport.rakwireless.com/en/login">Login</a>
+                        </span>
+                <span id="header_user" style="display: none">
+                            <span id="header_user_email"></span>
+                            <a href="//passport.rakwireless.com/en/logout">Logout</a>
+                        </span>
+
+                <a class="cn" href="#">中</a>
+                <a class="selected">En</a>
+            </div>
+            <!--div class="search">
+                <input type="text" placeholder="search your want.." class="textbox">
+                <a class="button" href="#"><img src="/img/search.png"></a>
+            </div-->
+        </div>
+        <ul class="main_menu">
+            <li class="menu_1 ">
+                <a href="/en/">
+                    <span>HOME</span>
+                </a>
+            </li>
+            <li class="menu_2 ">
+                <a href="/en/wifi_module">
+                    <span>IoT SERVICES</span>
+                </a>
+            </li>
+            <li class="menu_3 ">
+                <a href="">
+                    <span>VIDEO MODULE</span>
+                </a>
+                <div class="submenu">
+                    <dl>
+                        <dd><a href="/en/wifi_video_module">
+                                <div style="background-image:url(/img/smic_vm_vm.png)"></div>
+                                Video Module</a></dd>
+                        <dd><a href="/en/video_project">
+                                <div style="background-image:url(/img/smic_vm_vp.png)"></div>
+                                Video Project</a></dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="menu_2 ">
+                <a href="/en/wislink_cellular">
+                    <span>WISLINK CELLULAR</span>
+                </a>
+            </li>
+            <li class="menu_4  s ">
+                <a>
+                    <span>WORK WITH</span>
+                </a>
+                <div class="submenu">
+                    <dl>
+                        <dd>
+                            <a href="/en/eco_chain/homekit">
+                                <div style="background-image:url(/img/smic_ec_homekit.png)"></div>
+                                Apple HomeKit</a>
+                        </dd>
+                        <dd>
+                            <a href="/en/eco_chain/aws">
+                                <div style="background-image:url(/img/smic_ec_aws.png)"></div>
+                                AWS</a>
+                        </dd>
+                        <dd>
+                            <a href="/en/alexa">
+                                <div style="background-image:url(/img/smic_ec_alexa.png)"></div>
+                                Amazon Alexa</a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="menu_6">
+                <a>
+                    <span>SUPPORT</span>
+                </a>
+                <div class="submenu">
+                    <dl>
+                        <dd>
+                            <a href="http://support.rakwireless.com" target="_blank">
+                                <div style="background-image:url(/img/smic_sup_sc.png)"></div>
+                                Support Center</a>
+                        </dd>
+                        <dd>
+                            <a href="/en/download">
+                                <div style="background-image:url(/img/smic_sup_dd.png)"></div>
+                                Document Download</a>
+                        </dd>
+                        <dd>
+                            <a href="http://wiki.rakwireless.com/" target="_blank">
+                                <div style="background-image:url(/img/smic_sup_wiki.png)"></div>
+                                Wiki</a>
+                        </dd>
+                        <dd>
+                            <a href="http://blog.rakwireless.com/" target="_blank">
+                                <div style="background-image:url(/img/smic_sup_blog.png)"></div>
+                                Blog</a>
+                        </dd>
+                        <dd>
+                            <a href="http://www.rakwireless.com/en/choose">
+                                <div style="background-image:url(/img/smic_sup_ssm.png)"></div>
+                                Selection Recommendation</a>
+                        </dd>
+                        <dd>
+                            <a target="_blank" href="https://github.com/RAKWireless">
+                                <div style="background-image:url(/img/smic_sup_hub.png)"></div>
+                                Github</a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="menu_5 ">
+                <a href="/en/company">
+                    <span>COMPANY</span>
+                </a>
+            </li>
+            <li class="menu_7">
+                <a href="https://www.aliexpress.com/store/2805180" target="_blank"><span>ONLINE SHOP</span></a>
+            </li>
+        </ul>
+    </div>
+    <hr style="margin:0;padding:0;border:none;border-bottom:1px solid #f4f4f4;">
+    <a class="submenu"></a>
+    <!-- <div class="rosterBtn" style="position: fixed;right: 30px;bottom: 110px;z-index: 10000">
+        <a href="/en/roster"><img src="/img/roster/rosterBtn.gif"></a>
+    </div> -->
+</div>
+
+    <script type="text/javascript">
+    $(function() {
+        $.fadeUpElements = [];
+
+        $.fadeLeftElements = [];
+        $.fadeRightElements = [];
+
+        $('.wifi_module_intro table td .intro').each(function() {
+            if ($(this).closest($('.wifi_module_intro')).hasClass('grey')) {
+                $.fadeLeftElements.push($(this));
+            } else {
+                $.fadeRightElements.push($(this));
+            }
+        });
+
+        $('.wifi_module_intro table td .img').each(function() {
+            if ($(this).closest($('.wifi_module_intro')).hasClass('grey')) {
+                $.fadeRightElements.push($(this));
+            } else {
+                $.fadeLeftElements.push($(this));
+            }
+        });
+    });
+    </script>
+    <div class="slide_banner">
+        <div class="slideshow">
+            <div class="img" style="background-color: #18b57b; background-image: url(/img/en/eco_chain_banner_homekit_1.png)"></div>
+        </div>
+        <div class="down"></div>
+    </div>
+    <div class="wifi_module_intro">
+        <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <img class="img" src="/img/homekit_1.png" />
+                    </td>
+                    <td>
+                        <div class="intro">
+                            <h2>The Convenient and Fast Development Based on HomeKit</h2>
+                            <i></i>
+                            <p>☼ It takes a long time to study the complicated development knowledge and solid protocol accumulation.</p>
+                            <p>☼ The convenient and rapid development based on HomeKit can just be realized when you choose the module which carries RAK's strong hardware development experience and supports Homekit HAP protocol.</p>
+                            <p>☼ Your product + WACHO= HomeKit-ready accessory</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="wifi_module_intro grey">
+        <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <div class="intro">
+                            <h2>Rapid Development</h2>
+                            <i></i>
+                            <h3>With the HomeKit demoboard of RAK, a prototype design can be accomplished within a few days.
+                                <br/>By contrast, it takes a few months to develop the same content.
+                            </h3>
+                        </div>
+                    </td>
+                    <td>
+                        <img class="img" src="/img/en/homekit_2.png" /></td>
+                </tr>
+            </table>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="wifi_module_intro">
+        <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <img class="img" src="/img/homekit_3.png" />
+                    </td>
+                    <td>
+                        <div class="intro">
+                            <h2>Turnkey Solution</h2>
+                            <i></i>
+                            <h3>To ensure accelerated development, RAK has provided a complete solution for some products and also reference Apps, so that you can stay more focused on the experience and development of application layer and Build the Service Model.
+                            </h3>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--<div class="eco_chain_standard">
+        <div class="content">
+            <div class="text">
+                <h2>Specifications&nbsp;<img src="/img/arrow_r.png" width="28" height="28"></h2>
+                <ul>
+                    <li>Wireless protocol：IEEE802.11b/g/n</li>
+                    <li>Frequency: 2.4GHz1T1R</li>
+                    <li>Output / input interface: 12C/12S/SPI/UART/PWM/JTAG/GPIOs</li>
+                    <li>Support OTA Function</li>
+                    <li>Size: 19mm*22.25mm</li>
+                </ul>
+            </div>
+            <div class="icon" style="background-image: url(../img/homekit_standard_icon.png)"></div>
+        </div>
+    </div>-->
+    <div class="more_detail">
+        <div class="content">
+            <div>For more details, please contact your sales representative to sign the NDA
+                <br> Contact email:
+                <a href="mailto:rakcore@rakwireless.com" class="green">rakcore@rakwireless.com</a>
+            </div>
+            <p style="display:none" class="mfi">Please note that your company must have the authorization of Apple MFI</p>
+            <p style="display:none"><img src="/img/made_for_apple.png"></p>
+        </div>
+    </div>
+    <!--end-->
+    <div class="main_footer">
+    <div class="content">
+        <ul class="links">
+            <li class="column_product">
+                <p>Product yes</p>
+                <dl>
+                    <dt><a href="/en/wifi_module">●&nbsp;&nbsp;IoT WiFi Module</a></dt>
+                    <dd><a href="/en/module/uart_spi">· UART/SPI WiFi Module</a></dd>
+                    <dd><a href="/en/module/standard">· Standard WiFi Module</a></dd>
+                    <dd><a href="/en/module/high_power">· High-Power WiFi Module</a></dd>
+                    <dd><a href="/en/eco_chain/homekit">· HomeKit Module</a></dd>
+                    <dd><a href="/en/eco_chain/aws">· Cloud Module</a></dd>
+                </dl>
+                <dl>
+                    <dt>●&nbsp;&nbsp;WiFi Video Module</dt>
+                    <dd><a href="/en/module/standard_video/RAK520">· Basic WiFi Video Module</a>
+                    </dd>
+                    <dd><a href="/en/eco_chain/aws">· Remote WiFi Video Module</a></dd>
+                    <dd>· Power Line Communication PLC module</dd>
+                    <dd><a href="/en/module/plc/LX200V20">· LX200V20</a></dd>
+                </dl>
+            </li>
+            <li class="column">
+                <p>Service</p>
+                <dl>
+                    <dt><a href="/en/eco_chain/aws">●&nbsp;&nbsp;Smart++</a></dt>
+                </dl>
+                <p>Scheme</p>
+                <dl>
+                    <dt>●&nbsp;&nbsp;Show Room</dt>
+                    <dt>●&nbsp;&nbsp;Turnkey Solution</dt>
+                </dl>
+            </li>
+            <li class="column">
+                <p>Support</p>
+                <dl>
+                    <dt><a href="/en/choose">●&nbsp;&nbsp;How to Select a Suitable WiFi</a></dt>
+                    <dt><a href="/en/download">●&nbsp;&nbsp;Document Download</a></dt>
+                    <dt><a href="/en/question">●&nbsp;&nbsp;Common Problems</a></dt>
+                    <dt><a href="http://wiskey.org/" target="_blank">●&nbsp;&nbsp;WisKey Boards</a></dt>
+                    <dt><a href="/en/selection_manual">●&nbsp;&nbsp;Selection Guide</a></dt>
+                </dl>
+            </li>
+            <li class="column">
+                <p>Contact</p>
+                <dl>
+                    <dt>●&nbsp;&nbsp;<a href="/en/company#contact">RAK office</a></dt>
+                    <dt>●&nbsp;&nbsp;<a href="/en/company#agent">Agents</a></dt>
+                    <!--<dt>●&nbsp;&nbsp;Online Mall</dt>
+                    <dd><a target="_blank" href="https://shop141721490.taobao.com/index.htm?spm=2013.1.w5002-13870243459.2.t61gOm">· TaoBao</a></dd>
+                    <dd><a target="_blank" href="https://shop1447866678621.1688.com/?spm=a261y.7663282.0.0.lqOixp">· Alibaba</a></dd>
+                    <dd><a target="_blank" href="http://www.aliexpress.com/store/1919460">· AliExpress</a></dd>-->
+                </dl>
+            </li>
+        </ul>
+        <ul class="contact">
+            <li style="width:390px">
+                <p>Shenzhen Headquarters</p>
+                Room 506, Bldg B, New Compark, Pingshan First Road,
+                <br> Taoyuan Street,XiLi town Nanshan District, Shenzhen, China
+                <br> Zip Code: 518000
+                <br> Email: <a href="mailto:ken.yu@rakwireless.com">ken.yu@rakwireless.com</a>
+                <br> TEL: 0755-86108311, 0755-26506594
+                <br> Fax: 0755-86152201
+            </li>
+            <li style="width:390px">
+                <p>Shanghai R&D Center</p>
+                East room 12304, Greenland Territorial Sea Building, Jinye Road,
+                <br> High-Tech Zone, Xi’an, Shangxi Province
+                <br> Zip Code: 710000
+                <br> Email: <a href="mailto:fomi@rakwireless.com">fomi@rakwireless.com</a>
+                <br> TEL: 021-61553990
+                <br> Fax: 021-54721038
+            </li>
+            <li style="width:390px">
+                <p>Beijing Office</p>
+                Room 306, Building No. 3, MeiTang Commercial Building, 
+		<br> Kexing west Road, Changping District, Beijing
+                <br> Zip Code: 100085
+                <br> Email: <a href="mailto:gang.chen@rakwireless.com">gang.chen@rakwireless.com</a>
+                <br>
+                <br> &nbsp;
+
+            </li>
+        </ul>
+        <div style="margin:20px 0 0 0px;">
+            <span style="margin-left:10px;">
+                <a href="https://www.facebook.com/RakwirelessIoT/">
+                    <img src="/img/social/logo-fb.png" width="30" height="30">
+                </a>
+            </span>
+
+            <span style="margin-left:10px;">
+                <a href="https://www.instagram.com/rak_wireless/">
+                    <img src="/img/social/logo-ins.png" width="30" height="30">
+                </a>
+            </span>
+
+            <span style="margin-left:10px;">
+                <a href="https://twitter.com/RAKwireless">
+                    <img src="/img/social/logo-tw.png" width="30" height="30">
+                </a>
+            </span>
+
+            <span style="margin-left:10px;">
+                <a href="https://www.linkedin.com/company/rak-wireless">
+                    <img src="/img/social/logo-in.png" width="30" height="30">
+                </a>
+            </span>
+
+            <span style="margin-left:10px;">
+                <a href="https://www.youtube.com/channel/UCy47vnqsUPxd9fn9RP5z54w">
+                    <img src="/img/social/logo-tube.png" width="30" height="30">
+                </a>
+            </span>
+
+            <span style="float:right">
+                <a href="https://www.aliexpress.com/store/2805180" target="_blank">
+                    <img src="/img/cart_footer.png" width="30" height="30"> Buy Now
+                </a>
+            </span>
+        </div>
+        <div class="copyright"><img src="/img/logo_btm.png" width="28" height="28">Copyright ©Shenzhen Rakwireless Technology Co., Ltd. All Rights Reserved. 粤ICP备16112976号</div>
+    </div>
+</div>
+<!-- Start of KF5 supportbox script -->
+<script src="//assets.kf5.com/supportbox/main.js" id="kf5-provide-supportBox" kf5-domain="rakwireless.kf5.com" charset="utf-8"></script>
+
+<script type="text/javascript">
+    //  document.write('<script src="\/\/assets-cdn.kf5.com\/supportbox\/main.js?' + (new Date).getDay() + '" id="kf5-provide-supportBox" kf5-domain="rakwireless.kf5.com" charset="utf-8"><\/script>');
+
+
+</script>
+
+<script type="text/javascript">
+    window.KF5SupportBoxAPI.ready(function()
+    {
+        // 注册自定义的新语言包：'en_my'
+        window.KF5SupportBoxAPI.registerLang('en_my', {
+    'email': 'Email',
+    'mobile': 'Phone',
+    'mobileNo': 'Phone',
+    'telephoneNo': 'Landline',
+    'qqNo': 'QQ',
+    'emptyContent': 'No content',
+    'toLivechat': 'Chat with us',
+    'toLeaveMessage': 'Leave a message',
+    'typing': 'Typing...',
+    'soundOpenTitle': 'Turn on notification',
+    'soundCloseTitle': 'Turn off notification',
+    'newWindowOpenTitle': 'Open in new window',
+    'loadMore': 'Load more',
+    'toLeaveMessageOnQueueUp': function (linkTagBegin, linkTagEnd) {
+      return 'Your are in the queue, or ' + linkTagBegin + 'leave a message' + linkTagEnd + 'with us'
+    },
+    'toLeaveMessageOnNoAgents': function (linkTagBegin, linkTagEnd) {
+      return 'No agents online, or ' + linkTagBegin + 'leave a message' + linkTagEnd + 'with us'
+    },
+    'nicknameOrName': 'Name',
+    'submitInfo': 'Submit',
+    'cancel': 'Cancel',
+    'selectConsultType': 'Please select type',
+    'sendFile': 'Send file',
+    'emoji': 'Emoji',
+    'remoteAssistance': 'Remote assistance',
+    'robot': 'Chat with robot',
+    'transferToAgent': 'Chat with agent',
+    'send': 'Send',
+    'leaveMessageToUs': 'Leave a message',
+    'optional': 'Optional',
+    'select': '-Please select-',
+    'leaveMessage': 'Leave a message',
+    'livechat': 'Chat with an agent',
+    'prompt': 'Notice',
+    'back': 'Back',
+    'question': 'Your question',
+    'startChat': 'Start chat',
+    'enterYourQuestion': 'Please enter your question',
+    'documentPreview': 'Article preview',
+    'documentDetail': 'View full article',
+    'leaveMessageSuccess': 'Your message submitted successfully!',
+    'chatting': 'Chating',
+    'joinSession': 'joined the chat',
+    'leaveSession': 'left the chat',
+    'uploadFailed': 'upload failed',
+    'nicknameEmptyError': 'Name cannot be blank',
+    'emailFormatError': 'Incorrect email format',
+    'mobileFormatError': 'Incorrect phone number format',
+    'serviceCommentTitle': 'It is an honor to serve your, please rate our service',
+    'satisfy': 'Satisfy',
+    'unsatisfy': 'Unsatisfy',
+    'messageEmptyError': 'Message cannot be blank!',
+    'messageMaxSizeError': 'Message length cannot exceed 1000!',
+    'forHelp': 'Help',
+    'noAgents': 'No agents are currently online',
+    'qqChatFailed': 'No agents allcated or no QQ configured',
+    'enterHere': 'Enter message here',
+    'canIHelpU': 'How can I help you',
+    'searchResult': 'Search result'
+  });
+
+    });
+
+    window.KF5SupportBoxAPI.ready(function()
+    {
+        // 使用自定义的 'en_my' 语言包
+        window.KF5SupportBoxAPI.useLang('en_my');
+        // 使用内置的 'en' 英文语言包
+        // window.KF5SupportBoxAPI.useLang('en');
+    });
+</script>
+<!-- End of KF5 supportbox script -->
+
+<script>
+// var _hmt = _hmt || [];
+// (function() {
+//     var hm = document.createElement("script");
+//     hm.src = "//hm.baidu.com/hm.js?804a43dc4e64b5a00859f030edf2354c";
+//     var s = document.getElementsByTagName("script")[0];
+//     s.parentNode.insertBefore(hm, s);
+// })();
+</script>
+</body>
+
+</html>
+

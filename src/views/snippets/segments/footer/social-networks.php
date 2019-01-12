@@ -3,27 +3,23 @@
 <!-- Social Networks -->
 <ul class="list-inline mb-0">
     <li class="list-inline-item">
-        <a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.facebook.com/RakwirelessIoT/">
+        <a class="btn btn-sm btn-icon btn-soft-secondary" href="#">
             <span class="fab fa-facebook-f btn-icon__inner"></span>
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.instagram.com/rak_wireless/">
-            <span class="fab fa-instagram btn-icon__inner"></span>
-        </a>
-    </li>    <li class="list-inline-item">
-        <a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.linkedin.com/company/rak-wireless">
-            <span class="fab fa-linkedin btn-icon__inner"></span>
+        <a class="btn btn-sm btn-icon btn-soft-secondary" href="#">
+            <span class="fab fa-google btn-icon__inner"></span>
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-sm btn-icon btn-soft-secondary" href="https://twitter.com/RAKwireless">
+        <a class="btn btn-sm btn-icon btn-soft-secondary" href="#">
             <span class="fab fa-twitter btn-icon__inner"></span>
         </a>
     </li>
     <li class="list-inline-item">
-        <a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.youtube.com/channel/UCy47vnqsUPxd9fn9RP5z54w">
-            <span class="fab fa-youtube btn-icon__inner"></span>
+        <a class="btn btn-sm btn-icon btn-soft-secondary" href="#">
+            <span class="fab fa-github btn-icon__inner"></span>
         </a>
     </li>
 </ul>

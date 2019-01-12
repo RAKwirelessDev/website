@@ -9,8 +9,13 @@
     <?php Core\ViewsHandler::yield('snippets/header.php'); ?>
 
         <main id="content" role="main">
-            <?php Core\ViewsHandler::yield('segments/home/images-carousel.php'); ?>
-            <?php Core\ViewsHandler::yield('segments/home/call-to-action.php'); ?>
+
+            <div>
+                <?php Core\ViewsHandler::yield('segments/iot-services/images-carousel.php'); ?>
+                <?php Core\ViewsHandler::yield('segments/iot-services/wifi-modules.php'); ?>
+                <?php Core\ViewsHandler::yield('segments/iot-services/wifi-intros.php'); ?>
+            </div>
+
             <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
         </main>
 

@@ -34,6 +34,7 @@
 <script src="/assets/js/components/hs.malihu-scrollbar.js"></script>
 <script src="/assets/js/components/hs.show-animation.js"></script>
 <script src="/assets/js/components/hs.scroll-nav.js"></script>
+<script src="/assets/js/components/hs.onscroll-animation.js"></script>
 
 <!-- JS Plugins Init. -->
 <script>
@@ -48,14 +49,19 @@
   });
 
   $(document).on('ready', function () {
+    
+    // initialization of scroll animation
+    $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
+
     // initialization of header
     $.HSCore.components.HSHeader.init($('#header'));
-
+    
     // initialization of unfold component
     $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
     // initialization of svg injector module
     $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+
 
     // initialization of slick carousel
     $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
@@ -79,5 +85,6 @@
     $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
       duration: 700
     });
+
   });
 </script>

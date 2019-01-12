@@ -1,4 +1,4 @@
-<div class="text-white position-relative gradient-overlay-half-info-v1 text-center z-index-2 overflow-hidden">
+<div class="text-white position-relative gradient-half-primary-v5 text-center z-index-2 overflow-hidden">
     <div class="world-map">
         <div class="container space-1">
             <h2 class="mx-auto mw-mc mb-6"><strong class="font-weight-semi-bold">Distributors</strong></h2>

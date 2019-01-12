@@ -9,8 +9,12 @@
     <?php Core\ViewsHandler::yield('snippets/header.php'); ?>
 
         <main id="content" role="main">
-            <?php Core\ViewsHandler::yield('segments/home/images-carousel.php'); ?>
-            <?php Core\ViewsHandler::yield('segments/home/call-to-action.php'); ?>
+
+            <div>
+                <?php Core\ViewsHandler::yield('segments/apple-homekit/hero-parallax.php'); ?>
+                <?php Core\ViewsHandler::yield('segments/apple-homekit/wifi-intros.php'); ?>
+            </div>
+
             <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
         </main>
 

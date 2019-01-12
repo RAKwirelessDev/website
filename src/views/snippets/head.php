@@ -23,3 +23,4 @@
 <!-- CSS Front -->
 <link rel="stylesheet" href="/assets/css/theme.css">
 <link rel="stylesheet" href="/assets/css/theme-custom.css">
+<link rel="stylesheet" href="/assets/css/style.css">
