@@ -3,7 +3,7 @@
 $data->carousel = [
     'Pilot Gateway' => [
         'tag_line' => 'RAK, LoRa, IoT in a Box',
-        'description' => '- Raspberry Pi 3B+<br>- LoRaWAN 1.0.2<br>- Android & iOS app<br>- Connect to IoT in a Box™<br>- Alert, user management, maps, custom integration services, etc.<br>- GPS',
+        'description' => '- Raspberry Pi 3B+<br>- LoRaWAN 1.0.2<br>- Android & iOS app<br>- Connect to IoT in a Box™<br>- Alert, user management, maps and GPS<br>- Custom integration services, etc.',
         'images' => [
             '/assets/img/rakwireless/pilot_gw.png',
             '/assets/img/rakwireless/02.png',
