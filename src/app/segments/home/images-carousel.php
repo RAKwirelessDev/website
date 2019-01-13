@@ -14,13 +14,13 @@ $data->carousel = [
     ],
     'LoRa/LoRaWAN Gateway' => [
         'tag_line' => 'Revolutionary IoT Access Technology - LoRa Gateway Module',
-        'description' => '- Based on Semtech\'s SX1301<br>- Frequency: 443MHz/868MHz/915MHz<br>- open 8 channels uplink and 1 channel downlink for Makers',
+        'description' => '- Based on Semtech\'s SX1301<br>- Frequency: 443MHz/868MHz/915MHz<br>- 8 uplink channels for Makers<br>- 1 downlink channel for Makers',
         'images' => [
             '/assets/img/rakwireless/01_small.png',
             '/assets/img/rakwireless/04.png',
             '/assets/img/rakwireless/02 (1).png'
         ],
-        'store_link' => 'https://www.aliexpress.com/store/product/Pilot-Gate-way-connect-to-the-TTN-Network-Server-and-IoT-in-a-Box-application-cloud/2805180_32951841630.html?spm=a2g1y.12024536.productList_11474674.pic_5',
+        'store_link' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
         'slide_class' => 'gradient-half-warning-v3'
     ]
 ];

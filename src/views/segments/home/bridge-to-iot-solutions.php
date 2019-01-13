@@ -5,7 +5,7 @@
           
           <h2 class="h1 text-white">Your <span class="font-weight-semi-bold">Bridge to IoT Solutions</span></h2>
           <p class="lead text-white-70">
-          In RAK, we strive to bring you IoT middleware in the best and fastest way possible. Through R&D and continuous achievement, we can help you solve IoT challenges and construct unique solutions for your needs.
+          In RAK, we strive to bring you IoT middleware in the best and fastest way possible. Through research & development, we help you solve the core problems in constructing the Internet of Things.
           </p>
         </div>
         <!-- End Title -->
