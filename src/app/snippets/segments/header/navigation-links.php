@@ -25,5 +25,5 @@ $data->navigation_links = [
 ];
 
 $data->navigation_buttons = [
-    'Store' => 'https://store.rakwirelessdev.com/'
+    'Buy Now' => 'https://store.rakwirelessdev.com/'
 ];
