@@ -3,29 +3,29 @@
 $data->call_to_action = [
 
     [
-        'title' => 'Why choose RAK?',
-        'tagline' => '<span class="font-weight-semi-bold">Customization</span> – our expertise meet your scenario Requirement',
+        'title' => 'Our <span class="font-weight-semi-bold">Advantage</span>',
+        'tagline' => '<span class="font-weight-semi-bold">Customizable Products</span>',
         'item_set' => [
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_1.png',
                 'title' => 'Enhanced Hardware',
-                'tagline' => 'Multiple dimension and size<br>Flexible Power Mode<br>Longer Range coverage'
+                'tagline' => 'Multiple dimension and size<br>Flexible Power Mode<br>Longer Range Coverage'
             ],
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_2.png',
                 'title' => 'Complete Software Solution',
-                'tagline' => 'Embedded firmware<br>Network stack<br>Apps<br>Cloud'
+                'tagline' => 'Embedded firmware<br>Network stack<br>Apps and Cloud'
             ],
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_3.png',
-                'title' => 'Universal Scenario',
+                'title' => 'Universal Application',
                 'tagline' => 'Multiple interface<br>Multiple AT Commands<br>Multiple IoT Protocols'
             ]
         ]
     ],
 
     [
-        'tagline' => '<span class="font-weight-semi-bold">Smart++</span> – Seamless Integration to "Smart"',
+        'tagline' => '<span class="font-weight-semi-bold">Easy <i>Smart++</i> Integration</span>',
         'item_set' => [
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_4.png',
@@ -35,7 +35,7 @@ $data->call_to_action = [
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_5.png',
                 'title' => 'Cloud Consultancy',
-                'tagline' => 'IoT Protocol<br>Build product to "work with"<br>Cloud Deployment'
+                'tagline' => 'IoT Protocol<br>Built for the Cloud<br>Easy Deployment'
             ]
         ]
     ],

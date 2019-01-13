@@ -10,8 +10,9 @@
 
         <main id="content" role="main">
             <?php Core\ViewsHandler::yield('segments/home/images-carousel.php'); ?>
-            <?php Core\ViewsHandler::yield('segments/home/rak-enterprise-intiative.php'); ?>
+            <?php Core\ViewsHandler::yield('segments/home/bridge-to-iot-solutions.php'); ?>
             <?php Core\ViewsHandler::yield('segments/home/call-to-action.php'); ?>
+            <?php Core\ViewsHandler::yield('segments/home/our-technology.php'); ?>
             <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
         </main>
 
