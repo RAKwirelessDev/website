@@ -29,7 +29,16 @@ $data->carousel = [
         'images' => [
             '/assets/img/rakwireless/RAK5205-1_1217 (1).png'
         ],
-        //'store_link' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
         'slide_class' => 'gradient-half-warning-v3'
+    ],
+    'WisLink Cellular' => [
+        'tag_line' => 'BG96 Arduino Shield',
+        'description' => '-4G / LTE Cat-M1 (eMTC)<br>- 4G / LTE Cat-NB1 (NB-IoT)<br>- 2G / EGPRS',
+        'images' => [
+            '/assets/img/rakwireless/Cellular-F45-3.png'
+        ],
+        'store_link' => 'https://www.aliexpress.com/store/product/WisLink-Cellular-BG96-Shield-simultaneously-supporting-3-cellualr-standards-2G-EGPRS-4G-LTE-Cat-M1-eMTC/2805180_32951394516.html?spm=2114.12010608.0.0.226b3588AEJtLi',
+        'slide_class' => 'gradient-half-warning-v3'
+
     ]
 ];
