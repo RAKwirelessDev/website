@@ -25,11 +25,11 @@ $data->carousel = [
     ],
     'Wis<span class="font-weight-semi-bold">Trio</span> Tracker Module' => [
         'tag_line' => 'Early Access Beta',
-        'description' => '- Available with complete source code<br>- Built-in BME680 environmental sensors and accelerometer<br>- Options for IPEX & SMA antenna interfaces<br>- Power consumption lower to 16µA in Sleep Mode<br>- More interface extentions like I2C, GPIOs, UART, ADC, etc.',
+        'description' => '- Available with complete source code<br>- Built-in BME680 environmental sensors and accelerometer<br>- Options for IPEX & SMA antenna interfaces<br>- Power consumption lower to 16µA in Sleep Mode<br>- More interface extentions like I2C, GPIOs, UART, ADC, etc.<br><br><span style="background-color: black;" class="btn btn-xs btn-pill mb-2">beta closed</span>',
         'images' => [
             '/assets/img/rakwireless/RAK5205-1_1217 (1).png'
         ],
-        'store_link' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
+        //'store_link' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
         'slide_class' => 'gradient-half-warning-v3'
     ]
 ];

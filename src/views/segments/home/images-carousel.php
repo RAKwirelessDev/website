@@ -32,9 +32,11 @@ foreach ($data->carousel as $product_name => $product_info) {
     }
     echo '<p class="text-white">'.$product_info['description'].'</p>';
     echo '</div>';
-    echo '<a class="btn btn-soft-white transition-3d-hover" href="'.$product_info['store_link'].'">';
-    echo '<span class="fas fa-cart-arrow-down mr-2"></span> Buy Now';
-    echo '</a>';
+    if (!empty($product_info['store_link'])) {
+        echo '<a class="btn btn-soft-white transition-3d-hover" href="'.$product_info['store_link'].'">';
+        echo '<span class="fas fa-cart-arrow-down mr-2"></span> Buy Now';
+        echo '</a>';
+    }
     echo '</div>';
     echo '</div>';
     echo '</div>';
