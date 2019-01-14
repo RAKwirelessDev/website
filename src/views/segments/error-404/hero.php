@@ -9,7 +9,7 @@
             </div>
             <!-- End Title -->
 
-            <a class="btn btn-primary btn-wide transition-3d-hover" href="../home/index.html">Go Back</a>
+            <a class="btn btn-primary btn-wide transition-3d-hover" href="/">Go Home</a>
         </div>
     </div>
 </div>
