@@ -45,15 +45,18 @@ $data->call_to_action = [
         'item_set' => [
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_6.png',
-                'title' => 'High Standard Manufacture'
+                'title' => 'High Standard Manufacture',
+                'tagline' => 'State of the art facilities<br>Competent R&D Team<br>Quality Certifications'
             ],
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_7.png',
-                'title' => 'ERP Management'
+                'title' => 'ERP Management',
+                'tagline' => 'Stream-lined business transactions<br>Industry-standard ERP software'
             ],
             [
                 'image' => '/assets/img/rakwireless/why_choose_rak_8.png',
-                'title' => 'Quick Support'
+                'title' => 'Quick Support',
+                'tagline' => 'Online support center<br>Developers’ community<br>Documentations & software'
             ]
         ]
     ]
