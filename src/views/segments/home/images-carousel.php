@@ -12,13 +12,13 @@ foreach ($data->carousel as $product_name => $product_info) {
     if ($img_count === 0) {
         continue;
     }
-    echo '<div class="d-flex align-items-center js-slide bg-img-hero-center'.$class.'">';
+    echo '<div class="js-slide bg-img-hero-center'.$class.'">';
     echo '<div class="container space-top-md-3 space-bottom-2 mt-5">';
     echo '<div class="row justify-content-md-between">';
     echo '<div class="col-md-6 mb-7 mb-md-0">';
     echo '<div class="center-child js-slick-carousel u-slick" data-infinite="true" data-arrows-classes="u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left" data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"'.($img_count > 1 ?' data-pagi-classes="text-center u-slick__pagination u-slick__pagination--white mt-3 mb-0"' : '').'>';
     foreach ($product_info['images'] as $image_path) {
-        echo '<div class="js-slide px-7 my-4 disp-block">';
+        echo '<div class="js-slide px-4 my-4 disp-block">';
         echo '<img class="mx-auto img-fluid img-max-carousel-prod" src="'.$image_path.'" alt="'.strip_tags($product_name).'">';
         echo '</div>';
     }  
