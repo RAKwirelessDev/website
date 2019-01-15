@@ -1,4 +1,5 @@
-<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll animation-engine-js loaded dzsprx-readyall" data-options="{direction: &quot;normal&quot;}">
+<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll animation-engine-js loaded dzsprx-readyall"
+    data-options="{direction: &quot;normal&quot;}">
     <!-- Apply your Parallax background image here -->
     <div class="divimage dzsparallaxer--target u-bg-overlay-v3" style="height: 120%; background-image: url('/assets/img/rakwireless/helena-lopes-567622-unsplash.jpg'); transform: translate3d(0px, -49.1444px, 0px);"></div>
 

@@ -2,7 +2,7 @@
 <div class="text-white position-relative gradient-half-primary-v1 text-center z-index-2 overflow-hidden">
     <div class="container space-1">
 
-<?php
+        <?php
 
 $segment_total = count($data->call_to_action);
 $segment_count = 0;

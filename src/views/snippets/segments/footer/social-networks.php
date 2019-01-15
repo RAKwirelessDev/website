@@ -11,7 +11,8 @@
         <a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.instagram.com/rak_wireless/">
             <span class="fab fa-instagram btn-icon__inner"></span>
         </a>
-    </li>    <li class="list-inline-item">
+    </li>
+    <li class="list-inline-item">
         <a class="btn btn-sm btn-icon btn-soft-secondary" href="https://www.linkedin.com/company/rak-wireless">
             <span class="fab fa-linkedin btn-icon__inner"></span>
         </a>

@@ -1,5 +1,6 @@
 <!-- Go to Top -->
-<a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+<a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400"
+    data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
     <span class="fas fa-arrow-up u-go-to__inner"></span>
 </a>
 <!-- End Go to Top -->
@@ -37,17 +38,17 @@
 
 <!-- JS Plugins Init. -->
 <script>
-  $(window).on('load', function () {
+$(window).on('load', function() {
     // initialization of HSMegaMenu component
     $('.js-mega-menu').HSMegaMenu({
-      event: 'hover',
-      pageContainer: $('.container'),
-      breakpoint: 767.98,
-      hideTimeOut: 0
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 767.98,
+        hideTimeOut: 0
     });
-  });
+});
 
-  $(document).on('ready', function () {
+$(document).on('ready', function() {
     // initialization of header
     $.HSCore.components.HSHeader.init($('#header'));
 
@@ -77,7 +78,7 @@
 
     // initialization of HSScrollNav component
     $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
-      duration: 700
+        duration: 700
     });
-  });
+});
 </script>

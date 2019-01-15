@@ -1,8 +1,9 @@
 <!-- Images Carousel Section -->
 <div class="container-fluid">
-    <div class="u-slick--equal-height js-slick-carousel u-slick gradient-half-warning-v3" data-autoplay="true" data-speed="5000" data-pagi-classes="text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0">
+    <div class="u-slick--equal-height js-slick-carousel u-slick gradient-half-warning-v3" data-autoplay="true"
+        data-speed="5000" data-pagi-classes="text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0">
 
-<?php
+        <?php
 
 foreach ($data->carousel as $product_name => $product_info) {
     $img_count = count($product_info['images']);

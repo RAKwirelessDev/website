@@ -10,7 +10,8 @@
                 <img class="u-partners" src="/assets/img/rakwireless/584828d8cef1014c0b5e49ee.png" alt="Image Description">
             </div>
             <div class="col-4 col-md-3 mb-2">
-                <img class="u-partners" src="/assets/img/rakwireless/amazon-alexa-logo-vector-png-a-year-ago-we-launched-the-alexa-skills-kit-to-allow-developers-to-build-new-voice-2825.png" alt="Image Description">
+                <img class="u-partners" src="/assets/img/rakwireless/amazon-alexa-logo-vector-png-a-year-ago-we-launched-the-alexa-skills-kit-to-allow-developers-to-build-new-voice-2825.png"
+                    alt="Image Description">
             </div>
 
             <div class="w-100"></div>

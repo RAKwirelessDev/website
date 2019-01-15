@@ -13,12 +13,12 @@ http_response_code(404);
 <body>
     <?php Core\ViewsHandler::yield('snippets/header.php'); ?>
 
-        <main id="content" role="main">
-            <?php Core\ViewsHandler::yield('segments/error-404/hero.php'); ?>
-            <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
-        </main>
+    <main id="content" role="main">
+        <?php Core\ViewsHandler::yield('segments/error-404/hero.php'); ?>
+        <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
+    </main>
 
-        <?php Core\ViewsHandler::yield('snippets/feet.php'); ?>
+    <?php Core\ViewsHandler::yield('snippets/feet.php'); ?>
 </body>
 
 </html>

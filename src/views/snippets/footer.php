@@ -20,7 +20,7 @@
             <div class="col-5">
 
                 <?php Core\ViewsHandler::yield('snippets/segments/logo.php'); ?>
-            
+
             </div>
 
             <?php Core\ViewsHandler::yield('snippets/segments/footer/copyright.php'); ?>

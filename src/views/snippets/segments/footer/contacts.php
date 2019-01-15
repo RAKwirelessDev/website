@@ -9,7 +9,8 @@
             Fax: 0755-86152201
         </span>
         <span class="list-group-item list-group-item-action text-white-50">
-            Room 506, Bldg B, New Compark, Pingshan First Road, Taoyuan Street,XiLi town Nanshan District, Shenzhen, China (518000)
+            Room 506, Bldg B, New Compark, Pingshan First Road, Taoyuan Street,XiLi town Nanshan District, Shenzhen,
+            China (518000)
         </span>
     </address>
     <!-- End Address -->
@@ -26,7 +27,8 @@
             Fax: 021-54721038
         </span>
         <span class="list-group-item list-group-item-action text-white-50">
-            East room 12304, Greenland Territorial Sea Building, Jinye Road, High-Tech Zone, Xi’an, Shangxi Province, China (710000)
+            East room 12304, Greenland Territorial Sea Building, Jinye Road, High-Tech Zone, Xi’an, Shangxi Province,
+            China (710000)
         </span>
     </address>
     <!-- End Address -->
@@ -39,7 +41,8 @@
     <address class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
         <a class="list-group-item list-group-item-action" href="mailto:beijing@rakwirelessdev.com">beijing@rakwirelessdev.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
-            Room 306, Building No. 3, MeiTang Commercial Building, Kexing west Road, Changping District, Beijing, China (100085)
+            Room 306, Building No. 3, MeiTang Commercial Building, Kexing west Road, Changping District, Beijing, China
+            (100085)
         </span>
     </address>
     <!-- End Address -->

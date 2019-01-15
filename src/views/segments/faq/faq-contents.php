@@ -1,18 +1,13 @@
 <div class="container space-1">
-      <div class="row">
+    <div class="row">
         <div id="stickyBlockStartPoint" class="col-lg-3 mb-7 mb-lg-0">
-          <!-- Nav -->
-          <nav class="js-sticky-block card border-0 bg-primary"
-               data-offset-target="#logoAndNav"
-               data-parent="#stickyBlockStartPoint"
-               data-sticky-view="lg"
-               data-start-point="#stickyBlockStartPoint"
-               data-end-point="#stickyBlockEndPoint"
-               data-offset-top="24"
-               data-offset-bottom="24">
-            <ul class="js-scroll-nav list-group list-group-transparent list-group-white list-group-flush list-group-borderless py-3 px-5">
+            <!-- Nav -->
+            <nav class="js-sticky-block card border-0 bg-primary" data-offset-target="#logoAndNav" data-parent="#stickyBlockStartPoint"
+                data-sticky-view="lg" data-start-point="#stickyBlockStartPoint" data-end-point="#stickyBlockEndPoint"
+                data-offset-top="24" data-offset-bottom="24">
+                <ul class="js-scroll-nav list-group list-group-transparent list-group-white list-group-flush list-group-borderless py-3 px-5">
 
-<?php
+                    <?php
 
 foreach ($data->faq_contents as $category => $questions) {
   $category = trim($category);
@@ -24,14 +19,14 @@ foreach ($data->faq_contents as $category => $questions) {
 
 ?>
 
-            </ul>
-          </nav>
-          <!-- End Nav -->
+                </ul>
+            </nav>
+            <!-- End Nav -->
         </div>
 
         <div class="col-lg-9">
 
-<?php
+            <?php
 
 $c_num = 0;
 $c_num_count = count($data->faq_contents);
@@ -77,7 +72,7 @@ foreach ($data->faq_contents as $category => $questions) {
 
 ?>
         </div>
-      </div>
     </div>
+</div>
 
-    <div id="stickyBlockEndPoint"></div>
+<div id="stickyBlockEndPoint"></div>

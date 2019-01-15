@@ -11,9 +11,9 @@
                 <h3 class="h5">Property guides</h3>
                 <p>A must-have read for anyone buying or selling property.</p>
                 <a class="btn btn-sm btn-soft-primary transition-3d-hover" href="#">
-          Learn More
-          <span class="fas fa-angle-right ml-2"></span>
-        </a>
+                    Learn More
+                    <span class="fas fa-angle-right ml-2"></span>
+                </a>
             </div>
             <!-- End Icon Block -->
         </div>
@@ -27,9 +27,9 @@
                 <h3 class="h5">Affordability calculator</h3>
                 <p>Find out how much you could borrow.</p>
                 <a class="btn btn-sm btn-soft-primary transition-3d-hover" href="#">
-          Check Now
-          <span class="fas fa-angle-right ml-2"></span>
-        </a>
+                    Check Now
+                    <span class="fas fa-angle-right ml-2"></span>
+                </a>
             </div>
             <!-- End Icon Block -->
         </div>
@@ -43,9 +43,9 @@
                 <h3 class="h5">Mortgage calculator</h3>
                 <p>Calculate monthly mortgage payments.</p>
                 <a class="btn btn-sm btn-soft-primary transition-3d-hover" href="#">
-          Check Now
-          <span class="fas fa-angle-right ml-2"></span>
-        </a>
+                    Check Now
+                    <span class="fas fa-angle-right ml-2"></span>
+                </a>
             </div>
             <!-- End Icon Block -->
         </div>

@@ -1,9 +1,8 @@
-
 <!-- Navigation -->
 <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
     <ul class="navbar-nav u-header__navbar-nav">
 
-<?php
+        <?php
 
 $url_path = Core\Commons::url_path();
 $activate_proceed = (($data->not_a_page === true) ? false : true);

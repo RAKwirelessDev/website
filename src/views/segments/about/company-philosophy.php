@@ -34,7 +34,8 @@
                     </div>
 
                     <h3 class="h5">Front Strategy</h3>
-                    <p class="text-white mb-md-0">We strive to figure out ways to help your business grow through all platforms.</p>
+                    <p class="text-white mb-md-0">We strive to figure out ways to help your business grow through all
+                        platforms.</p>
                     <!-- End Process -->
                 </div>
             </div>
