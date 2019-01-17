@@ -19,7 +19,6 @@ $data->navigation_links = [
         'Support Center' => 'https://forum.rakwirelessdev.com/',
         'Download Center' => '/community/download-center/',
         'Documentation' => '/community/documentation/',
-        'Selection Recommendation' => '/community/selection-recommendation/',
         'GitHub' => 'https://www.github.com/RAKWireless/'
     ]
 ];
