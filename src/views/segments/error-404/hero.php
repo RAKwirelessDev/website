@@ -5,7 +5,7 @@
             <div class="mb-5">
                 <h1 class="text-primary font-weight-normal">Page not <span class="font-weight-semi-bold">found</span></h1>
                 <p class="mb-0">Oops! Looks like you followed a bad link.</p>
-                <p>If you think this is a problem with us, please <a href="#">tell us</a>.</p>
+                <p>If you think this is a problem with us, please <a href="//rakwirelessdev.localhost/contact-us/">tell us</a>.</p>
             </div>
             <!-- End Title -->
 
