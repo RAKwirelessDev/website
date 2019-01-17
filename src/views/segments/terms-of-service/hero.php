@@ -2,7 +2,7 @@
       <div class="container space-1 space-top-md-5 space-bottom-md-3">
         <div class="w-md-80 w-lg-60">
           <h1 class="text-primary"><span class="font-weight-semi-bold">Legal</span> Terms of Service</h1>
-          <p>By accessing the website at <a href="/">rakwireless.com</a> and all of its subdomains, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
+          <p>By accessing the website at <a href="/">rakwirelessdev.com</a> and all of its subdomains, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
         </div>
       </div>
 
