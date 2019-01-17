@@ -1,58 +1,124 @@
 <?php
 
 $data->privacy_policy_contents = [
-    'Preliminary Outline' => '
+    'Use License' => '
+        <ol class="text-secondary">
+            <li>
+                <p>
+                    Permission is granted to temporarily download copies of the materials (information
+                    or software) on RAK Wireless\' website for personal, non-commercial transitory viewing
+                    only. This is the grant of a license, not a transfer of title, and under this license
+                    you may not: modify or copy the materials; use the materials for any commercial
+                    purpose, or for any public display (commercial or non-commercial); attempt to decompile
+                    or reverse engineer any software contained on RAK Wireless\' website; remove any copyright
+                    or other proprietary notations from the materials; or transfer the materials to another
+                    person or “mirror” the materials on any other server.
+                </p>
+            </li>
+            <li>
+                <p>
+                    This license shall automatically terminate if you violate any of these restrictions
+                    and may be terminated by RAK Wireless at any time. Upon terminating your viewing of
+                    these materials or upon the termination of this license, you must destroy any downloaded
+                    materials in your possession whether in electronic or printed format.
+                </p>
+            </li>
+        </ol>
+    ',
+    'Disclaimer' => '
+        <ol class="text-secondary">
+            <li>
+                <p>
+                    The materials on RAK Wireless\' website are provided on an ‘as is’ basis. RAK Wireless
+                    makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties
+                    including, without limitation, implied warranties or conditions of merchantability, fitness for
+                    a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Further, RAK Wireless does not warrant or make any representations concerning the accuracy,
+                    likely results, or reliability of the use of the materials on its website or otherwise relating
+                    to such materials or on any sites linked to this site.
+                </p>
+            </li>
+        </ol>
+    ',
+    'Limitations' => '
         <p>
-            We will collect personal information by lawful and fair means and, where appropriate,
-            with the knowledge or consent of the individual concerned.
-        </p>
-        <p>
-            Before or at the time of collecting personal information, we will identify the purposes
-            for which information is being collected and we\'ll strictly impose the appropriate HTTPS
-            security layers to protect your data while being uploaded to our servers and or affiliates.
-        </p>
-        <p>
-            We will collect and use personal information solely for fulfilling those purposes
-            specified by us and for other ancillary purposes, unless we obtain the consent of the
-            individual concerned or as required by law.
-        </p>
-        <p>
-            Personal data should be relevant to the purposes for which it is to be used, and, to the
-            extent necessary for those purposes, should be accurate, complete, and up-to-date.
-        </p>
-        <p>
-            We will protect personal information by using reasonable security safeguards against loss
-            or theft, as well as unauthorized access, disclosure, copying, use or modification.
-        </p>
-        <p>
-            We will make readily available to customers information about our policies and practices
-            relating to the management of personal information.
-        </p>
-        <p>
-            We will only retain personal information for as long as necessary for the fulfillment of
-            those purposes.
+            In no event shall RAK Wireless or its suppliers be liable for any damages (including, without
+            limitation, damages for loss of data or profit, or due to business interruption) arising out
+            of the use or inability to use the materials on RAK Wireless\' website, even if RAK Wireless
+            or a RAK Wireless authorized representative has been notified orally or in writing of the
+            possibility of such damage. Because some jurisdictions do not allow limitations on implied
+            warranties, or limitations of liability for consequential or incidental damages, these
+            limitations may not apply to you.
         </p>
     ',
-    'Log Files' => '
+    'Notice and Takedowns' => '
         <p>
-            Like many other Web sites, RAK Wireless makes use of log files. The information inside the
-            log files includes internet protocol ( IP ) addresses, type of browser, Internet Service
-            Provider ( ISP ), date/time stamp, referring/exit pages, and number of clicks to analyze
-            trends, administer the site, track user’s movement around the site, and gather demographic
-            information. IP addresses, and other such information are not linked to any information that
-            is personally identifiable.
+            In making the materials available online, RAK Wireless acts in good faith. However, despite
+            these safeguards, we recognise that from time-to-time the published materials or its comments
+            may be in breach of copyright laws, contain sensitive personal data, or include content that
+            may be regarded as obscene or defamatory. If you are concerned that you have found material
+            on our website, for which you have not given permission, contravenes privacy laws, is obscene
+            / defamatory and in terms of copyright law is not covered by a limitation or exception, please
+            contact us in writing stating the following:
+        </p>
+        <ol class="text-secondary">
+            <li>
+                <p>Your contact details.</p>
+            </li>
+            <li>
+                <p>The full details of the material.</p>
+            </li>
+            <li>
+                <p>The exact and full url where you found the material.</p>
+            </li>
+            <li>
+                <p>
+                    If the request relates to copyright, provide proof that you are the rights holder and a
+                    statement that, under penalty of perjury, you are the rights holder or are an authorised
+                    representative.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The reason for your request including but not limited to copyright
+                    law, privacy laws, data protection, obscenity, defamation etc.
+                </p>
+            </li>
+        </ol>
+    ',
+    'Accuracy of Materials' => '
+        <p>
+            The materials appearing on RAK Wireless\' website could include technical, typographical,
+            or photographic errors. RAK Wireless does not warrant that any of the materials on its
+            website are accurate, complete or current. RAK Wireless may make changes to the materials
+            contained on its website at any time without notice. However RAK Wireless does not make any
+            commitment to update the materials.
         </p>
     ',
-    'Final' => '
+    'Modifications' => '
         <p>
-            We are committed to conducting our business in accordance with these principles in order to
-            ensure that the confidentiality of personal information is protected and maintained
+            RAK Wireless may revise these terms of service for its website at any time without notice.
+            By using this website you are agreeing to be bound by the then current version of these terms
+            of service.
         </p>
         <p>
-            RAK Wireless may change this privacy policy from time to time at RAK Wireless’ sole
-            discretion.
+            Furthermore, RAK Wireless is not a government entity much less be part of it. As such, we
+            reserve the right to moderate, delete, or replace any comment on any published web pages
+            whenever we feel like with "fart fart fart fart".
         </p>
-        <hr>
-        <p class="small">Last updated: <i>January 17, 2019</i></p>
+    ',
+    'Governing Law' => '
+        <p>
+            These terms and conditions are governed by and construed in accordance with the laws of
+            China and you irrevocably submit to the exclusive jurisdiction of the courts in the said
+            location.
+        </p>
+    <hr>
+    <p class="small">Last updated: <i>January 17, 2019</i></p>
     '
+
 ];
