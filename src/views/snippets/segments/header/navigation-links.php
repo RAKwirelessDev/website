@@ -38,7 +38,7 @@ foreach ($data->navigation_buttons as $label => $link) {
     $label = trim($label);
     $link = Core\Commons::slugify($link);
     echo '<li class="nav-item u-header__nav-last-item">';
-    echo '<a class="btn btn-sm btn-primary transition-3d-hover" href="'.$link.'" target="_blank">';
+    echo '<a class="btn btn-sm btn-pill btn-primary transition-3d-hover" href="'.$link.'" target="_blank">';
     echo $label;
     echo '</a>';
     echo '</li>';
