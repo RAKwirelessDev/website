@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(0);
+
 if (!isset($_SERVER['HTTP_X_GITHUB_EVENT']) || !isset($_SERVER['HTTP_X_HUB_SIGNATURE'])) {
     http_response_code(400);
     exit;
@@ -14,5 +16,4 @@ if ($_SERVER['HTTP_X_HUB_SIGNATURE'] != $deploy_signature) {
 }
 
 header('Content-Type: text/plain');
-
 echo shell_exec("git pull");
