@@ -2,4 +2,5 @@
 
 header('Content-Type: text/plain');
 
-echo shell_exec("git pull 2>&1");
+file_put_contents('deploy.txt', print_r($_SERVER));
+echo shell_exec("git pull");
