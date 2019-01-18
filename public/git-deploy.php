@@ -4,7 +4,6 @@ error_reporting(0);
 
 if (!isset($_SERVER['HTTP_X_GITHUB_EVENT']) || !isset($_SERVER['HTTP_X_HUB_SIGNATURE'])) {
     http_response_code(400);
-    header('Location: /');
     exit;
 }
 
@@ -13,7 +12,6 @@ $deploy_event = 'push';
 
 if ($_SERVER['HTTP_X_HUB_SIGNATURE'] != $deploy_signature || $_SERVER['HTTP_X_GITHUB_EVENT'] != $deploy_event) {
     http_response_code(400);
-    header('Location: /');
     exit;
 }
 
