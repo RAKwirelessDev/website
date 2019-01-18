@@ -1,5 +1,5 @@
 #!/bin/bash
-repo_path=git rev-parse --show-toplevel
+repo_path=(git rev-parse --show-toplevel)
 assets_path="/public/assets/"
 cd $repo_path$assets_path
 git add .
