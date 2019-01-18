@@ -1,5 +1,7 @@
 <?php
 
+/** General */
+
 $c1q1 = <<<EOD
 <table class="table table-responsive">
   <thead>
@@ -270,6 +272,52 @@ $c1q16 = <<<EOD
 For WIFI module with onboard antenna, try to leave more space around the antenna, do not pavage below the antenna.
 EOD;
 
+/** WiFi */
+
+$c2q1 = <<<EOD
+When one-key configuration fails, there may be one or more of the following reasons:
+<br><br>
+- Password input error;
+<br>
+- The client terminals connected to the router are too many;
+<br>
+- The router does not open DHCP;
+<br>
+- The router has opened WMM or AP isolation.
+EOD;
+$c2q2 = <<<EOD
+
+EOD;
+$c2q3 = <<<EOD
+
+EOD;
+$c2q4 = <<<EOD
+
+EOD;
+$c2q5 = <<<EOD
+
+EOD;
+$c2q6 = <<<EOD
+
+EOD;
+$c2q7 = <<<EOD
+
+EOD;
+$c2q8 = <<<EOD
+
+EOD;
+$c2q9 = <<<EOD
+
+EOD;
+$c2q10 = <<<EOD
+
+EOD;
+$c2q11 = <<<EOD
+
+EOD;
+$c2q12 = <<<EOD
+
+EOD;
 
 $data->faq_contents = [
     'General' => [
@@ -291,18 +339,18 @@ $data->faq_contents = [
         'What are the considerations of the antenna position?' => $c1q16
     ],
     'WiFi' => [
-        'Why sometimes one-key configuration is not successful?' => 'fgdfg',
-        'How to achieve one-key configuration in the roaming network?' => 'gdfgdfgdf',
-        'How to ensure 100% success rate of configuration?' => 'dfgdfgdg',
-        'How to ensure the effectiveness of socket link?' => 'fdhfdfh',
-        'How to transplant UART WiFi drive?' => 'dfhdfgdfg',
-        'How to deal with multi-socket communication?' => 'dfhdfhdh',
-        'How to deal with network disconnection events?' => 'dfgdfhfde',
-        'How to reduce power consumption?' => 'fgdfgdgd',
-        'How to use auto connect command?' => 'dfghsfdhfg',
-        'How to solve that WiFi cannot search any signal?' => 'sffd',
-        'How does the module realize roaming?' => 'sdgsd',
-        'How to solve serial abnormity?' => 'dfgds'
+        'Why sometimes one-key configuration is not successful?' => $c2q1,
+        'How to achieve one-key configuration in the roaming network?' => $c2q2,
+        'How to ensure 100% success rate of configuration?' => $c2q3,
+        'How to ensure the effectiveness of socket link?' => $c2q4,
+        'How to transplant UART WiFi drive?' => $c2q5,
+        'How to deal with multi-socket communication?' => $c2q6,
+        'How to deal with network disconnection events?' => $c2q7,
+        'How to reduce power consumption?' => $c2q8,
+        'How to use auto connect command?' => $c2q9,
+        'How to solve that WiFi cannot search any signal?' => $c1210,
+        'How does the module realize roaming?' => $c1211,
+        'How to solve serial abnormity?' =>$c2q12
     ],
     'RAK4XX Series' => [
         'What are the actual fastest throughput rates of RAK41x、42x、43x ?' => 'sdfgsdg',
