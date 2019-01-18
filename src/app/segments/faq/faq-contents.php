@@ -286,36 +286,219 @@ When one-key configuration fails, there may be one or more of the following reas
 - The router has opened WMM or AP isolation.
 EOD;
 $c2q2 = <<<EOD
-
+<b>Roaming network</b> &mdash; There are two routers with the same SSID in the network;
+<br><br>
+When the mobile phone APP is connected to the router, it will send SSID (BSSID) and PSK to the module, the module will connect the router through BSSID.
 EOD;
 $c2q3 = <<<EOD
-
+When easyconfig (WPS) is unsuccessful, configure the network with AP.
 EOD;
 $c2q4 = <<<EOD
-
+For the TCP connection, the mechanism of sending heartbeat packet can be adopted to detect whether the connection is effective.
 EOD;
 $c2q5 = <<<EOD
-
+RAK473 sample code is specific to applications without OS, and its feature is that the AT command which is not timely responded will not be blocked. The already transplanted platforms include STM32F10x, Nano1xx. To make transplantation to other platforms, the user only needs to accomplish the following functions:
+<br><br>
+<ol>
+  <li>Reset wifi module function;</i>
+  <li>Serial port initialization (serial RX enable and pull up), serial port sending, serial port receiving interrupts;</i>
+  <li>Timer - realize time delay (MS), time stamp function;</i>
+</ol>
 EOD;
 $c2q6 = <<<EOD
-
+RAK415 transparent-transmission module supports a maximum of two-circuit socket pass-through, the user can use it after simple configuration, and the configuration parameter will not be lost when the power is off. If the user needs more than 2 sockets for communication, the AT command module can be chosen.
+<br><br>
+RAK413 AT command module supports a maximum of 8-circuit socket, and the data receiving is in interruption mode. For several TCP clients, the host sends AT commands to the module to connect to the server, <code>OK+port identifier</code> will be returned when the connection is successful, and the host will send command to the module to transmit data according to the port identifier, then the received data will also include port identifier to judge which socket has received the data.
+<br><br>
+For TCP server, it will be reported to the host each time a client is connected, the reporting information includes the IP information and port identifier of client, and the host will send command to the module to transmit data according to the port identifier, then the received data will also include port identifier to judge which socket has received the data.
+<br><br>
+RAK473 AT command module supports a maximum of 8-circuit socket and also supports one-circuit socket transparent-transfer. And the data receiving supports the interruption mode and the query mode. The interruption mode is the same as that of RAK413. Under the Query mode, for the TCP client, the host sends AT commands to the module to connect the server, <code>OK+port identifier</code> will be returned when the connection is successful, then the host will give commands to the module to send and receive data according to the port identifier; while for the TCP server, the host sends commands to the module to establish TCP server, the module will return <code>OK+port identifier</code> when the establishment is successful, then the host needs to send the command <code>at+socket_status</code> to the module to inquire the IP information and port identifier of the current client connected to the server, and then give commands to the module to transmit and receive data through the port identifier of client.
 EOD;
 $c2q7 = <<<EOD
-
+RAK4x3 orders the module to notify the host when the network is disconnected, if previously the network connecting parameters are saved, <code>at+auto_connect\\r\\n</code> can be implemented to reconnect the network.
 EOD;
 $c2q8 = <<<EOD
-
+RAK413's lowest power consumption is merely 2uA, at that time, the control section of the module goes into deep sleep and the wireless part is shut down. To awaken, the serial port needs to send data to wake up or pull wire to reset the module, under normal conditions, the module will soon re-connect the router. If the module cannot normally connect the router, it is recommended that reset the module and re-connect the router through <code>at+auto_connect\\r\\n</code>.
+<br><br>
+The power consumption of RAK473 under saving mode is 30-50mA. If keeping network being connected, the communication speed is slightly less than that under the mode of full power consumption
+<br><br>
+The minimum power consumption of RAK415 is only 2uA. If the module faces full power down, the module will automatically connects the internet after power-on.
 EOD;
 $c2q9 = <<<EOD
-
+For RAK4x3 AT command module, after the success of one-key configuration, WPS or AP configuration, the network connecting parameters will be saved into the flash inside the module, and then through sending <code>at+auto_connect\\r\\n</code> the module will automatically connect the internet.
 EOD;
 $c2q10 = <<<EOD
-
+<b>Operation steps:</b>
+<br><br>
+<i>RAK4x3 AT command module</i> &mdash; The host sends <code>at+start_web\\r\\n</code> to enter AP configuration mode.
+<br>
+<i>RAK415 transparent-transmission module</i> &mdash; Through the PC serial port configuration tool, configure the module as AP mode, the process of which can also be adopted when the MCU host configures the module as AP mode.
+<br><br><br>
+<b>Reasons:</b>
+<br><br>
+<ol>
+  <li>Insufficient power supply &mdash; The module operates with voltage of 3.0-3.6v and current of 80MA, so the wifi cannot be searched if this requirement is not met.</li>
+  <li>No signal can be detected due to there is no power.</li>
+  <li>Check the module antenna is on-board or external antenna; if it is an external antenna, check whether the antenna is loose or disconnected.</li>
+  <li>Whether the distance from the module to the computer searching end is too far, the indoor distance shall be within 50 meters, or use the wifi search function of mobile phone to search.</li>
+  <li>Check whether the computer's wireless network card is open, or check whether the dialog box of computer wireless network connection has the SSID of module.</li>
+</ol>
 EOD;
 $c2q11 = <<<EOD
-
+With the SSID, PSK of two routers set as the same, when connecting the network, the module will first scan the network with the command <code>at+scan=0\\r\\n</code>, then utilize the BSSID of the router with stronger signal to connect the internet.
 EOD;
 $c2q12 = <<<EOD
+<b>There are usually two reasons for messy codes:</b>
+<br><br>
+<ol>
+  <li>The baud rate, data bit, parity bit do not match, namely, the baud rates of our network to serial device and your serial device does not match, which can be solved by setting them as the same.</li>
+  <li>Hardware reasons. Note that the electricity level forms of TTL, RS232, RS485 are different, which cannot be directly connected and needs to make transmission with the 232 chip or 485 chip. One of the customers' most frequent mistakes is that the TTL electricity level is directly connected to the computer, which will certainly cause messy codes, for the computer is in RS232 electricity level. In addition, if the hardware design is improper and there is interference, it may also result in communication abnormality. So carefully check the hardware.</li>
+</ol>
+<br><br>
+<b>If you cannot determine where the problem is, the method of self-transmitting and receiving can be adopted to exclude problems:</b>
+<br><br>
+<ol>
+  <li>Your device directly communicates with the computer, and setting the baud rate according to your understanding, check whether it works normally and determine if there is a problem with your settings;</li>
+  <li>Disconnect the connection between your device and the network module, and short circuit the RXD and TXD of our module serial port, then through the network sending and receiving see whether the data is normal, so as to determine if our module works well;</li>
+  <li>Disconnect the connection between your device and the network module, and short circuit the sending and receiving of your equipment serial port, then see whether the data is normal through the self-sending and self-receiving of computer, in this way, you can find out whether the hardware between your computer and the serial port works properly;</li>
+</ol>
+It is believed that through these steps, most of your problems can be solved. If problems remain unsolved, you can directly contact our staff, we will help you cope with the problems, and we can also provide you with remote assistance till your problems are solved.
+EOD;
+
+/** RAK4XX Series */
+
+$c3q1 = <<<EOD
+WiFi module with UART interface: RAK413/423, RAK415/425, when the baud rate of which is set as <code>921600</code>, the actual throughput rate can reach 70KB/S;
+<br><br>
+WiFi module with SPI interface: RAK411/421, the actual throughput rate can reach 220KB/S.
+EOD;
+$c3q2 = <<<EOD
+<table class="table table-responsive">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Hardware</th>
+      <th scope="col">Software</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">RAK41x</th>
+      <td>Stamp hole encapsulation</td>
+      <td>RAK411/421/431 is the WIFI module with SPI interface, which has faster transmission speed.</td>
+    </tr>
+    <tr>
+      <th scope="row">RAK42x</th>
+      <td>Pin encapsulation, smaller size</td>
+      <td>RAK413/423/433 is AT command module with UART interface and simultaneously supports the establishment of 8 Sockets.<br><br>They are powerful and have strong flexibility.</td>
+    </tr>
+    <tr>
+      <th scope="row">RAK43x</th>
+      <td>minimum size</td>
+      <td>RAK415/425/435 is transparent-transmission module with UART interface, which requires no network, has socket management, and only needs to be configured properly.<br><br>They are simple and convenient to use.</td>
+    </tr>
+  </tbody>
+</table>
+EOD;
+$c3q3 = <<<EOD
+<table class="table table-responsive">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Testing tools</th>
+      <th scope="col">SDK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">RAK415/425/435</th>
+      <td>Easyconfig configuration tool, wireless configuration tool, and AT command configuration tool</td>
+      <td>Easyconfig configuration tool (Android/iOS), wireless configuration tool (PC/Android/iOS)</td>
+    </tr>
+    <tr>
+      <th scope="row">RAK413/423/433</th>
+      <td>Easyconfig configuration tool, AT command configuration tool</td>
+      <td>Easyconfig configuration tool (Android/iOS)</td>
+    </tr>
+    <tr>
+      <th scope="row">RAK411/421/431</th>
+      <td>Easyconfig configuration tool, AT command configuration tool</td>
+      <td>Easyconfig configuration tool (Android/iOS)</td>
+    </tr>
+  </tbody>
+</table>
+EOD;
+$c3q4 = <<<EOD
+RAK41x/42x/43x all provide relevant sample codes, which include how to configure the module, how to inquire the module status, how to communicate, etc., so as to assist you in quick development.
+EOD;
+$c3q5 = <<<EOD
+RAK41x/42x/43x all supports remote upgrade, which facilitates the customers to update module firmware whenever and wherever. For specific upgrade methods you can view the user manual of each module model.
+EOD;
+$c3q6 = <<<EOD
+RAK41x/42x/43x currently support the access of one device;
+<br><br>
+RAK415/425/435 supports a maximum of dual socket;
+<br><br>
+RAK413/423/433 and RAK411/421/431 support a maximum of 8 sockets. Please note that when the module establishes 1 TCP Sever, it actually occupies 2 sockets (one of which is reserved to TCP Client for connection), so in such situation, a maximum of 4 TCP Sever can be simultaneously established.
+EOD;
+$c3q7 = <<<EOD
+<b>RAK415 WiFi module has 4 power consumption modes, respectively:</b>
+<br><br>
+- The full-speed working mode. The average power consumption ~80ma, peak current <200ma
+<br>
+- The automatic power saving mode. The average power consumption ~ 10ma, peak current < 200ma, DTIM=100ms
+<br>
+- Mode of the minimum power consumption while keeping the network connected. The average power consumption ~ 3ma, peak current < 200ma, DTIM=100ms (a maximum of 115200bps is supported)
+<br>
+- The external wire-pull, ultra-low power consumption mode. 1-2uA
+EOD;
+$c3q8 = <<<EOD
+RAK41x, 42x, 43x all supports radio broadcasting (broadcast within the network segment and the whole network broadcast). Currently only RAK413/423/433 supports the multicast.
+EOD;
+$c3q9 = <<<EOD
+There are download addresses in our official website (click on the "hardware" at the top right of the official website to acquire the product information you are interested in), you can also directly click on the "reading the original text" at the bottom.
+EOD;
+$c3q10 = <<<EOD
+In the easyconfig mode, module is in the state of packet capture, when you can send the router information to the module through mobile phone and other client terminals, so the module can successfully connect the internet with configuration.
+<br><br>
+All modules of RAK support the Easyconfig configuration.
+<br><br>
+The configuration is unsuccessful for many reasons: the complex network environment, the low signal value of module, some special settings of the router are all likely to cause the failure of Easyconfig configuration.
+EOD;
+
+/** P2P Server */
+
+$c4q1 = <<<EOD
+
+EOD;
+$c4q2 = <<<EOD
+
+EOD;
+$c4q3 = <<<EOD
+
+EOD;
+$c4q4 = <<<EOD
+
+EOD;
+$c4q5 = <<<EOD
+
+EOD;
+$c4q6 = <<<EOD
+
+EOD;
+$c4q7 = <<<EOD
+
+EOD;
+$c4q8 = <<<EOD
+
+EOD;
+$c4q9 = <<<EOD
+
+EOD;
+$c4q10 = <<<EOD
+
+EOD;
+$c4q11 = <<<EOD
 
 EOD;
 
@@ -348,34 +531,34 @@ $data->faq_contents = [
         'How to deal with network disconnection events?' => $c2q7,
         'How to reduce power consumption?' => $c2q8,
         'How to use auto connect command?' => $c2q9,
-        'How to solve that WiFi cannot search any signal?' => $c1210,
-        'How does the module realize roaming?' => $c1211,
+        'How to solve that WiFi cannot search any signal?' => $c2q10,
+        'How does the module realize roaming?' => $c2q11,
         'How to solve serial abnormity?' =>$c2q12
     ],
     'RAK4XX Series' => [
-        'What are the actual fastest throughput rates of RAK41x、42x、43x ?' => 'sdfgsdg',
-        'What are the differences between RAK41x, 42x and 43x?' => 'fdgdg',
-        'What testing tools do RAK41x, 42x, 43x have? What SDK can be provided?' => '4te',
-        'What sample codes do RAK41x, 42x, 43x provide?' => 'dgdfg',
-        'Do RAK41x, 42x, 43x support remote upgrade?' => 'dfgdsfg',
-        'How many devices can access when RAK41x, 42x, 43x are the AP? What are the maximum sockets supported by each of them?' => 'dfgdfg',
-        'How many power consumption modes does RAK415 WiFi module have? How much is the power consumption under the various modes?' => 'dfgdfgf',
-        'Do RAK41x, 42x, 43x support broadcast and multicast?' => 'dfgdfg',
-        'Where can I download the related documents and materials about RAK41x, 42x, 43x?' => 'dgdfg',
-        'What is the Easyconfig configuration? What modules of RAK support the Easyconfig configuration? Why sometimes the configuration is not successful?' => 'sdgsdg'
+        'What are the actual fastest throughput rates of RAK41x, 42x, 43x?' => $c3q1,
+        'What are the differences between RAK41x, 42x and 43x?' => $c3q2,
+        'What testing tools do RAK41x, 42x, 43x have? What SDK can be provided?' => $c3q3,
+        'What sample codes do RAK41x, 42x, 43x provide?' => $c3q4,
+        'Do RAK41x, 42x, 43x support remote upgrade?' => $c3q5,
+        'How many devices can access when RAK41x, 42x, 43x are the AP? What are the maximum sockets supported by each of them?' => $c3q6,
+        'How many power consumption modes does RAK415 WiFi module have? How much is the power consumption under the various modes?' => $c3q7,
+        'Do RAK41x, 42x, 43x support broadcast and multicast?' => $c3q8,
+        'Where can I download the related documents and materials about RAK41x, 42x, 43x?' => $c3q9,
+        'What is the Easyconfig configuration? What modules of RAK support the Easyconfig configuration? Why sometimes the configuration is not successful?' => $c3q10
     ],
     'P2P Server' => [
-        'What are the reasons for choosing Nabto?' => 'dfgsd',
-        'Through what ways can the Nabto service be utilized?' => 'dfgdfg',
-        'What are the differences between Nabto and Baidu video cloud?' => 'dfgdfg',
-        'What are the well-known brands which has applied the Nabto service?' => 'dfgdfg',
-        'What are the advantages of utilizing Nabto in foreign countries?' => 'dfgdfg',
-        'What kinds of support can I get when applying Nabto?' => 'dfgdfg',
-        'After purchasing Nabto Basestation, what data can I obtain from the Basestation backend?' => 'dfgdfg',
-        'Why doesn\'t the TUTK charging pattern include the Basestation cost?' => 'sdgdsg',
-        'Is Nabto a complete private cloud?' => 'dfgdfg',
-        'How many terminals can one Basestation access?' => 'dfg',
-        'Under what circumstances should I consider deploying a new Basestation?' => 'dfgdfg'
+        'What are the reasons for choosing Nabto?' => $c4q1,
+        'Through what ways can the Nabto service be utilized?' => $c4q2,
+        'What are the differences between Nabto and Baidu video cloud?' => $c4q3,
+        'What are the well-known brands which has applied the Nabto service?' => $c4q4,
+        'What are the advantages of utilizing Nabto in foreign countries?' => $c4q5,
+        'What kinds of support can I get when applying Nabto?' => $c4q6,
+        'After purchasing Nabto Basestation, what data can I obtain from the Basestation backend?' => $c4q7,
+        'Why doesn\'t the TUTK charging pattern include the Basestation cost?' => $c4q8,
+        'Is Nabto a complete private cloud?' => $c4q9,
+        'How many terminals can one Basestation access?' => $c4q10,
+        'Under what circumstances should I consider deploying a new Basestation?' => $c4q11
     ],
     'Others' => [
         'What are the characteristics and advantages of RAK WiFi module?' => 'dfgdfg',
