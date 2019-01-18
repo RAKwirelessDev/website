@@ -469,37 +469,171 @@ EOD;
 /** P2P Server */
 
 $c4q1 = <<<EOD
-
+- Absolute advantages of overseas development. With Nabto's patented technology, you are more degage in expanding overseas markets;
+<br><br>
+- No matter how complicated the environment is, Nabto can all easily support. So far, Nabto has solved more than 100 kinds of firewall systems, and also achieved a perfect compatibility of 5~10 mobile phone operating systems and mainstream browsers;
+<br><br>
+- Accelerate the time to market of your products. SDK package provided by Nabto can greatly reduce your R&D costs. When using our service, you can accomplish the corresponding research and development tasks with only 20% of the workload of your competitor;
+<br><br>
+- Lots of your costs are saved. Nabto has a large number of long-term customers, with many years of industry experience, our service mode has become very mature and been widely recognized;
+<br><br>
+- The fully optimized usage design escorts your development strategy. The professional technology of Nabto ensures the simplicity of service and the low power consumption. Meanwhile, the simple and rapid development of integration guarantees the rapid implementation of your internet strategy;
+<br><br>
+- The comprehensive technical optimization reduces your various burdens and costing. The optimization of hardware costs allows you to experience the best service with the least equipment resources; through the P2P connection, the cloud computing time is minimized, and it has improved the convenience of cloud data storage, search and management, and realized the minimum delay of network transmission as well;
+<br><br>
+- Friendly using experience. The user management interface is instant in response and pretty friendly, with the user management framework being provided. Meanwhile, you can also conveniently send emails and SMS through the built-in event processing platform, and the management framework of equipment is also provided;
+<br><br>
+- Perfect privacy protection. Adopt the authentication and encryption based on the SSL to fully guarantee the privacy of data. Publicly encrypted cloud data can only be directly managed by authenticated users;
+<br><br>
+- The HTML device driver technology adopted has well solved the positioning problem, and creates OEM interface for your device;
+<br><br>
+- Simplified business model. Nabto, with its years of experience in the industry, provides you with a simplified cooperation method. Whether you want to obtain the ownership of the whole platform, or make basic cooperation, Nabto can help you to realize with its professional technology;
+<br><br>
+- The installation and commissioning of equipment can be carried out on one's own;
+<br><br>
+- Nabto is software, which allows you to fully take charge of the use of hardware. Nabto only needs a C compiler and internet access device (WiFi, Ethernet, GPRS, etc.) to provide service.
 EOD;
 $c4q2 = <<<EOD
-
+According to whether you purchase the RAK hardware products or not, the users are grouped into the following two conditions:
+<br><br>
+<table class="table table-responsive">
+  <tbody>
+    <tr>
+      <th rowspan="2" scope="row">Purchase RAK hardware</th>
+      <td>Public cloud</td>
+      <td>You can choose the module with embedded Nabto protocol stack, so that you can obtain the permanent free use of Nabto's P2P service without extra charges!</td>
+    </tr>
+    <tr>
+      <td>Private cloud</td>
+      <td>You can choose the module with embedded Nabto protocol stack and also buy Nabto Basestation, so as to complete the building of your private cloud.</td>
+    </tr>
+    <tr>
+      <th rowspan="2" scope="row">Not purchase RAK hardware</th>
+      <td>Public cloud</td>
+      <td>RAK is responsible for the platform transplantation; you need to pay for each Device ID.</td>
+    </tr>
+    <tr>
+      <td>Private cloud</td>
+      <td>You need to purchase Nabto Basestation through RAK by yourself, and pay the node fees according to each ID, and also pay the server rental costs on your own.</td>
+    </tr>
+  </tbody>
+</table>
 EOD;
 $c4q3 = <<<EOD
-
+What Nabto supports is P2P cloud architecture, while Baidu video cloud is in the relay mode.
+<br><br>
+The biggest difference between the two is the different cloud architectures, which is directly reflected in the huge difference in the costings of the cloud servers. The relay mode of Baidu video cloud has pretty high requirements for the server's CPU, memory, storage, and especially for the bandwidth; nevertheless, in the P2P architecture of Nabto, the server only serves to build connection between peer A and peer B, and the direct transmission between A and B does not go through any server, which greatly reduces the occupation and consumption of server.
 EOD;
 $c4q4 = <<<EOD
-
+<b>With its professional technology and good reputation, Nabto has been chosen by a number of well-known brands, mainly including:</b>
+<br><br>
+- Danfoss &mdash; Solar Inverters
+<br><br>
+- Honeywell &mdash; (HVAC)
+<br><br>
+- Johnson Controls
+<br><br>
+- Schneider
+<br><br>
+- DVEtech &mdash; Windturbine inverters.
+<br><br>
+- Liebherr &mdash; Refrigerators.
+<br><br>
+- Sorel &mdash; Home energy controlling.
+<br><br>
+- Milestone Systems &mdash; World largest video portal for surveillance.
+<br><br>
+- ZenseHome Systems &mdash; Home automation.
+<br><br>
+- WindowMaster &mdash; Natural ventilation http://www.windowmaster.com/
+<br><br>
+- Velux &mdash; Top windows.
+<br><br>
+- Big Dutchman &mdash; Ventilation for piggery and chicken farms etc. http://www.bigdutchman.de/
+  <br><br>
+- Ritzau &mdash; News agency http://www.ritzau.dk/
+<br><br>
+- Sirona Dental &mdash; Autoclaves.
+<br><br>
+- Consulo &mdash; Home automation
+<br><br>
+- Cosesy &mdash; Home automation
+<br><br>
+- Zeteco &mdash; Wind turbines.
+<br><br>
+- <i>CONFIDENTIAL</i> &mdash; The second largest vendor of hearing aids – Exclusivity
+<br><br>
+- <i>CONFIDENTIAL</i> &mdash; 4 of the 10 biggest IP camera vendors in the world.
 EOD;
 $c4q5 = <<<EOD
-
+<b>Nabto's unique patented technology and consistent high quality service can ensure that your products have strong competitiveness in foreign countries as well:</b>
+<br><br>
+- Through the servers deployed in many parts of the world by Nabto, you can get closer to your customers and set up your own private cloud or use the public cloud of Nabto, so as to fully meet the regional requirements of your application;
+<br><br>
+- Nabto has opened the SDK source code, so that you can make more adaptive optimization in the details;
+<br><br>
+- Nabto has a huge number of long-term customers in Europe and the United States and is a widely acclaimed brand of strength;
+<br><br>
+- The P2P crossing rate of Nabto is higher than the level of the same industry (e.g. TUTK).
 EOD;
 $c4q6 = <<<EOD
-
+<b>You can get supports including but not limited to:</b>
+<br><br>
+- Local support for RAK;
+<br><br>
+- Provide SDK package, APP development library, technical support, answering questions and other professional services;
+<br><br>
+- The whole-course service and support of renting Amazon server;
+<br><br>
+- Test the ID of server.
 EOD;
 $c4q7 = <<<EOD
+<b>After purchasing the Nabto Basestation, through the background you can acquire:</b>
+<br><br>
+- The firewall type at each end;
+<br><br>
+- The connection status: including P2P, Relay, local and error (providing error code), version, etc.;
+<br><br>
+- The status of device registration: including success, failure (providing the error code), version, etc.;
+<br><br>
+- The data stream size of P2P, Relay (needing to be further confirmed).
+<br><br><br>
 
+<b>Meanwhile, you can also:</b>
+<br><br>
+- View the online status of device anytime;
+<br><br>
+- View the online time duration anytime;
+<br><br>
+- View the IP address of device anytime;
+<br><br>
+- Obtain the version information of device at any time;
+<br><br>
+- View the Relay connection information anytime;
+<br><br>
+- Observe the Relay code stream size anytime;
+<br><br>
+- And various other diagnostic information.
 EOD;
 $c4q8 = <<<EOD
-
+The reason why TUTK does not charge users for Basestation is because that viewed from its structure, Basestation is divided into two parts: one is Controller and the other is GTC. Only the Controller section is run by TUTK, while GTC is actually the rental space you deployed in Amazon, which is not operated by TUTK.
+<br><br>
+Since TUTK cannot provide you with real private cloud service, the TUTK charging mode does not include this cost.
 EOD;
 $c4q9 = <<<EOD
-
+As long as you purchase the Nabto Basestation, the P2P building of private cloud has actually been accomplished.
+<br><br>
+Since Nabto Basestation works completely independently, it only needs to make a confirmation of the ID domain name with the Nabto central server regularly. For the already transmitted status information of Basestation Nabto and for each video connection, Nabto Basestation does not need to utilize the central server.
+<br><br>
+Hence, as long as you have purchased the Nabto Basestation, you have completed a real sense of private cloud building.
 EOD;
 $c4q10 = <<<EOD
-
+If you use an EC2 server of quad core and 4GB memory, devices of 100k can be linked. By analogy, if you expect an amount of 300K, you can rent three EC2 servers, or upgrade the CPU to sixteen cores and memory to 12GB in the case of one server.
+<br><br>
+To prevent the server fault of the Amazon cloud, it is strongly recommended that you rent one more server to guarantee 100% of normal daily use.
 EOD;
 $c4q11 = <<<EOD
-
+When your product sales area increases, to provide better services for your customers, a Basestation is needed to be rented nearby. Certainly, this is computed in accordance with the concept of countries or even continents, if your selling is merely within China, there is no need for renting Basestation in every place.
 EOD;
 
 $data->faq_contents = [
