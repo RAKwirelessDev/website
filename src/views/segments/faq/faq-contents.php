@@ -59,7 +59,7 @@ foreach ($data->faq_contents as $category => $questions) {
     echo '</h5>';
     echo '</div>';
     echo '<div id="'.$category_cc.'Collapse'.$q_num.'" class="collapse" aria-labelledby="'.$category_cc.'Heading'.$q_num.'" data-parent="#'.$category_cc.'Accordion">';
-    echo '<div class="card-body">'.$answer.'</div>';
+    echo '<div class="card-body text-body">'.$answer.'</div>';
     echo '</div>';
     echo '</div>';
   }
