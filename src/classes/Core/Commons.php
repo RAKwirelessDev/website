@@ -22,6 +22,7 @@ class Commons
             //http_response_code(302);
             //header('Location: '.$new_url_path.$get_query_string);
             http_response_code(404);
+            echo "NOT FOUND";
             exit;
         }
     }
