@@ -7,7 +7,7 @@ $data->carousel = [
         'images' => [
             '/assets/img/rakwireless/pilot_gw.png',
             '/assets/img/rakwireless/02.png',
-            '/assets/img/rakwireless/04.png'
+            '/assets/img/rakwireless/03.png'
         ],
         'store_link' => 'https://www.aliexpress.com/store/product/Pilot-Gate-way-connect-to-the-TTN-Network-Server-and-IoT-in-a-Box-application-cloud/2805180_32951841630.html?spm=a2g1y.12024536.productList_11474674.pic_5',
         'slide_class' => 'gradient-half-warning-v3'
@@ -27,7 +27,8 @@ $data->carousel = [
         'tag_line' => 'Early Access Beta',
         'description' => '- Available with complete source code<br>- Built-in BME680 environmental sensors and accelerometer<br>- Options for IPEX & SMA antenna interfaces<br>- Power consumption lower to 16µA in Sleep Mode<br>- More interface extentions like I2C, GPIOs, UART, ADC, etc.<br><br><span style="background-color: black;" class="btn btn-xs btn-pill mb-2">beta closed</span>',
         'images' => [
-            '/assets/img/rakwireless/RAK5205-1_1217 (1).png'
+            '/assets/img/rakwireless/RAK5205-1_1217 (1).png',
+            '/assets/img/rakwireless/X.png'
         ],
         'slide_class' => 'gradient-half-warning-v3'
     ],
