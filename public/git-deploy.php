@@ -18,4 +18,4 @@ if ($_SERVER['HTTP_X_HUB_SIGNATURE'] != $deploy_signature) {
 }
 
 header('Content-Type: text/plain');
-echo shell_exec("git pull");
+echo shell_exec("git pull --recurse-submodules");
