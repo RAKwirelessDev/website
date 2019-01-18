@@ -19,8 +19,9 @@ class Commons
     public static function force_slugify(string $new_url_path, string $old_url_path) {
         $get_query_string = self::get_query_string($old_url_path);
         if ($new_url_path.$get_query_string !== $old_url_path) {
-            http_response_code(302);
-            header('Location: '.$new_url_path.$get_query_string);
+            //http_response_code(302);
+            //header('Location: '.$new_url_path.$get_query_string);
+            http_response_code(404);
             exit;
         }
     }
