@@ -23,3 +23,7 @@
 Live Development: https://www.rakwirelessdev.com/
 
 Live Production: https://www.rakwireless.com/
+
+---
+
+`git clone --recursive https://github.com/RAKWirelessDev/website.git`
