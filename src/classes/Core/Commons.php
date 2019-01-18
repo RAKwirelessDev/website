@@ -12,7 +12,7 @@ class Commons
     public static function url_path() {
         $url_path = $_SERVER['REQUEST_URI'];
         $new_url_path = self::slugify($url_path);
-        // self::force_slugify($new_url_path, $url_path);
+        self::force_slugify($new_url_path, $url_path);
         return (!empty($new_url_path) ? $new_url_path : '/');
     }
 
