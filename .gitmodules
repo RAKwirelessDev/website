@@ -1,0 +1,3 @@
+[submodule "public/assets.new"]
+	path = public/assets.new
+	url = https://github.com/RAKWirelessDev/website-assets.git
