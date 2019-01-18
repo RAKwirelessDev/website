@@ -19,4 +19,4 @@ if ($_SERVER['HTTP_X_HUB_SIGNATURE'] != $deploy_signature) {
 
 header('Content-Type: text/plain');
 $action = shell_exec("git pull && git submodule init && git submodule update");
-file_put_contents('git.log', $action."============================\n", FILE_APPEND);
+file_put_contents('git.log', $action."=========================================================\n", FILE_APPEND);
