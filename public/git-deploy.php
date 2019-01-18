@@ -3,7 +3,7 @@
 error_reporting(0);
 
 if (!isset($_SERVER['HTTP_X_GITHUB_EVENT']) || !isset($_SERVER['HTTP_X_HUB_SIGNATURE'])) {
-    http_response_code(302);
+    http_response_code(400);
     header('Location: /');
     exit;
 }
@@ -11,8 +11,8 @@ if (!isset($_SERVER['HTTP_X_GITHUB_EVENT']) || !isset($_SERVER['HTTP_X_HUB_SIGNA
 $deploy_signature = 'sha1='.hash_hmac('sha1', file_get_contents("php://input"), $_SERVER['DEPLOY_SECRET']);
 $deploy_event = 'push';
 
-if ($_SERVER['HTTP_X_HUB_SIGNATURE'] != $deploy_signature) {
-    http_response_code(302);
+if ($_SERVER['HTTP_X_HUB_SIGNATURE'] != $deploy_signature || $_SERVER['HTTP_X_GITHUB_EVENT'] != $deploy_event) {
+    http_response_code(400);
     header('Location: /');
     exit;
 }
