@@ -4,6 +4,8 @@
 
   * `./public/assets/` - static files, css, javascript, images
 
+  * `./public/git-deploy.php` - project auto deployment handler
+
   * `./public/index.php` - website handler
 
 * `./src/` - source files
