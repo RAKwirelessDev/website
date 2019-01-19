@@ -636,6 +636,51 @@ $c4q11 = <<<EOD
 When your product sales area increases, to provide better services for your customers, a Basestation is needed to be rented nearby. Certainly, this is computed in accordance with the concept of countries or even continents, if your selling is merely within China, there is no need for renting Basestation in every place.
 EOD;
 
+/** Others */
+
+$c5q1 = <<<EOD
+The RAK WiFi has a variety of models, multiple and complete functions, and comprehensive coverage. The WiFi module series include UART, SPI, SDIO, Video, Secondary development, etc. and are characterized by small package, low power consumption, complete configuration tool and easy to use.
+<br><br>
+Meanwhile, we provide professional Cloud server, and plus our comprehensive firmware customization, SDK development board as well as timely technical support, the users are provided with a competitive integrated WiFi solution!
+EOD;
+$c5q2 = <<<EOD
+The full range RAK WiFi modules all supply you with detailed specifications, user manuals and a variety of configuration tools, more attentively, we provide you with a number of first-rate services such as hardware reference design, PCB encapsulation and program guidance and so forth.
+<br><br>
+In the meantime, RAK will provide customers with complete SDK development kit basing on the platforms of Android, iOS and Windows, which shall relieve your follow-up development concerns.
+EOD;
+$c5q3 = <<<EOD
+You can make choice according to the standards such as the communication interface (SPI/UART), the module usage methods (AT command / transparent-transmission), requirements for the volume, requirements for the antenna, requirements for hardware encapsulation, etc., and for specific information click here to view table of model selections.
+<br><br>
+Meanwhile, RAK suggests that you communicate with our professional technical support staff, so as to select the most suitable WiFi module for your development. Contact us.
+EOD;
+$c5q4 = <<<EOD
+Add 47uF and 100nF filter capacitor between the power and the ground;
+<br><br>
+When using the WiFi module with onboard antenna, try to leave more space around the antenna, and no pavage below the antenna.
+<br><br>
+When layout PCB, please be sure to refer to the reference in the specification brochure for circuit design and send it to the technical support of RAK for review
+EOD;
+$c5q5 = <<<EOD
+RAK has carried out detailed testing for each model of WiFi module and has formed a series of test reports. If you want to conduct the test on your own, it is recommended that you buy the corresponding WiFi module EVB for testing.
+<br><br>
+On the EVB demoboard, you can carry out a series of performance testing, such as power consumption test, communication test, MCU joint test and so forth. Simultaneously, RAK recommends that, during the test, you choose your concerned issues for targeted testing, so as to shorten the testing and development time.
+EOD;
+$c5q6 = <<<EOD
+Our full-range RAK module products have passed the FCC and CE certifications, and the MAC address has been burner-recorded in the module, therefore you need not to purchase.
+EOD;
+$c5q7 = <<<EOD
+Sorry, we currently do not provide the modules’ source codes, but we can provide you with firmware customization. For the WiFi module like RAK412, which can be conducted secondary development, we can provide the library function for development, and also provide you with timely technical support.
+EOD;
+$c5q8 = <<<EOD
+UDP communication is faster than TCP communication, because UDP communication is in non-connection mode, TCP communication needs to go through three handshakes to establish the communication connection. But TCP communication is more stable and reliable than UDP communication. If you require to not to lose packet, you should choose TCP communication.
+EOD;
+$c5q9 = <<<EOD
+The packet loss rate of WiFi module is related to the current network condition, signal strength, data volume and the external disturbance, etc.
+EOD;
+$c5q10 = <<<EOD
+RAK's WiFi module supports super terminal upgrade, and it supports the wireless upgrade of WiFi as well.
+EOD;
+
 $data->faq_contents = [
     'General' => [
         'What are the differences between the AT command module and the transparent-transmission module?' => $c1q1,
@@ -695,15 +740,15 @@ $data->faq_contents = [
         'Under what circumstances should I consider deploying a new Basestation?' => $c4q11
     ],
     'Others' => [
-        'What are the characteristics and advantages of RAK WiFi module?' => 'dfgdfg',
-        'What technical supports can the RAK WiFi module provide? Does it support SDK development?' => 'dfgdfgd,',
-        'How to choose the embedded RAK WiFi module according to one\'s own needs?' => 'dfgdfgdfg',
-        'What matters need to be paid attention to in designing hardware with RAK WiFi module?' => 'sfsdfds',
-        'How to test the performance of RAK WiFi module?' => 'dddg',
-        'What international certifications have RAK WiFi modules gone through? Are the customers required to provide the MAC address?' => 'sdgdg',
-        'Do the RAK WiFi modules provide me with source codes for development?' => 'sdgdfg',
-        'What are the differences between TCP communication and UDP communication?' => 'sdgdsg',
-        'What is the packet loss rate of WiFi module relevant to?' => 'dfsfs',
-        'How do the RAK WiFi modules upgrade the firmware? Can the client\'s MCU programme be upgraded through WiFi?' => 'sgdg'
+        'What are the characteristics and advantages of RAK WiFi module?' => $c5q1,
+        'What technical supports can the RAK WiFi module provide? Does it support SDK development?' => $c5q2,
+        'How to choose the embedded RAK WiFi module according to one\'s own needs?' => $c5q3,
+        'What matters need to be paid attention to in designing hardware with RAK WiFi module?' => $c5q4,
+        'How to test the performance of RAK WiFi module?' => $c5q5,
+        'What international certifications have RAK WiFi modules gone through? Are the customers required to provide the MAC address?' => $c5q6,
+        'Do the RAK WiFi modules provide me with source codes for development?' => $c5q7,
+        'What are the differences between TCP communication and UDP communication?' => $c5q8,
+        'What is the packet loss rate of WiFi module relevant to?' => $c5q9,
+        'How do the RAK WiFi modules upgrade the firmware? Can the client\'s MCU programme be upgraded through WiFi?' => $c5q10
     ]
 ];
