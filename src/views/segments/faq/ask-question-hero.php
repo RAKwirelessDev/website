@@ -9,7 +9,7 @@
                 <!-- End Title -->
 
                 <!-- Input -->
-                <form action="https://forum.rakwirelessdev.com/search" class="input-group input-group-lg input-group-borderless mb-5">
+                <form action="https://forum.rakwireless.com/search" class="input-group input-group-lg input-group-borderless mb-5">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="askQuestions">
                             <span class="fas fa-search"></span>

@@ -3,7 +3,7 @@
 
     <!-- Address -->
     <address class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-        <a class="list-group-item list-group-item-action" href="mailto:shenzhen@rakwirelessdev.com">shenzhen@rakwirelessdev.com</a>
+        <a class="list-group-item list-group-item-action" href="mailto:shenzhen@rakwireless.com">shenzhen@rakwireless.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
             TEL: 0755-86108311, 0755-26506594<br>
             Fax: 0755-86152201
@@ -21,7 +21,7 @@
 
     <!-- Address -->
     <address class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-        <a class="list-group-item list-group-item-action" href="mailto:shanghai@rakwirelessdev.com">shanghai@rakwirelessdev.com</a>
+        <a class="list-group-item list-group-item-action" href="mailto:shanghai@rakwireless.com">shanghai@rakwireless.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
             TEL: 021-61553990<br>
             Fax: 021-54721038
@@ -39,7 +39,7 @@
 
     <!-- Address -->
     <address class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-        <a class="list-group-item list-group-item-action" href="mailto:beijing@rakwirelessdev.com">beijing@rakwirelessdev.com</a>
+        <a class="list-group-item list-group-item-action" href="mailto:beijing@rakwireless.com">beijing@rakwireless.com</a>
         <span class="list-group-item list-group-item-action text-white-50">
             Room 306, Building No. 3, MeiTang Commercial Building, Kexing west Road, Changping District, Beijing, China
             (100085)

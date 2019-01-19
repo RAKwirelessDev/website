@@ -3,7 +3,7 @@
 $data->navigation_links = [
     'Home' => '/',
     'About' => '/about/',
-    'Blog' => 'https://blog.rakwirelessdev.com/',
+    'Blog' => 'https://en.blog.rakwireless.com/',
     'Products' => [
         'Video Module' => '/projects/video-module/',
         'Video Projects' => '/projects/video-projects/',
@@ -24,5 +24,5 @@ $data->navigation_links = [
 ];
 
 $data->navigation_buttons = [
-    'Buy Now' => 'https://store.rakwirelessdev.com/'
+    'Buy Now' => 'https://store.rakwireless.com/'
 ];
