@@ -11,8 +11,8 @@
     </a>
 
     <div id="languageDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="languageDropdownInvoker">
-        <a class="dropdown-item active" href="#">English</a>
-        <a class="dropdown-item" href="#">Chinese</a>
+        <a class="dropdown-item active" href="https://www.rakwireless.com/">English</a>
+        <a class="dropdown-item" href="https://www.rakwireless.com.cn/">Chinese</a>
     </div>
 </div>
 <!-- End Language -->
