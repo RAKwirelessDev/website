@@ -16,10 +16,11 @@ $data->navigation_links = [
         'Amazon Alexa' => '/integrations/amazon-alexa/'
     ],
     'Resources' => [
-        'Documentation' => '/resources/documentation/',
         'Forum' => 'https://forum.rakwireless.com/',
-        'Downloads' => 'https://downloads.rakwireless.com/',
-        'GitHub' => 'https://www.github.com/RAKWireless/'
+        'Documentation' => 'https://documentation.rakwireless.com/',
+        'Packages' => 'https://packages.rakwireless.com/',
+        'Downloads' => 'https://downloads.rakwireless.com/'
+        //'GitHub' => 'https://www.github.com/RAKWireless/',
     ]
 ];
 
