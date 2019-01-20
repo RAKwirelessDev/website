@@ -20,7 +20,7 @@ $data->navigation_links = [
         'Documentation' => 'https://documentation.rakwireless.com/',
         'Stash' => 'https://stash.rakwireless.com/',
         'Downloads' => 'https://downloads.rakwireless.com/'
-        //'GitHub' => 'https://www.github.com/RAKWireless/',
+        //'GitHub' => 'https://www.github.com/RAKWireless/', // to-do: move to quick-links
     ]
 ];
 
