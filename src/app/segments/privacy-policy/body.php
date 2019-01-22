@@ -35,7 +35,7 @@ $data->privacy_policy_contents = [
     ',
     'Log Files' => '
         <p>
-            Like many other Web sites, Rakwireless makes use of log files. The information inside the
+            Like many other Web sites, RAK Wireless makes use of log files. The information inside the
             log files includes internet protocol ( IP ) addresses, type of browser, Internet Service
             Provider ( ISP ), date/time stamp, referring/exit pages, and number of clicks to analyze
             trends, administer the site, track user’s movement around the site, and gather demographic
@@ -49,7 +49,7 @@ $data->privacy_policy_contents = [
             ensure that the confidentiality of personal information is protected and maintained
         </p>
         <p>
-            Rakwireless may change this privacy policy from time to time at Rakwireless’ sole
+            RAK Wireless may change this privacy policy from time to time at RAK Wireless’ sole
             discretion.
         </p>
         <hr>

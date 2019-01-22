@@ -7,7 +7,7 @@
             <p class="lead text-white-70">
                 The technical competency of RAK founder and his team in the IoT industry brought numerous achievements
                 and breakthroughs each year. From patenting unique solutions to the partnership of some of the big IoT
-                players like Apple, Amazon, and Microsoft. Rakwireless will continue to bring easy solutions to IoT
+                players like Apple, Amazon, and Microsoft. RAK Wireless will continue to bring easy solutions to IoT
                 developers and connect the world like never imagined before.
             </p>
         </div>

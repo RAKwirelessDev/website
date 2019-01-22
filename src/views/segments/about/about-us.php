@@ -2,7 +2,7 @@
     <div class="container space-1">
 
         <span class="btn btn-xs btn-soft-primary btn-pill mb-2">About</span>
-        <h2 class="text-primary mb-6"><strong class="font-weight-semi-bold">Shenzhen Rakwireless Technology Co., Ltd.</strong></h2>
+        <h2 class="text-primary mb-6"><strong class="font-weight-semi-bold">Shenzhen RAK Wireless Technology Co., Ltd.</strong></h2>
         <p>RAK was established in June 2014. Based in Shenzhen, with a R&D center in Shanghai, and an office in
             Beijing. RAK devoted to developing and supplying advanced IoT technology and services. RAK has transfomed
             from R&D production to sales one-stop IoT solution supply company.</p>
