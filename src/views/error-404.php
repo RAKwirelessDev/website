@@ -4,7 +4,7 @@ http_response_code(404);
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <?php Core\ViewsHandler::yield('snippets/head.php'); ?>
