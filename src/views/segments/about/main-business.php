@@ -14,7 +14,7 @@ foreach ($data->business_items as $title => $details) {
     echo '<img src="'.$details['icon'].'" alt="'.strip_tags($title).'" data-parent="#icon'.$i.'">';
     echo '</figure>';
     echo '<h3 class="h5">'.$title.'</h3>';
-    echo '<p>'.$details['tagline'].'</p>';
+    echo '<span>'.$details['tagline'].'</span>';
     echo '</div>';
     echo '</div>';
 }

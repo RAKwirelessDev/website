@@ -9,6 +9,8 @@ $data->navigation_links = [
         'Video Projects' => '/solutions/video-projects/',
         'IoT Services' => '/solutions/iot-services/',
         'WisLink Cellular' => '/solutions/wislink-cellular/',
+        'WisKey Boards' => 'http://wiskey.org/',
+        'Products' => 'https://products.rakwireless.com/'
     ],
     'Integrations' => [
         'Apple HomeKit' => '/integrations/apple-homekit/',
@@ -21,6 +23,8 @@ $data->navigation_links = [
         'Stash' => 'https://stash.rakwireless.com/',
         'Downloads' => 'https://downloads.rakwireless.com/en/',
         'FAQ' => '/faq/',
+        'Terms of Service' => '/terms-of-service/',
+        'Privacy Policy' => '/privacy-policy/'
     ]
 ];
 
