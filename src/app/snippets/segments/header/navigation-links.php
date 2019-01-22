@@ -19,8 +19,8 @@ $data->navigation_links = [
         'Forum' => 'https://forum.rakwireless.com/',
         'Documentation' => 'https://documentation.rakwireless.com/',
         'Stash' => 'https://stash.rakwireless.com/',
-        'Downloads' => 'https://downloads.rakwireless.com/'
-        //'GitHub' => 'https://www.github.com/RAKWireless/', // to-do: move to quick-links
+        'Downloads' => 'https://downloads.rakwireless.com/en/',
+        'FAQ' => '/faq/',
     ]
 ];
 
