@@ -1,12 +1,12 @@
-<div class="col-lg-5 mb-3 mb-lg-0">
+<div class="col-lg-6 mb-3 mb-lg-0">
 
     <!-- Image Gallery -->
     <div class="row mx-gutters-2">
         <div class="col-5 align-self-end px-2 mb-3">
             <!-- Fancybox -->
-            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/company1.jpg"
-                data-fancybox="lightbox-gallery-hidden" data-caption="Front in frames - image #01" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/company1.jpg" alt="Image Description">
+            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/27655308_551698548543151_4061763043149213119_n.jpg"
+                data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/27655308_551698548543151_4061763043149213119_n.jpg" alt="IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">
@@ -17,11 +17,11 @@
             <!-- End Fancybox -->
         </div>
 
-        <div class="col-7 px-2 mb-3">
+        <div class="col-7 align-self-end px-2 mb-3">
             <!-- Fancybox -->
-            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/company2.jpg"
-                data-fancybox="lightbox-gallery-hidden" data-caption="Front in frames - image #02" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/company2.jpg" alt="Image Description">
+            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/17309521_404544956591845_5901087553756826493_n.jpg"
+                data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/17309521_404544956591845_5901087553756826493_n.jpg" alt="IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">
@@ -32,11 +32,11 @@
             <!-- End Fancybox -->
         </div>
 
-        <div class="col-5 offset-1 px-2 mb-3">
+        <div class="col-6 align-self-start px-2 mb-3">
             <!-- Fancybox -->
-            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/company3.jpg"
-                data-fancybox="lightbox-gallery-hidden" data-caption="Front in frames - image #03" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/company3.jpg" alt="Image Description">
+            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/17342948_405484469831227_4677753328107765358_n.jpg"
+                data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/17342948_405484469831227_4677753328107765358_n.jpg" alt="IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">
@@ -47,11 +47,11 @@
             <!-- End Fancybox -->
         </div>
 
-        <div class="col-5 px-2 mb-3">
+        <div class="col-5 align-self-start px-2 mb-3">
             <!-- Fancybox -->
-            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/company4.jpg"
-                data-fancybox="lightbox-gallery-hidden" data-caption="Front in frames - image #04" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/company4.jpg" alt="Image Description">
+            <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/27336351_551698605209812_4575382685165813004_n.jpg"
+                data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/27336351_551698605209812_4575382685165813004_n.jpg" alt="IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">
@@ -63,14 +63,5 @@
         </div>
     </div>
     <!-- End Image Gallery -->
-
-    <!-- SVG Background Shape -->
-    <div id="SVGbgShapeID1" class="svg-preloader w-100 content-centered-y z-index-n1">
-        <figure class="ie-soft-triangle-shape">
-            <img class="js-svg-injector" src="../../assets/svg/components/soft-triangle-shape.svg" alt="Image Description"
-                data-parent="#SVGbgShapeID1">
-        </figure>
-    </div>
-    <!-- End SVG Background Shape -->
 
 </div>

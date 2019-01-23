@@ -1,15 +1,14 @@
 <div class="overflow-hidden">
     <div class="container space-1">
 
-        <span class="btn btn-xs btn-soft-primary btn-pill mb-2">About</span>
-        <h2 class="text-primary mb-6"><strong class="font-weight-semi-bold">Shenzhen RAK Wireless Technology Co., Ltd.</strong></h2>
-        <p>RAK was established in June 2014. Based in Shenzhen, with a R&D center in Shanghai, and an office in
+        <h2 class="text-primary mb-4">About <strong class="font-weight-semi-bold">RAK Wireless</strong></h2>
+        <p><i>Shenzhen RAK Wireless Technology Co., Ltd.</i> was established in June 2014. Based in Shenzhen, with a R&D center in Shanghai, and an office in
             Beijing. RAK devoted to developing and supplying advanced IoT technology and services. RAK has transfomed
             from R&D production to sales one-stop IoT solution supply company.</p>
-        <p>Based on rich experiences on IoT industry, RAK founder and his team focus on developing IoT Middleware,
-            which is the company core competence, and supply end to end IoT solutions to customers. Besides accumulated
-            many experiences of most of main protocols such as HomeKit, Amazon Echo, NEST, IFTTT, Z-Wave and LoRa. RAK
-            is also Apple Homekit licensee, Amazon IoT Consulting Parter, Z-Wave Alliance Member and Google Thread
+        <p>Based on rich experiences in IoT industry, RAK founder and his team focuses on developing IoT Middleware,
+            which is the company core competence, and supply end to end IoT solutions to customers. Experiencewise, RAK
+            specialized in many protocols and technologies including HomeKit, Amazon Echo, NEST, IFTTT, Z-Wave and LoRa. RAK
+            is also an Apple Homekit licensee, Amazon IoT Consulting Parter, Z-Wave Alliance Member and Google Thread
             Member.</p>
 
         <div class="row justify-content-between align-items-center">

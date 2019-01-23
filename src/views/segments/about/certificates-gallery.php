@@ -62,13 +62,4 @@
         </div>
     </div>
     <!-- End Image Gallery -->
-
-    <!-- SVG Background Shape -->
-    <div id="SVGbgShapeID2" class="svg-preloader w-100 content-centered-y z-index-n1">
-        <figure class="ie-soft-triangle-shape">
-            <img class="js-svg-injector" src="../../assets/svg/components/soft-triangle-shape.svg" alt="Image Description"
-                data-parent="#SVGbgShapeID2">
-        </figure>
-    </div>
-    <!-- End SVG Background Shape -->
 </div>
