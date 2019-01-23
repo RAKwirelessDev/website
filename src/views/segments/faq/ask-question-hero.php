@@ -20,7 +20,7 @@
                 </form>
                 <!-- End Input -->
 
-                <!-- Text/Links -->
+                <!-- Text/Links 
                 <p class="text-white-70">
                     Popular help topics:
                     <a class="link-light" href="#">pricing,</a>
@@ -28,7 +28,7 @@
                     <a class="link-light ml-1" href="#">hosting,</a>
                     <a class="link-light ml-1" href="#">membership</a>
                 </p>
-                <!-- End Text/Links -->
+                 End Text/Links -->
             </div>
         </div>
     </div>
