@@ -2,14 +2,8 @@
     <div class="container space-1">
 
         <h2 class="text-primary mb-4">About <strong class="font-weight-semi-bold">RAK Wireless</strong></h2>
-        <p><i>Shenzhen RAK Wireless Technology Co., Ltd.</i> was established in June 2014. Based in Shenzhen, with a R&D center in Shanghai, and an office in
-            Beijing. RAK devoted to developing and supplying advanced IoT technology and services. RAK has transfomed
-            from R&D production to sales one-stop IoT solution supply company.</p>
-        <p>Based on rich experiences in IoT industry, RAK founder and his team focuses on developing IoT Middleware,
-            which is the company core competence, and supply end to end IoT solutions to customers. Experiencewise, RAK
-            specialized in many protocols and technologies including HomeKit, Amazon Echo, NEST, IFTTT, Z-Wave and LoRa. RAK
-            is also an Apple Homekit licensee, Amazon IoT Consulting Parter, Z-Wave Alliance Member and Google Thread
-            Member.</p>
+        <p><i>Shenzhen RAK Wireless Technology Co., Ltd.</i> was established in June 2014. It is based in Shenzhen, China with an R&D center in Shanghai and an office in Beijing. Our mission is to develop and supply advanced IoT technology and services to the market.</p>
+        <p>The technical competency of the founder and his team on developing IoT middleware devices brought significant achievements each year. From patenting unique solutions (with 3 patents as of this writing) to the partnership of IoT ecosystems (including Apple, Amazon, Microsoft, and others), RAK Wireless continues its legacy in bringing easy solutions to IoT developers.</p>
 
         <div class="row justify-content-between align-items-center">
 
@@ -18,14 +12,9 @@
             <div class="col-lg-6 position-relative">
                 <div class="pr-md-4">
                     <!-- Title -->
-                    <p>At present, RAK has been worked with over 200 customers and has capability of developing its own
-                        core competence on IoT field. Thanks to all customers, RAK international service network covers
-                        a lot of countries include China main land, Hong Kong, Korea, Denmark, India, Russia, USA,
-                        Japan, Singapore, Germany and Sweden.</p>
-                    <p>RAK believes a new era of internet will come soon with the rapid development of the internet
-                        industry under the support of Chinese “Internet + ” policy. A new IoT world will be realized
-                        globally soon. RAK is ready to push the establishment of new IoT industry based on our strong
-                        technical competence, diligence, entrepreneurship, and mind of dedication. </p>
+                    <p>Our partnerships helped us deliver customer satisfaction by integrating different protocols like Apple Homekit, Amazon Echo, NEST, IFTTT, Z-Wave and LoRa. RAK is also a proud Apple Homekit licensee, Amazon IoT Consulting Partner, Z-Wave Alliance Member, and Google Thread Member.</p>
+                    <p>At present, RAK has been collaborating with more than 200 customers around the globe and reaching out to more developers through online communities and forums. This affiliations opened wider markets in mainland China, Hongkong, Korea, Denmark, India, Russia, USA, Japan, Singapore, Germany, Sweden, among others.</p>
+                    <p>We believe that the new era of internet is coming that will bring rapid development on the whole ecosystem of Internet-of-Things. We are supported by the government through their “Internet+ Policy”, by our loyal customers through their contributions to our product development, and by the industry itself pushing more opportunities with technological advancement. A new IoT world will be realized soon, globally. RAK Wireless is here to help you.</p>
                 </div>
             </div>
 
