@@ -11,7 +11,6 @@
 
             <div class="col-lg-6 position-relative">
                 <div class="pr-md-4">
-                    <!-- Title -->
                     <p>Our partnerships helped us deliver customer satisfaction by integrating different protocols like Apple Homekit, Amazon Echo, NEST, IFTTT, Z-Wave and LoRa. RAK is also a proud Apple Homekit licensee, Amazon IoT Consulting Partner, Z-Wave Alliance Member, and Google Thread Member.</p>
                     <p>At present, RAK has been collaborating with more than 200 customers around the globe and reaching out to more developers through online communities and forums. This affiliations opened wider markets in mainland China, Hongkong, Korea, Denmark, India, Russia, USA, Japan, Singapore, Germany, Sweden, among others.</p>
                     <p>We believe that the new era of internet is coming that will bring rapid development on the whole ecosystem of Internet-of-Things. We are supported by the government through their “Internet+ Policy”, by our loyal customers through their contributions to our product development, and by the industry itself pushing more opportunities with technological advancement. A new IoT world will be realized soon, globally. RAK Wireless is here to help you.</p>

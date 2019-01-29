@@ -2,8 +2,9 @@
 
 $data->navigation_links = [
     'Home' => '/',
-    'About' => '/about/',
-    'Blog' => 'https://en.blog.rakwireless.com/',
+    'Company' => [
+        'History' => '/company/history/'
+    ],
     'Products' => [
         'LoRa Modules' => 'https://store.rakwireless.com/collections/lora-modules',
         'LoRa Boards' => 'https://store.rakwireless.com/collections/lora-boards',
@@ -23,6 +24,7 @@ $data->navigation_links = [
     'Resources' => [
         'Forum' => 'https://forum.rakwireless.com/',
         'Documentation' => 'https://documentation.rakwireless.com/',
+        'Blog' => 'https://en.blog.rakwireless.com/',
         'Stash' => 'https://stash.rakwireless.com/',
         'Downloads' => 'https://downloads.rakwireless.com/en/',
         'FAQ' => '/faq/',
