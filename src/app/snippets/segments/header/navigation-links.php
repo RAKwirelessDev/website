@@ -3,7 +3,8 @@
 $data->navigation_links = [
     'Home' => '/',
     'Company' => [
-        'History' => '/company/history/'
+        'History' => '/company/history/',
+        'Business' => '/company/business/'
     ],
     'Products' => [
         'LoRa Modules' => 'https://store.rakwireless.com/collections/lora-modules',

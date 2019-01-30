@@ -9,15 +9,15 @@
     <?php Core\ViewsHandler::yield('snippets/header.php'); ?>
 
     <main id="content" role="main">
-        <?php Core\ViewsHandler::yield('segments/about/hero-parallax.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/hero-parallax.php'); ?>
 
-        <?php Core\ViewsHandler::yield('segments/about/about-us.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/about/patents-overview.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/about/our-partners.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/about/main-business.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/about/company-philosophy.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/about/locations.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/about/distributors.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/about-us.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/patents-overview.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/our-partners.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/main-business.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/company-philosophy.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/locations.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/distributors.php'); ?>
 
         <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
     </main>

@@ -2,8 +2,8 @@
 
 const _ROUTES_ = [
     '/' => 'index.php',
-    // '/about/' => 'about.php',
     '/company/history/' => 'company-history.php',
+    '/company/business/' => 'company-business.php',
     '/faq/' => 'faq.php',
     '/contact-us/' => 'contact-us.php',
     '/terms-of-service/' => 'terms-of-service.php',

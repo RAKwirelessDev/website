@@ -7,7 +7,7 @@
 
         <div class="row justify-content-between align-items-center">
 
-            <?php Core\ViewsHandler::yield('segments/about/company-gallery.php'); ?>
+            <?php Core\ViewsHandler::yield('segments/company-business/company-gallery.php'); ?>
 
             <div class="col-lg-6 position-relative">
                 <div class="pr-md-4">
