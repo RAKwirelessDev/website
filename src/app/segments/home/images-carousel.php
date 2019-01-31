@@ -21,7 +21,7 @@ $data->carousel = [
             '/assets/img/rakwireless/02 (1).png'
         ],
         'store_link' => 'https://store.rakwireless.com/products/lora-gateway-concentrator-module-kit-rak831-base-on-sx1301-433-470-868-915mhz-wireless-spread-spectrum-transmission',
-        'slide_class' => 'gradient-half-warning-v3'
+        'slide_class' => 'gradient-half-semi-red'
     ],
     'Wis<span class="font-weight-semi-bold">Trio</span> Tracker Module' => [
         'tag_line' => 'Early Access Beta',
@@ -32,7 +32,7 @@ $data->carousel = [
             '/assets/img/rakwireless/RAK5205-2_1217.png'
         ],
         //'product_page' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
-        'slide_class' => 'gradient-half-semi-violet'
+        'slide_class' => 'gradient-half-semi-green'
     ],
     'WisLink Cellular' => [
         'tag_line' => 'BG96 Arduino Shield',
@@ -44,7 +44,7 @@ $data->carousel = [
             
         ],
         'store_link' => 'https://store.rakwireless.com/products/wislink-cellular-bg96-shield-simultaneously-supporting-3-cellular-standards-2g-egprs-4g-lte-cat-m1emtc-cat-nb1nb-iot',
-        'slide_class' => 'gradient-half-warning-v3'
+        'slide_class' => 'gradient-half-semi-gray'
 
     ]
 ];
