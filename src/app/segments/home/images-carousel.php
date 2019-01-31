@@ -9,7 +9,7 @@ $data->carousel = [
             '/assets/img/rakwireless/02.png',
             '/assets/img/rakwireless/03.png'
         ],
-        'store_link' => 'https://www.aliexpress.com/store/product/Pilot-Gate-way-connect-to-the-TTN-Network-Server-and-IoT-in-a-Box-application-cloud/2805180_32951841630.html?spm=a2g1y.12024536.productList_11474674.pic_5',
+        'store_link' => 'https://store.rakwireless.com/products/iot-in-a-box-powered-pilot-gate-way-with-semtech-sx1301',
         'slide_class' => 'gradient-half-semi-violet'
     ],
     'LoRaWAN Gateway' => [
@@ -20,7 +20,7 @@ $data->carousel = [
             '/assets/img/rakwireless/04.png',
             '/assets/img/rakwireless/02 (1).png'
         ],
-        'store_link' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
+        'store_link' => 'https://store.rakwireless.com/products/lora-gateway-concentrator-module-kit-rak831-base-on-sx1301-433-470-868-915mhz-wireless-spread-spectrum-transmission',
         'slide_class' => 'gradient-half-warning-v3'
     ],
     'Wis<span class="font-weight-semi-bold">Trio</span> Tracker Module' => [
@@ -31,7 +31,7 @@ $data->carousel = [
             '/assets/img/rakwireless/RAK5205-1217.png',
             '/assets/img/rakwireless/RAK5205-2_1217.png'
         ],
-        'product_page' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
+        //'product_page' => 'https://www.aliexpress.com/store/product/RAK831-LoRa-LoRaWAN-Gateway-Module-base-on-SX1301-433-868-915MHz-range-of-up-to-49200ft/2805180_32821411294.html?spm=2114.12010608.0.0.zaMjhY%20target=',
         'slide_class' => 'gradient-half-semi-violet'
     ],
     'WisLink Cellular' => [
@@ -43,7 +43,7 @@ $data->carousel = [
             '/assets/img/rakwireless/Cellular-B.png',
             
         ],
-        'store_link' => 'https://www.aliexpress.com/store/product/WisLink-Cellular-BG96-Shield-simultaneously-supporting-3-cellualr-standards-2G-EGPRS-4G-LTE-Cat-M1-eMTC/2805180_32951394516.html?spm=2114.12010608.0.0.226b3588AEJtLi',
+        'store_link' => 'https://store.rakwireless.com/products/wislink-cellular-bg96-shield-simultaneously-supporting-3-cellular-standards-2g-egprs-4g-lte-cat-m1emtc-cat-nb1nb-iot',
         'slide_class' => 'gradient-half-warning-v3'
 
     ]
