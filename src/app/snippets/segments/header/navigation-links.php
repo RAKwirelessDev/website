@@ -23,10 +23,10 @@ $data->navigation_links = [
         'Amazon Alexa' => '/integrations/amazon-alexa/'
     ],
     'Resources' => [
-        'Forum' => 'https://forum.rakwireless.com/',
-        'Wiki' => 'https://wiki.rakwireless.com/',
+        'Community Forum' => 'https://forum.rakwireless.com/',
+        'Products Wiki' => 'https://wiki.rakwireless.com/',
         'Blog' => 'https://en.blog.rakwireless.com/',
-        'Stash' => 'https://stash.rakwireless.com/',
+        'Stash Account' => 'https://stash.rakwireless.com/',
         'Downloads' => 'https://downloads.rakwireless.com/en/',
         'FAQ' => '/faq/',
         'Terms of Service' => '/terms-of-service/',
