@@ -24,7 +24,7 @@ $data->navigation_links = [
     ],
     'Resources' => [
         'Forum' => 'https://forum.rakwireless.com/',
-        'Documentation' => 'https://documentation.rakwireless.com/',
+        'Wiki' => 'https://wiki.rakwireless.com/',
         'Blog' => 'https://en.blog.rakwireless.com/',
         'Stash' => 'https://stash.rakwireless.com/',
         'Downloads' => 'https://downloads.rakwireless.com/en/',
