@@ -1,6 +1,14 @@
 <?php
 
 $data->carousel = [
+    '__BANNER__' => [
+        'slide_class' => 'gradient-half-semi-violet',
+        'style' => '
+            background-image: url(/assets/img/rakwireless/new-product-2019.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;'
+    ],
     'Pilot Gateway' => [
         'tag_line' => 'RAK, LoRa, IoT in a Box',
         'description' => '- Raspberry Pi 3B+<br>- LoRaWAN 1.0.2<br>- Android & iOS app<br>- Connect to IoT in a Box™<br>- Alert, user management, maps and GPS<br>- Custom integration services, etc.',

@@ -11,6 +11,12 @@ foreach ($data->carousel as $product_name => $product_info) {
         $class = ' '.$product_info['slide_class'];
     }
     if ($img_count === 0) {
+        if ($product_name == '__BANNER__' && !empty($product_info['style'])) {
+            echo '<div class="js-slide bg-img-hero-center'.$class.'">';
+            echo '<div class="container space-top-md-3 space-bottom-2 mt-5" style="'.$product_info['style'].'">';
+            echo '</div>';
+            echo '</div>';
+        }
         continue;
     }
     echo '<div class="js-slide bg-img-hero-center'.$class.'">';
