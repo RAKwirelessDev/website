@@ -11,12 +11,6 @@ foreach ($data->carousel as $product_name => $product_info) {
         $class = ' '.$product_info['slide_class'];
     }
     if ($img_count === 0) {
-        if ($product_name == '__BANNER__' && !empty($product_info['style'])) {
-            echo '<div class="js-slide bg-img-hero-center'.$class.'">';
-            echo '<div class="container space-top-md-3 space-bottom-2 mt-5" style="'.$product_info['style'].'">';
-            echo '</div>';
-            echo '</div>';
-        }
         continue;
     }
     echo '<div class="js-slide bg-img-hero-center'.$class.'">';
@@ -40,8 +34,13 @@ foreach ($data->carousel as $product_name => $product_info) {
     echo '<p class="text-white">'.$product_info['description'].'</p>';
     echo '</div>';
     if (!empty($product_info['store_link'])) {
-        echo '<a class="btn btn-soft-white transition-3d-hover" href="'.$product_info['store_link'].'">';
+        echo '<a class="btn btn-soft-white transition-3d-hover mr-3" href="'.$product_info['store_link'].'">';
         echo '<span class="fas fa-cart-arrow-down mr-2"></span> Buy Now';
+        echo '</a>';
+    }
+    if (!empty($product_info['product_page'])) {
+        echo '<a class="btn btn-soft-white transition-3d-hover" href="'.$product_info['store_link'].'">';
+        echo '<span class="fas fa-file-alt mr-2"></span> Product Page';
         echo '</a>';
     }
     echo '</div>';
