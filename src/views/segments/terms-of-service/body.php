@@ -1,4 +1,4 @@
-<div class="bg-light">
+<div class="bg-white">
       <div class="container space-1">
         <div class="row">
           <div id="stickyBlockStartPoint" class="col-md-4 col-lg-3 mb-7 mb-md-0" style="">
