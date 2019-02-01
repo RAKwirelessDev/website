@@ -9,7 +9,7 @@
             Fax: 0755-86152201
         </span>
         <span class="list-group-item list-group-item-action text-white-50">
-            Room 506, Bldg B, New Compark, Pingshan First Road, Taoyuan Street,XiLi town Nanshan District, Shenzhen,
+            Room 506, Bldg B, New Compark, Pingshan First Road, Taoyuan Street, XiLi Town Nanshan District, Shenzhen,
             China (518000)
         </span>
     </address>
