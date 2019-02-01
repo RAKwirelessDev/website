@@ -28,9 +28,9 @@ $data->navigation_links = [
         'Blog' => 'https://blog.rakwireless.com/',
         'Stash Account' => 'https://stash.rakwireless.com/',
         'Downloads' => 'https://downloads.rakwireless.com/en/',
-        'FAQ' => '/faq/',
-        'Terms of Service' => '/terms-of-service/',
-        'Privacy Policy' => '/privacy-policy/'
+        'FAQ' => '/resources/faq/',
+        'Terms of Service' => '/legal/terms-of-service/',
+        'Privacy Policy' => '/legal/privacy-policy/'
     ]
 ];
 

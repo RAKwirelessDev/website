@@ -10,7 +10,7 @@ $data->carousel = [
             '/assets/img/rakwireless/03.png'
         ],
         'store_link' => 'https://store.rakwireless.com/products/iot-in-a-box-powered-pilot-gate-way-with-semtech-sx1301',
-        'slide_class' => 'gradient-half-semi-violet'
+        'slide_class' => 'gradient-half-semi-red'
     ],
     'LoRaWAN Gateway' => [
         'tag_line' => 'Revolutionary IoT Access Technology<br>LoRa Gateway Module',
@@ -21,7 +21,7 @@ $data->carousel = [
             '/assets/img/rakwireless/02 (1).png'
         ],
         'store_link' => 'https://store.rakwireless.com/products/lora-gateway-concentrator-module-kit-rak831-base-on-sx1301-433-470-868-915mhz-wireless-spread-spectrum-transmission',
-        'slide_class' => 'gradient-half-semi-red'
+        'slide_class' => 'gradient-half-semi-violet'
     ],
     'Wis<span class="font-weight-semi-bold">Trio</span> Tracker Module' => [
         'tag_line' => 'Early Access Beta',
