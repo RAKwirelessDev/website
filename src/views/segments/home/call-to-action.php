@@ -29,7 +29,7 @@ foreach ($data->call_to_action as $segment) {
             if (!empty($item['image'])) {
                 echo '<div class="position-relative">';
                 echo '<div class="'.($item_total > $item_count ? 'u-indicator-dots ' : '' ).'min-height-155 mb-2">';
-                echo '<img src="'.$item['image'].'">';
+                echo '<img src="'.$item['image'].'" '.(!empty($item['title'])?strip_tags($item['title']):'').'>';
                 echo '</div>';
                 echo '</div>';
             }

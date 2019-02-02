@@ -1,7 +1,7 @@
 <div class="container space-1">
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 mb-3 mb-lg-0">
-            <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/homekit_1.png" alt="RAK CORE">
+            <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/homekit_1.png" alt="The Convenient and Fast Development Based on HomeKit">
         </div>
         <div class="col-lg-6 mb-3 mb-lg-0">
             <div class="mb-5">
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-lg-6 mb-3 mb-lg-0">
-            <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/homekit_2.png" alt="RAK CORE">
+            <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/homekit_2.png" alt="Rapid Development">
         </div>
     </div>
 </div>
@@ -35,7 +35,7 @@
 <div class="container space-1">
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 mb-3 mb-lg-0">
-            <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/homekit_3.png" alt="RAK CORE">
+            <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/homekit_3.png" alt="TurnKey Solution">
         </div>
         <div class="col-lg-6 mb-3 mb-lg-0">
             <div class="mb-5">

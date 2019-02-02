@@ -6,7 +6,7 @@
             <!-- Fancybox -->
             <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/27655308_551698548543151_4061763043149213119_n.jpg"
                 data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/27655308_551698548543151_4061763043149213119_n.jpg" alt="IoT Booth">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/27655308_551698548543151_4061763043149213119_n.jpg" alt="RAK Wireless IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">
@@ -21,7 +21,7 @@
             <!-- Fancybox -->
             <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/17309521_404544956591845_5901087553756826493_n.jpg"
                 data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/17309521_404544956591845_5901087553756826493_n.jpg" alt="IoT Booth">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/17309521_404544956591845_5901087553756826493_n.jpg" alt="RAK Wireless IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">
@@ -36,7 +36,7 @@
             <!-- Fancybox -->
             <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/17342948_405484469831227_4677753328107765358_n.jpg"
                 data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/17342948_405484469831227_4677753328107765358_n.jpg" alt="IoT Booth">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/17342948_405484469831227_4677753328107765358_n.jpg" alt="RAK Wireless IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">
@@ -51,7 +51,7 @@
             <!-- Fancybox -->
             <a class="mw-mc js-fancybox u-media-viewer" href="javascript:;" data-src="/assets/img/rakwireless/27336351_551698605209812_4575382685165813004_n.jpg"
                 data-fancybox="lightbox-gallery-hidden" data-caption="" data-speed="700">
-                <img class="img-fluid rounded" src="/assets/img/rakwireless/27336351_551698605209812_4575382685165813004_n.jpg" alt="IoT Booth">
+                <img class="img-fluid rounded" src="/assets/img/rakwireless/27336351_551698605209812_4575382685165813004_n.jpg" alt="RAK Wireless IoT Booth">
 
                 <span class="u-media-viewer__container">
                     <span class="u-media-viewer__icon">

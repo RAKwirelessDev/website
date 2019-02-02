@@ -5,7 +5,7 @@
         data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300"
         data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp"
         data-unfold-animation-out="fadeOut">
-        <img class="dropdown-item-icon" src="/assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="SVG">
+        <img class="dropdown-item-icon" src="/assets/vendor/flag-icon-css/flags/4x3/us.svg" alt="US Flag">
         <span class="d-inline-block d-sm-none">EN</span>
         <span class="d-none d-sm-inline-block">English</span>
     </a>
