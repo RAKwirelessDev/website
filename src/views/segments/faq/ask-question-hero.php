@@ -1,4 +1,4 @@
-<div class="bg-img-hero" style="background-image: url(/assets/img/1920x800/img14.jpg);">
+<div class="bg-img-hero" style="background-image: url(/assets/img/rakwireless/img14.jpg);">
     <div class="gradient-overlay-half-primary-v1">
         <div class="container space-2 space-top-md-5 space-bottom-md-3">
             <div class="w-md-80 w-lg-60 text-center mx-auto">
