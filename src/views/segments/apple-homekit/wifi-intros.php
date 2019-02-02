@@ -5,10 +5,12 @@
         </div>
         <div class="col-lg-6 mb-3 mb-lg-0">
             <div class="mb-5">
-                <h2 class="text-primary mb-3"><strong class="font-weight-semi-bold">The Convenient and Fast Development Based on HomeKit</strong></h2>
-                <p>
-                    - It takes a long time to study the complicated development knowledge and solid protocol accumulation.<br>- The convenient and rapid development based on HomeKit can just be realized when you choose the module which carries RAK's strong hardware development experience and supports Homekit HAP protocol.<br>- Your product + WACHO= HomeKit-ready accessory
-                </p>
+                <h2 class="text-primary mb-3">The <strong class="font-weight-semi-bold">Convenient and Fast</strong> Development Based on HomeKit</h2>
+                <ul class="text-secondary">
+                    <li>It takes a long time to study the complicated development knowledge and solid protocol accumulation.</li>
+                    <li>The convenient and rapid development based on HomeKit can just be realized when you choose the module which carries RAK's strong hardware development experience and supports Homekit HAP protocol.</li>
+                    <li><b>Your product</b> + <b>WACHO</b> = <i>HomeKit-ready accessory</i></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -18,7 +20,7 @@
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 mb-3 mb-lg-0">
             <div class="mb-5">
-                <h2 class="text-primary mb-3"><strong class="font-weight-semi-bold">Rapid Development</strong></h2>
+                <h2 class="text-primary mb-3">Rapid <strong class="font-weight-semi-bold">Development</strong></h2>
                 <p>
                     With the HomeKit demoboard of RAK, a prototype design can be accomplished within a few days. By contrast, it takes a few months to develop the same content.
                 </p>
@@ -37,7 +39,7 @@
         </div>
         <div class="col-lg-6 mb-3 mb-lg-0">
             <div class="mb-5">
-                <h2 class="text-primary mb-3"><strong class="font-weight-semi-bold">Turnkey Solution</strong></h2>
+                <h2 class="text-primary mb-3"><strong class="font-weight-semi-bold">TurnKey</strong> Solution</h2>
                 <p>
                 To ensure accelerated development, RAK has provided a complete solution for some products and also reference Apps, so that you can stay more focused on the experience and development of application layer and Build the Service Model.
                 </p>

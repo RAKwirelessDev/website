@@ -89,7 +89,7 @@
                     <h3 class="h5">Can't find your answer?</h3>
                     <p class="mb-1">We want to answer all of your queries. Get in touch and we'll get back to you as
                         soon as we can.</p>
-                    <a class="font-size-1" href="https://www.rakwireless.com/contact-us/">Contact us <span class="fas fa-angle-right align-middle ml-2"></span></a>
+                    <a class="font-size-1" href="/contact-us/">Contact us <span class="fas fa-angle-right align-middle ml-2"></span></a>
                 </div>
             </div>
             <!-- End Contacts Info -->

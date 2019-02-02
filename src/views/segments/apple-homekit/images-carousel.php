@@ -1,7 +1,7 @@
 <!-- Images Carousel Section -->
 <div class="container-fluid">
     <div class="u-slick--equal-height js-slick-carousel u-slick gradient-half-warning-v3" data-autoplay="true"
-        data-speed="5000" data-pagi-classes="text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0">
+        data-speed="5000" <?=(count($data->carousel) > 1?'data-pagi-classes="text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0"':'')?>>
 
         <?php
 
@@ -27,11 +27,11 @@ foreach ($data->carousel as $product_name => $product_info) {
     echo '</div>';
     echo '<div class="col-md-6">';
     echo '<div class="mb-5">';
-    echo '<h1 class="text-white font-weight-normal">'.$product_name.'</h1>';
+    echo '<h1 class="text-white font-weight-normal"><span class="font-weight-semi-bold">'.$product_name.'</span></h1>';
     if (!empty($product_info['tag_line'])) {
         echo '<span class="d-block h5 text-white mb-4">'.$product_info['tag_line'].'</span>';
     }
-    echo '<p class="text-white">'.$product_info['description'].'</p>';
+    echo $product_info['description'];
     echo '</div>';
     if (!empty($product_info['store_link'])) {
         echo '<a class="btn btn-soft-white transition-3d-hover mr-3" href="'.$product_info['store_link'].'">';

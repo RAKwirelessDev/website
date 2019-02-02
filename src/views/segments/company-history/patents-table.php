@@ -1,7 +1,7 @@
 <div class="pr-md-4">
     <!-- Title -->
     <div class="mb-7">
-        <h2 class="text-primary mb-6"><strong class="font-weight-semi-bold">Patents in Home Automation Area</strong>
+        <h2 class="text-primary mb-6">Patents in <strong class="font-weight-semi-bold">Home Automation Area</strong>
         </h2>
         <!-- Transaction Table -->
         <div class="table-responsive-md u-datatable">
