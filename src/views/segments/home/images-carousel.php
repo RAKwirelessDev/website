@@ -25,24 +25,26 @@ foreach ($data->carousel as $product_name => $product_info) {
     }  
     echo '</div>';
     echo '</div>';
-    echo '<div class="col-md-6">';
-    echo '<div class="mb-5">';
+    echo '<div class="col-md-6 d-lg-flex">';
+    echo '<div class="d-lg-flex align-items-lg-center">';
+    echo '<div>';
     echo '<h1 class="text-white font-weight-normal"><span class="font-weight-semi-bold">'.$product_name.'</span></h1>';
     if (!empty($product_info['tag_line'])) {
         echo '<span class="d-block h5 text-white mb-4">'.$product_info['tag_line'].'</span>';
     }
     echo $product_info['description'];
-    echo '</div>';
     if (!empty($product_info['store_link'])) {
-        echo '<a class="btn btn-soft-white transition-3d-hover mr-3" href="'.$product_info['store_link'].'">';
+        echo '<a class="btn btn-soft-white transition-3d-hover mr-3 mt-5" href="'.$product_info['store_link'].'">';
         echo '<span class="fas fa-cart-arrow-down mr-2"></span> Buy Now';
         echo '</a>';
     }
     if (!empty($product_info['product_page'])) {
-        echo '<a class="btn btn-soft-white transition-3d-hover" href="'.$product_info['store_link'].'">';
+        echo '<a class="btn btn-soft-white transition-3d-hover mt-5" href="'.$product_info['store_link'].'">';
         echo '<span class="fas fa-file-alt mr-2"></span> Product Page';
         echo '</a>';
     }
+    echo '</div>';
+    echo '</div>';
     echo '</div>';
     echo '</div>';
     echo '</div>';
