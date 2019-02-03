@@ -1,5 +1,15 @@
 <?php
 
+$new_product_desc = <<<EOD
+<ul class="text-white">
+    <li>RAK2248</li>
+    <li>DIY Gateway</li>
+    <li>Pilot Gateway Pro</li>
+    <li>RAK2245</li>
+    <li>RAK2243</li>
+</ul>
+EOD;
+
 $pilot_gateway_desc = <<<EOD
 <ul class="text-white">
     <li>Raspberry Pi 3B+</li>
@@ -41,6 +51,18 @@ $wislink_cellular_desc = <<<EOD
 EOD;
 
 $data->carousel = [
+    'New Products' => [
+        'tag_line' => 'Now Available',
+        'description' => $new_product_desc,
+        'images' => [
+            '/assets/img/rakwireless/rak2248.png',
+            '/assets/img/rakwireless/DIY_gateway.png',
+            '/assets/img/rakwireless/pilot_gateway_pro.png',
+            '/assets/img/rakwireless/RAK2245.png',
+            '/assets/img/rakwireless/RAK2243.png',
+        ],
+        'slide_class' => 'gradient-half-semi-violet'
+    ],
     'Pilot Gateway' => [
         'tag_line' => 'RAK, LoRa, IoT in a Box',
         'description' => $pilot_gateway_desc,
