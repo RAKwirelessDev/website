@@ -3,9 +3,7 @@
 $rak_core_desc = <<<EOD
 <p class="text-white">
 RAK is an Apple HomeKit Adjunct Licensee,<br>
-The WACHO is also a HomeKit WiFi Module based on Phytrex SDK.<br><br>
-
-For more details, please <a class="text-white" href="/contact-us/">contact us</a>.
+The WACHO is also a HomeKit WiFi Module based on Phytrex SDK.
 </p>
 EOD;
 
