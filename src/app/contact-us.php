@@ -1,3 +1,3 @@
 <?php
 
-$data->page_title = "Contact-us | RAK - The Middleware from RAK Enable IoT";
+$data->page_title = "Contact Us | RAK - The Middleware from RAK Enable IoT";
