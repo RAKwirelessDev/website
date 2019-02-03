@@ -44,3 +44,27 @@ echo '</li>';
     </div>
     <!-- End Links -->
 </div>
+
+
+
+<ul class="list-inline ml-2 mb-0">
+
+    <li title="GitHub Profile" class="list-inline-item">
+        <a class="btn btn-xs btn-icon btn-text-secondary" href="https://www.github.com/RAKWireless/" role="button">
+        <span class="fab fa-github btn-icon__inner font-size-1"></span>
+        </a>
+    </li>
+
+    <li title="Store Cart" class="list-inline-item position-relative">
+        <a class="btn btn-xs btn-icon btn-text-secondary" href="https://store.rakwireless.com/account/login" role="button">
+        <span class="fas fa-shopping-cart btn-icon__inner"></span>
+        </a>
+    </li>
+
+    <li title="Store Account" class="list-inline-item">
+        <a class="btn btn-xs btn-icon btn-text-secondary" href="https://store.rakwireless.com/account/login" role="button">
+        <span class="fas fa-user-circle btn-icon__inner font-size-1"></span>
+        </a>
+    </li>
+
+</ul>

@@ -19,14 +19,14 @@
 <div class="container space-1">
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 mb-3 mb-lg-0">
-            <div class="mb-5">
+            <div class="mb-3">
                 <h2 class="text-primary mb-3">Rapid <strong class="font-weight-semi-bold">Development</strong></h2>
                 <p>
                     With the HomeKit demoboard of RAK, a prototype design can be accomplished within a few days. By contrast, it takes a few months to develop the same content.
                 </p>
             </div>
         </div>
-        <div class="col-lg-6 mb-3 mb-lg-0">
+        <div class="col-lg-6 mb-5 mb-lg-0">
             <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/homekit_2.png" alt="Rapid Development">
         </div>
     </div>

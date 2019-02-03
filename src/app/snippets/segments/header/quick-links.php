@@ -1,7 +1,8 @@
 <?php
 
 $data->quick_links = [
-    'GitHub' => 'https://www.github.com/RAKWireless/',
-    'Contact us' => '/contact-us/',
-    'Store' => 'https://store.rakwireless.com/'
+    'Store' => 'https://store.rakwireless.com/',
+    'Contact' => '/contact-us/',
+    'Terms' => '/legal/terms-of-service/',
+    'Privacy' => '/legal/privacy-policy/'
 ];
