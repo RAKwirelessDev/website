@@ -1,11 +1,21 @@
 <?php
 
+$diy_enterprise_gateway_desc = <<<EOD
+<ul class="text-white">
+    <li>Enterprise grade network gateway with your own configuration./li>
+    <li>LoraWAN&trade; Stack inside and integrate the Web UI for management.</li>
+    <li>Complete hardware package: LoRa Concentrator, Cellular, GPS, and WiFi.</li>
+    <li>Supports Power over Ethernet (PoE) IEEE 802.2 AF/AT-Compliant Class 4, 48V.</li>
+    <li>Backup battery up to 5 hours sustained operation.</li>
+    <li>IP67 waterproof enclosure with cable gland.</li>
+</ul>
+EOD;
+
 $pilot_gateway_pro_desc = <<<EOD
 <ul class="text-white">
     <li>Includes: Raspberry Pi 3B+,<br>RAK2245 Pi HAT, <br>BG96 (Quectel) PiHat</li>
     <li>Cellular Uplink & Ublox GPS module inside</li>
 </ul>
-
 EOD;
 
 $rak2245_desc = <<<EOD
@@ -68,6 +78,15 @@ $wislink_cellular_desc = <<<EOD
 EOD;
 
 $data->carousel = [
+    'DIY Enterprise Gateway' => [
+        'tag_line' => 'RAK7249',
+        'description' => $diy_enterprise_gateway_desc,
+        'images' => [
+            '/assets/img/rakwireless/DIY_gateway.png'
+        ],
+        'store_link' => 'https://www.aliexpress.com/store/product/The-Enterprise-DIY-outdoor-LoRaWan-GATEWAY-Builtin-OpenWRT-OS-support-16-channel-LoRa-4G-WIFI-GPS/2805180_32974067371.html?spm=2114.12010615.8148356.3.31fd75ebSJlCyX',
+        'slide_class' => 'gradient-half-semi-violet'
+    ],
     'Pilot Gateway Pro' => [
         'tag_line' => 'RAK7243 Indoor Gateway',
         'description' => $pilot_gateway_pro_desc,
