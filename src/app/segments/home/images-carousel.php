@@ -1,13 +1,30 @@
 <?php
 
-$new_product_desc = <<<EOD
+$pilot_gateway_pro_desc = <<<EOD
 <ul class="text-white">
-    <li>RAK2248</li>
-    <li>DIY Gateway</li>
-    <li>Pilot Gateway Pro</li>
-    <li>RAK2245</li>
-    <li>RAK2243</li>
+    <li>Includes: Raspberry Pi 3B+,<br>RAK2245 Pi HAT, <br>BG96 (Quectel) PiHat</li>
+    <li>Cellular Uplink & Ublox GPS module inside</li>
 </ul>
+
+EOD;
+
+$rak2245_desc = <<<EOD
+<ul class="text-white">
+    <li>Compact design with GPS module on board</li>
+    <li>Tx Power enhanced to 27dBm</li>
+    <li>Fixable Heat Sink with Beautiful Design</li>
+</ul>
+<span style="color: #ffffff;" class="badge-md">Available Editions: </span<br><br>
+<a href="https://www.aliexpress.com/store/product/RAK2245-Stamp-Edition-is-a-WisLink-LoRa-Concentrator-Module-based-on-SX1301-Pre-install-LoRa-gateway/2805180_32969733128.html?spm=2114.12010615.8148356.9.31fd75ebSJlCyX">
+    <span style="background-color: #000000; color: #ffffff; cursor: pointer;" class="btn btn-xs btn-pill mb-2">Stamp</span>
+</a>
+<a href="https://www.aliexpress.com/store/product/RAK2245-96Boards-IoT-Edition-is-a-LoRa-Concentrator-Module-based-on-SX1301-Pre-install-LoRa-GATEWAY/2805180_32971742266.html?spm=2114.12010615.8148356.7.31fd75ebSJlCyX">
+    <span style="background-color: #000000; color: #ffffff; cursor: pointer;" class="btn btn-xs btn-pill mb-2">96Boards</span>
+</a>
+<a href="https://www.aliexpress.com/store/product/RAK2245-Pi-HAT-is-a-LoRa-Concentrator-module-with-Raspberry-Pi-form-factor-based-on-SX1301/2805180_32970701346.html?spm=2114.12010615.8148356.5.31fd75ebSJlCyX">
+    <span style="background-color: #000000; color: #ffffff; cursor: pointer;" class="btn btn-xs btn-pill mb-2">Pi Hat</span>
+</a>
+<br>
 EOD;
 
 $pilot_gateway_desc = <<<EOD
@@ -51,17 +68,25 @@ $wislink_cellular_desc = <<<EOD
 EOD;
 
 $data->carousel = [
-    'New Products' => [
-        'tag_line' => 'Now Available',
-        'description' => $new_product_desc,
+    'Pilot Gateway Pro' => [
+        'tag_line' => 'RAK7243<br>Indoor Gateway',
+        'description' => $pilot_gateway_pro_desc,
         'images' => [
-            '/assets/img/rakwireless/rak2248.png',
-            '/assets/img/rakwireless/DIY_gateway.png',
-            '/assets/img/rakwireless/pilot_gateway_pro.png',
-            '/assets/img/rakwireless/RAK2245.png',
-            '/assets/img/rakwireless/RAK2243.png',
+            '/assets/img/rakwireless/pilot_gateway_pro.png'
         ],
-        'slide_class' => 'gradient-half-semi-violet'
+        'store_link' => 'https://www.aliexpress.com/store/product/RAK7243-Pilot-GATE-WAY-Pro-Cellular-LoRa-Gateway-for-PoCn-Raspberry-Pi-3B-RAK2245-Pi-HAT/2805180_32971497653.html?spm=2114.12010615.8148356.2.31fd75ebSJlCyX',
+        'slide_class' => 'gradient-half-semi-green'
+    ],
+    'WisLink LoRa Concentration Module' => [
+        'tag_line' => 'RAK2245 Series',
+        'description' => $rak2245_desc,
+        'images' => [
+            '/assets/img/rakwireless/RAK2245_stamp.png',
+            '/assets/img/rakwireless/RAK2245_96boards.png',
+            '/assets/img/rakwireless/RAK2245_pi_hat.png',
+        ],
+        'store_link' => 'https://store.rakwireless.com/',
+        'slide_class' => 'gradient-half-semi-gray'
     ],
     'Pilot Gateway' => [
         'tag_line' => 'RAK, LoRa, IoT in a Box',
