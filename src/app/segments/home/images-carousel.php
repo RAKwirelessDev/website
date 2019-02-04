@@ -2,7 +2,7 @@
 
 $diy_enterprise_gateway_desc = <<<EOD
 <ul class="text-white">
-    <li>Enterprise grade network gateway with your own configuration./li>
+    <li>Enterprise grade network gateway with your own configuration.</li>
     <li>LoraWAN&trade; Stack inside and integrate the Web UI for management.</li>
     <li>Complete hardware package: LoRa Concentrator, Cellular, GPS, and WiFi.</li>
     <li>Supports Power over Ethernet (PoE) IEEE 802.2 AF/AT-Compliant Class 4, 48V.</li>
