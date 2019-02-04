@@ -69,7 +69,7 @@ EOD;
 
 $data->carousel = [
     'Pilot Gateway Pro' => [
-        'tag_line' => 'RAK7243<br>Indoor Gateway',
+        'tag_line' => 'RAK7243 Indoor Gateway',
         'description' => $pilot_gateway_pro_desc,
         'images' => [
             '/assets/img/rakwireless/pilot_gateway_pro.png'
