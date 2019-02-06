@@ -8,7 +8,7 @@ const _ROUTES_ = [
 
     '/integrations/apple-homekit/' => 'integrations-apple-homekit.php',
     '/integrations/amazon-web-services/' => 'integrations-amazon-aws.php',
-    '/integrations/amazon-alexa/' => '',
+    '/integrations/amazon-alexa/' => 'integrations-amazon-alexa.php',
 
     '/resources/faq/' => 'resources-faq.php',
     '/contact-us/' => 'contact-us.php',

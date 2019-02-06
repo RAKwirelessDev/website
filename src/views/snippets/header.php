@@ -1,5 +1,5 @@
 <!-- ========== HEADER ========== -->
-<header id="header" class="u-header u-header--abs-top-md u-header--show-hide-md" data-header-fix-moment="500"
+<header id="header" class="u-header u-header--abs-top-md u-header--show-hide-md" data-header-fix-moment="200"
     data-header-fix-effect="slide">
     <div class="u-header__section">
         <!-- Topbar -->
