@@ -2,10 +2,6 @@
 
 $data->navigation_links = [
     'Home' => '/',
-    'Company' => [
-        'History' => '/company/history/',
-        'Business' => '/company/business/'
-    ],
     'Products' => [
         'LoRa Modules' => 'https://store.rakwireless.com/collections/lora-modules',
         'LoRa Boards' => 'https://store.rakwireless.com/collections/lora-boards',
@@ -17,19 +13,23 @@ $data->navigation_links = [
         'WiFi Video Modules' => 'https://store.rakwireless.com/collections/wifi-video-modules',
         'Power Line Modules' => 'https://store.rakwireless.com/collections/power-line-modules'
     ],
-    'Integrations' => [
+    'Services' => [
         'Apple HomeKit' => '/integrations/apple-homekit/',
         'Amazon Web Services' => '/integrations/amazon-web-services/',
         'Amazon Alexa' => '/integrations/amazon-alexa/'
     ],
-    'Resources' => [
-        'Community Forum' => 'https://forum.rakwireless.com/',
-        'Products Wiki' => 'https://wiki.rakwirelessdev.com/',
+    'Community' => [
+        'Forum' => 'https://forum.rakwireless.com/',
+        'Wiki' => 'https://wiki.rakwirelessdev.com/',
         'Blog' => 'https://blog.rakwireless.com/',
-        'Stash Account' => 'https://stash.rakwireless.com/',
+        'Stash' => 'https://stash.rakwireless.com/',
         'Downloads' => 'https://downloads.rakwireless.com/en/',
-        'WisKey Boards' => 'http://wiskey.org/',
-        'FAQ' => '/resources/faq/'
+        'FAQ' => '/resources/faq/',
+        'WisKey Boards' => 'http://wiskey.org/'
+    ],
+    'Company' => [
+        'History' => '/company/history/',
+        'Business' => '/company/business/'
     ]
 ];
 

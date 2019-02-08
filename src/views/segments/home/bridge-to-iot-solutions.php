@@ -5,9 +5,19 @@
 
             <h2 class="h1 text-white">Your <span class="font-weight-semi-bold">Bridge to IoT Solutions</span></h2>
             <p class="lead text-white-70">
-                In RAK, we strive to bring you IoT middleware in the best and fastest way possible. Through research &
-                development, we help you solve the core problems in constructing the Internet of Things.
+                Create the industry leading market-oriented and<br>
+                easy-to-use lego-like IoT building blocks of<br>
+                the highest quality for sensor, compute and<br>
+                connectivity to accelerate diverse IoT<br>
+                applications from prototype<br>
+                to Commercial.
             </p>
+            <a class="btn btn-soft-white transition-3d-hover mr-3 mt-5" href="#" tabindex="-1">
+                Our Advantage
+            </a>
+            <a class="btn btn-soft-white transition-3d-hover mr-3 mt-5" href="#" tabindex="-1">
+                IoT Block Portfolio
+            </a>
         </div>
         <!-- End Title -->
     </div>
