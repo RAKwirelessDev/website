@@ -3,7 +3,7 @@
 const _ROUTES_ = [
     '/' => 'index.php',
 
-    '/company/history/' => 'company-history.php',
+    '/company/about/' => 'company-about.php',
     '/company/business/' => 'company-business.php',
 
     '/integrations/apple-homekit/' => 'integrations-apple-homekit.php',

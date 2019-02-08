@@ -27,10 +27,7 @@ $data->navigation_links = [
         'FAQ' => '/resources/faq/',
         'WisKey Boards' => 'http://wiskey.org/'
     ],
-    'Company' => [
-        'History' => '/company/history/',
-        'Business' => '/company/business/'
-    ]
+    'Company' => '/company/about/'
 ];
 
 $data->navigation_buttons = [
