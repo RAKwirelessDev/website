@@ -3,7 +3,7 @@
         <!-- Title -->
         <div class="w-md-80 w-lg-50 text-center mx-md-auto">
 
-            <h2 class="h1 text-white">Our <span class="font-weight-semi-bold">Technology</span></h2>
+            <h2 id="IoTBlockPortfolio" class="h1 text-white">IoT <span class="font-weight-semi-bold">Block Portfolio</span></h2>
             <p class="lead text-white-70">
                 The technical competency of RAK founder and his team in the IoT industry brought numerous achievements
                 and breakthroughs each year. From patenting unique solutions to the partnership of some of the big IoT

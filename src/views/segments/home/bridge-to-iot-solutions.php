@@ -12,10 +12,10 @@
                 applications from prototype<br>
                 to Commercial.
             </p>
-            <a class="btn btn-soft-white transition-3d-hover mr-3 mt-5" href="#" tabindex="-1">
+            <a class="js-go-to btn btn-soft-white transition-3d-hover mr-3 mt-5" data-target="#OurAdvantage" href="javascript:;">
                 Our Advantage
             </a>
-            <a class="btn btn-soft-white transition-3d-hover mr-3 mt-5" href="#" tabindex="-1">
+            <a class="js-go-to btn btn-soft-white transition-3d-hover mr-3 mt-5" data-target="#IoTBlockPortfolio" href="javascript:;">
                 IoT Block Portfolio
             </a>
         </div>
