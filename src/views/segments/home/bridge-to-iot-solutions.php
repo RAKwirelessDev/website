@@ -1,4 +1,4 @@
-<div class="u-devices-v2" style="background-image:url('/assets/img/rakwireless/iot-building-blocks.jpg');background-size:cover;background-attachment:fixed!important;">
+<div class="u-devices-v2" style="background-image:url('/website-assets/img/rakwireless/iot-building-blocks.jpg');background-size:cover;background-attachment:fixed!important;">
     <div class="container space-1 space-md-2 position-relative z-index-2">
         <!-- Title -->
         <div class="w-md-80 w-lg-50 text-center mx-md-auto">
