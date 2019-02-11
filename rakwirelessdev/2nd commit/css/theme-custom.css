@@ -1,0 +1,80 @@
+
+/* effect-shine */
+.distributor-name:hover{
+	cursor: pointer;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+#jumpToDropdown {
+	left: -72.3438px;
+}
+.height-100vh {
+	min-height: 100vh !important;
+}
+.mw-mc {
+	max-width: max-content;
+}
+.u-partners {
+	width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.world-map {
+	background-image: url(/assets/svg/rakwireless/world-map.svg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-max-carousel-prod {
+	max-height: 350px;
+}
+.disp-block {
+	display: block!important;
+}
+.center-child .slick-track {
+	-ms-flex-align: center !important;
+	align-items: center !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+.gradient-half-semi-violet {
+	background-image: linear-gradient(40deg, #3F51B5 0%, #0c2461 100%);
+	background-repeat: repeat-x;
+}
+.gradient-half-semi-red {
+	background-image: linear-gradient(40deg, #b71540 0%, #F44336 100%);
+	background-repeat: repeat-x;
+}
+.gradient-half-semi-green {
+	background-image: linear-gradient(40deg, #4CAF50 0%, #FF9800 100%);
+	background-repeat: repeat-x;
+}
+.gradient-half-semi-gray {
+	background-image: linear-gradient(40deg, #079992 0%, #E91E63 100%);
+	background-repeat: repeat-x;
+}
+/* :root, html, body  {
+	#font-family: Helvetica, sans-serif !important;
+	--font-family-sans-serif: Helvetica, sans-serif !important;
+} */
+h1, h2, h3, h4, h5, h6 {
+	margin-top: -100px;
+    padding-top: 100px;
+}
