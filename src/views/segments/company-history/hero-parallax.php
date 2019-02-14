@@ -7,7 +7,7 @@
         <div class="container d-lg-flex align-items-lg-center position-relative space-2 space-top-md-5 space-bottom-4 z-index-2">
             <!-- Content -->
             <div class="w-lg-80 text-center mx-auto">
-                <h1 class="display-6 font-size-md-down-5 text-white font-weight-semi-bold mb-0">RAK Wireless is a pioneer in providing innovated and diverse cellular and LoRa connectivity solutions for IoT edge devices.</h1>
+                <h1 class="display-6 font-size-md-down-5 text-white font-weight-semi-bold mb-0">RAKwireless is a pioneer in providing innovated and diverse cellular and LoRa connectivity solutions for IoT edge devices.</h1>
                 <p class="lead text-white mb-0">It’s patented, modularized, simplified design significantly help address diverse IoT applications and accelerate their time-to-market.</p>
             </div>
             <!-- End Content -->

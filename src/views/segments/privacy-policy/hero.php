@@ -2,7 +2,7 @@
       <div class="container space-1 space-top-md-5 space-bottom-md-3">
         <div class="w-md-80 w-lg-60">
           <h1 class="text-primary"><span class="font-weight-semi-bold">Legal</span> Privacy Policy</h1>
-          <p>It is RAK Wireless’ policy to respect your privacy regarding any information we may collect while operating our website. Accordingly, we have outlined this privacy policy in order for you to understand how we collect, use, communicate, disclose and otherwise make use of personal information.</p>
+          <p>It is RAKwireless’ policy to respect your privacy regarding any information we may collect while operating our website. Accordingly, we have outlined this privacy policy in order for you to understand how we collect, use, communicate, disclose and otherwise make use of personal information.</p>
           <p>If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at privacy@rakwireless.com.</p>
         </div>
       </div>
