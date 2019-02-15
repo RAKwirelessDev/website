@@ -18,6 +18,6 @@ $data->carousel = [
         'images' => [
             '/assets/img/rakwireless/aws-integration.png'
         ],
-        'slide_class' => 'gradient-half-semi-gray'
+        'slide_class' => 'gradient-half-semi-pink'
     ]
 ];

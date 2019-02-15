@@ -5,12 +5,14 @@
 
             <h2 class="h1 text-white">Your <span class="font-weight-semi-bold">Bridge to IoT Solutions</span></h2>
             <p class="lead text-white-70">
-                Create the industry leading market-oriented and<br>
-                easy-to-use lego-like IoT building blocks of<br>
-                the highest quality for sensor, compute and<br>
-                connectivity to accelerate diverse IoT<br>
-                applications from prototype<br>
-                to Commercial.
+                We develop market-oriented and easy-to-use<br>
+                IoT Building Blocks of MCUs, communication modules,<br>
+                and sensors in a Lego-like system.
+            </p>
+            <p class="lead text-white-70">
+                That means you can accelerate the time<br>
+                of your IoT application to develop<br>
+                from prototype to commercial.
             </p>
             <a class="js-go-to btn btn-soft-white transition-3d-hover mr-3 mt-5" data-target="#OurAdvantage" href="javascript:;">
                 Our Advantage

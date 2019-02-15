@@ -103,7 +103,7 @@ $data->carousel = [
             '/assets/img/rakwireless/RAK2245_pi_hat.png',
         ],
         'store_link' => 'https://store.rakwireless.com/',
-        'slide_class' => 'gradient-half-semi-gray'
+        'slide_class' => 'gradient-half-semi-pink'
     ],
     'Pilot Gateway' => [
         'tag_line' => 'RAK, LoRa, IoT in a Box',
@@ -148,7 +148,7 @@ $data->carousel = [
             
         ],
         'store_link' => 'https://store.rakwireless.com/products/wislink-cellular-bg96-shield-simultaneously-supporting-3-cellular-standards-2g-egprs-4g-lte-cat-m1emtc-cat-nb1nb-iot',
-        'slide_class' => 'gradient-half-semi-gray'
+        'slide_class' => 'gradient-half-semi-pink'
 
     ]
 ];
