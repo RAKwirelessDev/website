@@ -14,7 +14,7 @@
                 to the partnership of some of the big IoT players<br>
                 like Apple, Amazon, and Microsoft.
             </p>
-            <p class="lead text-white-70">
+            <p class="lead text-white-70 mb-0">
                 RAKwireless will continue<br>
                 to bring easy solutions to IoT developers<br>
                 and connect the world like never imagined before.

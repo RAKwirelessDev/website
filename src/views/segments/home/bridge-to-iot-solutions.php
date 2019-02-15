@@ -9,7 +9,7 @@
                 IoT Building Blocks of MCUs, communication modules,<br>
                 and sensors in a Lego-like system.
             </p>
-            <p class="lead text-white-70">
+            <p class="lead text-white-70 mb-0">
                 That means you can accelerate the time<br>
                 of your IoT application to develop<br>
                 from prototype to commercial.
