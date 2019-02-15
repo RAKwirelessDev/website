@@ -1,4 +1,4 @@
-<div class="container space-1">
+<div class="container space-1 space-md-2">
     <div class="row">
         <div id="stickyBlockStartPoint" class="col-lg-3 mb-7 mb-lg-0">
             <!-- Nav -->

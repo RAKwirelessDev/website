@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row space-1">
+    <div class="row space-1 space-md-2">
         <div class="col-lg-6 u-ver-divider u-ver-divider--none-lg mb-7 mb-lg-0">
             <!-- Contacts Info -->
             <div class="media pr-lg-9">

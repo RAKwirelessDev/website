@@ -1,4 +1,4 @@
-<div class="container space-1">
+<div class="container space-1 space-md-2">
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 mb-3 mb-lg-0">
             <img class="img-fluid mx-auto disp-block" src="/assets/img/rakwireless/aws_1.png"
@@ -15,7 +15,7 @@
     </div>
 </div>
 
-<div class="container space-1">
+<div class="container space-1 space-md-2">
     <div class="row justify-content-between align-items-center">
         <div class="col-lg-6 mb-3 mb-lg-0">
             <div class="mb-3">

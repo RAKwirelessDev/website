@@ -1,4 +1,4 @@
-<div class="container space-1">
+<div class="container space-1 space-md-2">
     <!-- Title -->
     <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
         <span class="btn btn-xs btn-soft-success btn-pill mb-2">Leave a Message</span>

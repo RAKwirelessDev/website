@@ -1,5 +1,5 @@
 <div class="text-white position-relative gradient-half-primary-v2 text-center z-index-2 overflow-hidden">
-    <div class="container space-1">
+    <div class="container space-md-2">
         <h2 class="text-primary mx-auto mw-mc mb-6">Our <strong class="font-weight-semi-bold">Partners</strong></h2>
         <!-- Clients Section -->
         <div class="row justify-content-center text-center">

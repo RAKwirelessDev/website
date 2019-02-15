@@ -1,6 +1,6 @@
 <!-- CTA Section -->
 <div class="text-white position-relative gradient-half-primary-v1 text-center z-index-2 overflow-hidden">
-    <div class="container space-1">
+    <div class="container space-1 space-md-2">
 
         <?php
 

@@ -1,4 +1,4 @@
-<div class="container space-1">
+<div class="container space-1 space-md-2">
 
     <h2 class="text-primary mx-auto mw-mc mb-6">Office <strong class="font-weight-semi-bold">Locations</strong></h2>
     <div class="row justify-content-lg-between">

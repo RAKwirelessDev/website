@@ -1,5 +1,5 @@
 <!-- Icon Blocks Section -->
-<div class="container space-1">
+<div class="container space-1 space-md-2">
     <h2 class="text-primary mx-auto mw-mc mb-6"><?php echo $data->business_title; ?></h2>
     <div class="row justify-content-md-between">
 
