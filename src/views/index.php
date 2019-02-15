@@ -12,7 +12,7 @@
         <?php Core\ViewsHandler::yield('segments/home/images-carousel.php'); ?>
         <?php Core\ViewsHandler::yield('segments/home/communication-technologies.php'); ?>
         <?php Core\ViewsHandler::yield('segments/home/bridge-to-iot-solutions.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/home/call-to-action.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/home/our-advantages.php'); ?>
         <?php Core\ViewsHandler::yield('segments/home/iot-block-portfolio.php'); ?>
         <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
     </main>
