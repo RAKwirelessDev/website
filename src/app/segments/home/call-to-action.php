@@ -4,60 +4,23 @@ $data->call_to_action = [
 
     [
         'title' => 'Our <span class="font-weight-semi-bold">Advantage</span>',
-        'tagline' => '<span class="font-weight-semi-bold">Customizable Products</span>',
         'item_set' => [
             [
-                'image' => '/assets/img/rakwireless/why_choose_rak_1.png',
-                'title' => 'Enhanced Hardware',
-                'tagline' => 'Multiple dimension and size<br>Flexible Power Mode<br>Longer Range Coverage'
+                'image' => '/assets/img/rakwireless/lego-colorpin.svg',
+                'title' => 'Lego-like Approach',
+                'tagline' => 'Easy and Ready to Use<br>Application Building Blocks<br>Modular and Flexible Configuration'
             ],
             [
-                'image' => '/assets/img/rakwireless/why_choose_rak_2.png',
-                'title' => 'Complete Software Solution',
-                'tagline' => 'Embedded firmware<br>Network stack<br>Apps and Cloud'
+                'image' => '/assets/img/rakwireless/quality-colorpin.svg',
+                'title' => 'Enterprise Ready',
+                'tagline' => 'Experienced Core Engineering Team<br>Product Performance Tests'
             ],
             [
-                'image' => '/assets/img/rakwireless/why_choose_rak_3.png',
-                'title' => 'Universal Application',
-                'tagline' => 'Multiple interface<br>Multiple AT Commands<br>Multiple IoT Protocols'
-            ]
-        ]
-    ],
-
-    [
-        'tagline' => '<span class="font-weight-semi-bold">Easy <i>Smart++</i> Integration</span>',
-        'item_set' => [
-            [
-                'image' => '/assets/img/rakwireless/why_choose_rak_4.png',
-                'title' => 'System Software',
-                'tagline' => 'WIFi System Design<br>Network Stack<br>Embedded Hardware'
-            ],
-            [
-                'image' => '/assets/img/rakwireless/why_choose_rak_5.png',
-                'title' => 'Cloud Consultancy',
-                'tagline' => 'IoT Protocol<br>Built for the Cloud<br>Easy Deployment'
-            ]
-        ]
-    ],
-
-    [
-        'tagline' => '<span class="font-weight-semi-bold">Qualified Service</span>',
-        'item_set' => [
-            [
-                'image' => '/assets/img/rakwireless/why_choose_rak_6.png',
-                'title' => 'High Standard Manufacture',
-                'tagline' => 'State of the art facilities<br>Competent R&D Team<br>Quality Certifications'
-            ],
-            [
-                'image' => '/assets/img/rakwireless/why_choose_rak_7.png',
-                'title' => 'ERP Management',
-                'tagline' => 'Stream-lined business transactions<br>Industry-standard ERP software'
-            ],
-            [
-                'image' => '/assets/img/rakwireless/why_choose_rak_8.png',
+                'image' => '/assets/img/rakwireless/support-colorpin.svg',
                 'title' => 'Quick Support',
-                'tagline' => 'Online support center<br>Developers’ community<br>Documentations & software'
+                'tagline' => 'Online Support Center<br>Developers’ Community<br>Documentations & Software'
             ]
         ]
     ]
+
 ];

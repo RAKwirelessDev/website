@@ -9,7 +9,7 @@ $segment_count = 0;
 foreach ($data->call_to_action as $segment) {
     $segment_count += 1;
     if (!empty($segment['title'])) {
-        echo '<h1 id="'.Core\Commons::str_to_cc($segment['title']).'" class="h1 text-info mb-3'.($segment_count > 1 ? ' mt-8' : '').'">'.$segment['title'].'</h1>';
+        echo '<h1 id="'.Core\Commons::str_to_cc($segment['title']).'" class="h1 mb-3'.($segment_count > 1 ? ' mt-8' : '').'">'.$segment['title'].'</h1>';
     }
     if (!empty($segment['tagline'])) {
         echo '<p class="lead text-white mb-5'.(!empty($segment['title']) ? ' mt-4' : ' mt-8').'">';
@@ -28,7 +28,7 @@ foreach ($data->call_to_action as $segment) {
 
             if (!empty($item['image'])) {
                 echo '<div class="position-relative">';
-                echo '<div class="'.($item_total > $item_count ? 'u-indicator-dots ' : '' ).'min-height-155 mb-2">';
+                echo '<div class="'.($item_total > $item_count ? 'u-indicator-dots ' : '' ).'min-height-155 c2a-29 mb-2">';
                 echo '<img src="'.$item['image'].'" '.(!empty($item['title'])?'alt="'.strip_tags($item['title']).'"':'').'>';
                 echo '</div>';
                 echo '</div>';
@@ -39,7 +39,7 @@ foreach ($data->call_to_action as $segment) {
                 echo '</h3>';
             }
             if (!empty($item['tagline'])) {
-                echo '<p class="text-white mb-md-0">';
+                echo '<p class="text-white font-size-1 mb-md-0">';
                 echo $item['tagline'];
                 echo '</p>';
             }

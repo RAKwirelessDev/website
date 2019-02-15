@@ -5,10 +5,19 @@
 
             <h2 id="IoTBlockPortfolio" class="h1 text-white">IoT <span class="font-weight-semi-bold">Block Portfolio</span></h2>
             <p class="lead text-white-70">
-                The technical competency of RAK founder and his team in the IoT industry brought numerous achievements
-                and breakthroughs each year. From patenting unique solutions to the partnership of some of the big IoT
-                players like Apple, Amazon, and Microsoft. RAKwireless will continue to bring easy solutions to IoT
-                developers and connect the world like never imagined before.
+                The technical competency of RAK founder<br>
+                and his team in the IoT industry brought numerous<br>
+                achievements and breakthroughs each year.
+            </p>
+            <p class="lead text-white-70">
+                From patenting unique solutions<br>
+                to the partnership of some of the big IoT players<br>
+                like Apple, Amazon, and Microsoft.
+            </p>
+            <p class="lead text-white-70">
+                RAKwireless will continue<br>
+                to bring easy solutions to IoT developers<br>
+                and connect the world like never imagined before.
             </p>
         </div>
         <!-- End Title -->
