@@ -43,6 +43,11 @@ foreach ($data->call_to_action as $segment) {
                 echo $item['tagline'];
                 echo '</p>';
             }
+            if (!empty($item['button'])) {
+                foreach ($item['button'] as $label => $link) {
+                    echo '<a class="btn btn-soft-white transition-3d-hover mr-3 mt-5" href="'.$link.'" tabindex="-1">'.$label.'</a>';
+                }
+            }
             echo '</div>';
             echo '</div>';
         }
