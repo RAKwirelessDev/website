@@ -3,6 +3,7 @@
 const _ROUTES_ = [
     '/' => 'index.php',
 
+    '/company/' => 'company.php',
     '/company/about/' => 'company-about.php',
     '/company/business/' => 'company-business.php',
 
