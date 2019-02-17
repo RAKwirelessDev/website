@@ -44,7 +44,7 @@ foreach ($data->carousel as $product_name => $product_info) {
         echo '</a>';
     }
     if (!empty($product_info['learn_more'])) {
-        echo '<a class="btn btn-soft-white transition-3d-hover mt-5" href="'.$product_info['store_link'].'">';
+        echo '<a class="btn btn-soft-white transition-3d-hover mt-5" href="'.$product_info['learn_more'].'">';
         echo '<span class="fas fa-file-alt mr-2"></span> Learn More';
         echo '</a>';
     }
