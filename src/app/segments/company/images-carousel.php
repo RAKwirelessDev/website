@@ -13,6 +13,6 @@ $data->carousel = [
             '/assets/img/rakwireless/children-doing-electronics.jpg'
         ],
         'learn_more' => '#',
-        'slide_class' => 'gradient-half-semi-violet'
+        'slide_class' => 'gradient-overlay-half-primary-v1'
     ]
 ];
