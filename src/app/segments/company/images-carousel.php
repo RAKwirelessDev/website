@@ -12,7 +12,7 @@ $data->carousel = [
         'images' => [
             '/assets/img/rakwireless/children-doing-electronics.jpg'
         ],
-        'learn_more' => 'https://www.aliexpress.com/store/product/The-Enterprise-DIY-outdoor-LoRaWan-GATEWAY-Builtin-OpenWRT-OS-support-16-channel-LoRa-4G-WIFI-GPS/2805180_32974067371.html?spm=2114.12010615.8148356.3.31fd75ebSJlCyX',
+        'learn_more' => '#',
         'slide_class' => 'gradient-half-semi-violet'
     ]
 ];
