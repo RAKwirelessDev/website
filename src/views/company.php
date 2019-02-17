@@ -9,7 +9,7 @@
     <?php Core\ViewsHandler::yield('snippets/header.php'); ?>
 
     <main id="content" role="main">
-        <?php Core\ViewsHandler::yield('segments/company/hero-parallax.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company/hero.php'); ?>
         <?php Core\ViewsHandler::yield('segments/company/body.php'); ?>
 
         <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
