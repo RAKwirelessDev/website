@@ -6,7 +6,7 @@
             <div class="row">
               <div class="col-lg-6 dp-ig">
                 <a href="/company/business/">Company Background &raquo;</a>
-                <a href="/company/history/">Company History &raquo;</a>
+                <a href="/company/about/">Company History &raquo;</a>
                 <a href="#">Timeline Innovations &raquo;</a>
                 <a href="#">Core Engineering Team &raquo;</a>
               </div>

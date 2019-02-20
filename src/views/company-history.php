@@ -9,10 +9,8 @@
     <?php Core\ViewsHandler::yield('snippets/header.php'); ?>
 
     <main id="content" role="main">
-        <?php Core\ViewsHandler::yield('segments/company-history/hero-parallax.php'); ?>
-
-        <?php Core\ViewsHandler::yield('segments/company-history/about-us.php'); ?>
-        <?php Core\ViewsHandler::yield('segments/company-history/patents-overview.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/images-carousel.php'); ?>
+        <?php Core\ViewsHandler::yield('segments/company-history/body.php'); ?>
 
         <?php Core\ViewsHandler::yield('snippets/footer.php'); ?>
     </main>
